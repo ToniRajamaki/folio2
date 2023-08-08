@@ -26,7 +26,7 @@ const Header = ({ toggleTheme, theme }) => {
                 }
               >
                {/* logo in the header */}
-        <img  className="nav__logo" src="/assets/toni/logo.png" alt="" /> 
+        <img  className="nav__logo" src="./folio2/assets/toni/logo.png" alt="" /> 
               </a>
       {/* TOGGLE DARKMODE         */}
         {/* <div className="switch"> 
