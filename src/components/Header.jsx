@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/header.css";
 import ReactSwitch from "react-switch";
+import DownloadCVButton from "./DownloadCVButton";
 
 const Header = ({ toggleTheme, theme }) => {
   /*=============== Change Background header ===============*/
@@ -124,6 +125,7 @@ const Header = ({ toggleTheme, theme }) => {
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
+       <DownloadCVButton></DownloadCVButton>
         <div className="nav__toggle " onClick={() => showMenu(!Toggle)}>
           <i className="uil uil-apps"></i>
         </div>

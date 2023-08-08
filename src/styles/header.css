@@ -221,4 +221,10 @@
         right: 30px !important;
     }
 
+.navButton{
+    width: 10px;
+    height: 10px;
+    margin: 110;
+    padding: 1000;
+}
 }

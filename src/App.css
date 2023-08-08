@@ -159,6 +159,14 @@ img {
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
+.button_small {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 0.65rem 1rem;
+  border-radius: 1rem;
+  font-weight: var(--tiny-font-size);
+}
 
 .button:hover {
   background-color: var(--title-color-dark);
@@ -183,6 +191,10 @@ img {
 
   .button {
     padding: 1rem 1.75rem;
+    margin-left: 20px;
+  }
+  .button_small {
+    padding: 0.5rem 0.8rem;
     margin-left: 20px;
   }
 
