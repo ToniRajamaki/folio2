@@ -27,8 +27,6 @@
     ".gitignore": true,
     "firebase.json": true,
     "package-lock.json": true,
-    "package.json": true,
-    "firebase-debug.log": true,
     "README.md": true,
     "src/logo.svg": true,
     "src/setupTests.js": true
@@ -55,8 +53,6 @@
     ".gitignore",
     "firebase.json",
     "package-lock.json",
-    "package.json",
-    "firebase-debug.log",
     "README.md",
     "src/logo.svg",
     "src/setupTests.js"
