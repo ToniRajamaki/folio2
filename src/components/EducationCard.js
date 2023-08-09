@@ -37,11 +37,14 @@ const EducationCard = ({
     <div className='degree-container'>
       <h3 className='degree'>{degree}</h3>
     </div>
-    <p className='duration'>{duration}</p>
-    <br />
-    <p className='description'>{description}</p>
+  </div>
+  <div className='description-container'>
+    <div className='duration'>{duration}</div>
+    <div className='description'>{description}</div>
   </div>
 </div>
+
+
 
   
 

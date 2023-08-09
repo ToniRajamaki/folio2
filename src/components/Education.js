@@ -14,7 +14,7 @@ function Education() {
       <section className='about section ' id='about'>
         <h2 className='section__title'>Education</h2>
         <span className='section__subtitle'>My Degrees</span>
-        <div className='cards-container container grid' data-aos='fade-up'>
+        <div className='cards-container container grid2' data-aos='fade-up'>
           <div className='card'>
             <EducationCard
               schoolName='Tampere University'
