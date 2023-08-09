@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ScrollUp from './components/ScrollUp'
 import Work from './components/Work'
+import EducationCard from './components/EducationCard'
 import './styles/load.css'
 
 export const ThemeContext = createContext(null)
@@ -33,6 +34,13 @@ function App() {
           <Home theme={theme} />
           <About theme={theme} />
           <Skills theme={theme} />
+          <EducationCard
+            schoolName='Tampere University'
+            degree='Masters in CS'
+            duration='2018-2023'
+            description='There was so much coding'
+            imageSrc='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyOseqgHwSg_KeYaOXu4-xQr_ZDTF98GJmTg&usqp=CAU'
+          ></EducationCard>
           <Services theme={theme} />
           <Qualifications theme={theme} />
           <Work theme={theme} />
