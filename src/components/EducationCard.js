@@ -10,19 +10,41 @@ const EducationCard = ({
   imageSrc,
 }) => {
   return (
-    <div className='education-card'>
-      <div className='image-container'>
-        <div className='background-overlay'></div>
-        <img src={imageSrc} alt={schoolName} className='rounded-image' />
-      </div>
-      <div className='content-container'>
-        <h2 className='school-name'>{schoolName}</h2>
-        <h3 className='degree'>{degree}</h3>
-        <p className='duration'>{duration}</p>
-        <br />
-        <p className='description'>{description}</p>
-      </div>
+    // this is a  good option
+  //   <div className='education-card'>
+  //   <div className='image-container'>
+  //     <div className='background-overlay'></div>
+  //     <img src={imageSrc} alt={schoolName} className='rounded-image' />
+  //   </div>
+  //   <div className='content-container'>
+  //     <h2 className='school-name'>{schoolName}</h2>
+  //     <div className='education-details'>
+  //       <h3 className='degree'>{degree}</h3>
+  //       <p className='duration'>{duration}</p>
+  //       <br />
+  //       <p className='description'>{description}</p>
+  //     </div>
+  //   </div>
+  // </div>
+
+  <div className='education-card'>
+  <div className='image-container'>
+    <div className='background-overlay'></div>
+    <img src={imageSrc} alt={schoolName} className='rounded-image' />
+  </div>
+  <div className='content-container'>
+    <h2 className='school-name'>{schoolName}</h2>
+    <div className='degree-container'>
+      <h3 className='degree'>{degree}</h3>
     </div>
+    <p className='duration'>{duration}</p>
+    <br />
+    <p className='description'>{description}</p>
+  </div>
+</div>
+
+  
+
   )
 }
 

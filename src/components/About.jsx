@@ -34,7 +34,7 @@ const About = ({ theme }) => {
               organization to expand and utiliza my learning, skills and
               knowledge.
             </p>
-            <a
+            {/* <a
               download=""
               href="assets/hazem-cv.pdf"
               className="button button--flex"
@@ -65,7 +65,7 @@ const About = ({ theme }) => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
