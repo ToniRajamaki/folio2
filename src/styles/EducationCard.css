@@ -5,14 +5,23 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  max-width: 350px; /* Adjusted max-width */
-  margin: 20px;
+  max-width: 300px; /* Decreased max-width */
+  margin: 15px; /* Decreased margin */
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
 }
 
 .image-container {
   position: relative;
   overflow: hidden;
-  height: 200px; /* Adjusted height */
+  height: 225px; 
+}
+
+/* ... rest of your CSS ... */
+
+.rounded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .background-overlay {
@@ -23,43 +32,56 @@
   height: 100%;
 }
 
-.rounded-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .content-container {
-  padding: 16px;
+  padding: 12px; /* Decreased padding */
 }
 
 .school-name {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem; /* Decreased font size */
 }
 
 .degree {
   margin: 8px 0;
-  font-size: 1.2rem;
+  font-size: 0.9rem; /* Decreased font size */
 }
 
 .description-container {
-  background-color: #f5f5f5;
+  background-color: #ffffff; /* Changed to white background */
   padding: 16px;
   border-top: 1px solid #ccc;
 }
 
 .duration {
   color: #777;
+  font-size: 0.8rem; /* Decreased font size */
 }
 
 .description {
-  margin-top: 8px;
+  margin-top: 4px; /* Reduced margin */
+  font-size: 0.9rem; /* Decreased font size */
 }
-.cards-container{
+
+
+.cards-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   padding: 0 20px;
 }
 
+.education-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 50px rgba(81, 108, 247, 0.8);
+  border: 2px solid #516CF7; /* Increased border thickness */
+}
+
+.education-card:hover .rounded-image {
+  transform: scale(1);
+ 
+}
+
+.education-card:hover{
+  cursor: pointer;
+}

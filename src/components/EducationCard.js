@@ -33,9 +33,9 @@ const EducationCard = ({
     <img src={imageSrc} alt={schoolName} className='rounded-image' />
   </div>
   <div className='content-container'>
-    <h2 className='school-name'>{schoolName}</h2>
+    <h1 className='school-name'>{schoolName}</h1>
     <div className='degree-container'>
-      <h3 className='degree'>{degree}</h3>
+      <h2 className='degree'>{degree}</h2>
     </div>
   </div>
   <div className='description-container'>
@@ -43,6 +43,7 @@ const EducationCard = ({
     <div className='description'>{description}</div>
   </div>
 </div>
+
 
 
 

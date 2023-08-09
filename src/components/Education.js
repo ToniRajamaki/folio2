@@ -26,19 +26,24 @@ function Education() {
           </div>
           <div className='card'>
             <EducationCard
-              schoolName='Tampere University'
-              degree='Human-Technology Interaction (MSc Tech)'
-              duration='2018-2023'
-              description='Long Major: Human-Technology Interaction'
-              imageSrc='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyOseqgHwSg_KeYaOXu4-xQr_ZDTF98GJmTg&usqp=CAU'
+              schoolName='AhlmanEdu'
+              degree='Professional
+              Entrepreneurship Diploma'
+              duration='2019 - 2022'
+              description='Development of business
+              operations
+              Productization, Sales & Marketing'
+              imageSrc='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVG7RBYJUE3q1-JTzC8h7ZKNRL33tcwDzTFTiN1YDiapmc498ClrBRV1v535VWnBLRwg&usqp=CAU'
             ></EducationCard>
           </div>
           <div className='card'>
             <EducationCard
               schoolName='Tampere University'
-              degree='Human-Technology Interaction (MSc Tech)'
-              duration='2018-2023'
-              description='Long Major: Human-Technology Interaction'
+              degree='Bachelor s Degree in
+              Computer Science'
+              duration='2018-2022'
+              description='Major: Signal Processing | 
+              Minor: Industrial Economics'
               imageSrc='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyOseqgHwSg_KeYaOXu4-xQr_ZDTF98GJmTg&usqp=CAU'
             ></EducationCard>
           </div>
