@@ -14,7 +14,7 @@ function Education() {
   return (
     <div
       style={{
-        height: '100vh', // Set a fixed height for the parent div
+        height: '80vh', // Set a fixed height for the parent div
         backgroundImage: `url('./folio2/assets/toni/tau.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -62,9 +62,7 @@ function Education() {
             </div>
           </div>
         </section>
-        <br />
-        <br />
-        <br />
+       
       </div>
     </div>
   )
