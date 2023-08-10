@@ -50,6 +50,8 @@ const Services = ({ theme }) => {
       />
         </div>
       </section>
+      <br></br>
+      <br></br>
     </div>
   );
 };
