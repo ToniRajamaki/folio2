@@ -55,6 +55,7 @@
 .degree {
   margin: 0; /* Reset margin */
   font-size: 0.9rem;
+  white-space: pre-line;
 }
 
 .description-container {
@@ -71,6 +72,7 @@
 .description {
   margin-top: 4px;
   font-size: 0.9rem;
+  white-space: pre-line;
 }
 
 .cards-container {
