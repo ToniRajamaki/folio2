@@ -6,9 +6,19 @@
 
 .skills__content {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid #516CF7;
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    /* width: 25%; */
+    margin: 10px;
+}
+.skills__content_purple {
+    background-color: var(--container-color);
+    border: 2px solid #9251F7;
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+    /* width: 25%; */
+    margin: 10px;
 }
 
 .skills__title {
@@ -16,6 +26,26 @@
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5);
+}
+
+
+.tag_container{
+    margin-left: 225px;
+    display: flex;
+    /* border: 2px solid forestgreen */
+    /* justify-content: space-evenly; */
+     /* border-radius: 1.25rem;
+     border: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.tag_container_narrow {
+    display: flex;
+    justify-content: space-evenly; /* Change from space-evenly to center */
+    
+    /* width: 250px; */
+    /* border-radius: 1.25rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 .skills__box {

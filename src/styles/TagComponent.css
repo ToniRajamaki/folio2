@@ -1,0 +1,24 @@
+/* Tag design 12 */
+.tag.tag-design-12 {
+    background-color: transparent;
+    color: #516CF7;
+    border: 2px solid #516CF7;
+    padding: 4px 12px;
+    margin: 3px;
+  }
+  
+  /* Additional styles for .tag class */
+  .tag {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 2px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
