@@ -30,8 +30,8 @@ function Education() {
         }}
       >
         <section className='about section ' id='about'>
-          <h2 className='section__title'>Education</h2>
-          <span className='section__subtitle'>My Degrees</span>
+          <h2 className='section__title_white'>Education</h2>
+          <span className='section__subtitle_light'>My Degrees</span>
           <div className='cards-container container grid2' data-aos='fade-up'>
             <div className='card'>
               <EducationCard
@@ -48,7 +48,7 @@ function Education() {
                 degree='Professional Entrepreneurship Diploma'
                 duration='2019 - 2022'
                 description='Development of business operations Productization, Sales & Marketing'
-                imageSrc='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVG7RBYJUE3q1-JTzC8h7ZKNRL33tcwDzTFTiN1YDiapmc498ClrBRV1v535VWnBLRwg&usqp=CAU'
+                imageSrc={`url('./folio2/assets/toni/tau.png')`}
               />
             </div>
             <div className='card'>
@@ -62,7 +62,6 @@ function Education() {
             </div>
           </div>
         </section>
-       
       </div>
     </div>
   )

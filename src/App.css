@@ -132,8 +132,25 @@ img {
   margin-bottom: 4rem;
 }
 
+.section__title_white {
+  font-size: var(--h1-font-size);
+  color: white;
+}
+
+.section__subtitle_light {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 4rem;
+  color:whitesmoke
+}
+
+.section__title_white,
+.section__subtitle_light {
+  text-align: center;
+}
+
 .section__title,
-.section__subtitle {
+.section__subtitle{
   text-align: center;
 }
 
