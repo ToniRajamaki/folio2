@@ -25,6 +25,7 @@ const TagComponent = ({ tags, heading, color, icon }) => {
 
   return (
     <div>
+      
       <div className='pair'>
         {icon}
         <h2 style={tagStyle}>{heading}</h2>
