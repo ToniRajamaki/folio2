@@ -56,7 +56,7 @@ const Skills = ({ theme }) => {
         <div className="skills__content">
 
           <TagComponent
-            tags={["Unity","TailWindCSS","Scikit-Learn","Tensorflow","Numpy","OpenCV","Apache Spark","Git","SourceTree","Pandas","Unity","Unreal Engine","Database-lib","Axios"]}
+            tags={["Unity","TailWindCSS","Scikit-Learn","Tensorflow","Numpy","OpenCV","Apache Spark","Git","SourceTree","Pandas","Unreal Engine","Database-lib","Axios"]}
             heading='Frameworks etc' 
             icon={code_icon}
             ></TagComponent>
@@ -66,7 +66,7 @@ const Skills = ({ theme }) => {
         )}
 
         {activeTab === 'uiux' && (
-          <div className='tag_container'>
+          <div className='tag_container'  data-aos="fade-up">
             <div className="skills__content_purple">
               <TagComponent
                 tags={["UI Design", "Visual Design", "UX Design", "Testing", "Interaction Design", "Accessability", "Prototyping", "Web/Mobile Design", "Agile Development", "AR/VR Design", "User Research", "Wireframing", "Human-Centered Design", "Experience Driven Design"]}
