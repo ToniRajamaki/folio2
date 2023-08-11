@@ -1,5 +1,7 @@
 .education-card {
   position: relative;
+  flex-shrink: 0;
+  width: 300px;
   display: flex;
   flex-direction: column;
   border: 1px solid #ccc;
