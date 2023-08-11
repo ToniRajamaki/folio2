@@ -1,23 +1,19 @@
-body {
+/* body {
     background: #516CF7;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: rgb(53, 53, 53);
-  }
+  } */
   
-  .title {
-    font-size: 15em;
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-  }
-  .pair {
+ 
+  .pair2 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     justify-content: space-between;
-    gap: 200px;
+    /* gap: 200px; */
   }
-  .pair>img {
+  .pair2>img {
     width: 50px;
     height: 50px;
     margin: 10px;
@@ -37,11 +33,12 @@ body {
   }
   
   .date {
-    color: rgb(201, 251, 255);
+    /* color: rgb(201, 251, 255); */
   }
   
   #description {
     margin: 1.5em 0 2em 0;
+    white-space: pre-line;
   }
   
   .button {

@@ -8,9 +8,13 @@ const Qualifications = ({ theme }) => {
     setToggleState(i);
   };
   return (
+    <section className="qualification section" id={theme}>
+     <h2 className="section__title">Qualification</h2>
+     <span className="section__subtitle">My personal journey</span>
     <div>
       <Experience></Experience>
     </div>
+    </section>
     // <section className="qualification section" id={theme}>
     //   <h2 className="section__title">Qualification</h2>
     //   <span className="section__subtitle">My personal journey</span>
