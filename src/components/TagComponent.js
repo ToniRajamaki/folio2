@@ -23,9 +23,10 @@ const TagComponent = ({ tags, heading, color, icon }) => {
     transition: 'opacity 0.3s ease-in-out', // Opacity transition
   };
 
+  const tagClassName = color === '#9251F7' ? 'tag-purple' : 'tag tag-design-12';
+
   return (
     <div>
-      
       <div className='pair'>
         {icon}
         <h2 style={tagStyle}>{heading}</h2>
@@ -35,7 +36,7 @@ const TagComponent = ({ tags, heading, color, icon }) => {
         {tags.map((tag, index) => (
           <span
             key={index}
-            className='tag tag-design-12'
+            className={tagClassName}
             style={{ ...tagStyle, opacity: renderedTags.includes(tag) ? 1 : 0 }}
           >
             {tag}
