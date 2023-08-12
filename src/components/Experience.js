@@ -1,4 +1,5 @@
 import '../styles/Experience.css'
+import '../App.css'
 // import { ReactComponent as WorkIcon } from "./work.svg";
 // import { ReactComponent as SchoolIcon } from "./school.svg";
 
@@ -12,12 +13,15 @@ function Experience() {
   let timelineElements = [
     {
       id: 1,
-      title: 'Frontend Developer',
-      location: 'Dragontail, Ascana',
-      description:
-        'Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.',
+      title: 'Game Software Developer',
+      location: 'Tampere, Finland',
+      description: [
+        'Mobile game development using Unity game engine and C#.',
+        'Implement and optimize game assets for performance on mobile devices.',
+        'Collaborate with cross functional teams, including artists and programmers.',
+      ],
       buttonText: 'View Frontend Projects',
-      date: 'August 2016 - present',
+      date: 'Jan 2021 - Dec 2022',
       icon: 'work',
     },
     {
@@ -72,45 +76,46 @@ function Experience() {
   ]
   //   let workIconStyles = { background: "#06D6A0" };
   //   let schoolIconStyles = { background: "#f9c74f" };
-
+  const checkIcon = <i class='uil uil-check-circle service__modal-icon'></i>
+  const locationIcon = <i class='bx bx-buildings'></i>
   return (
     <div>
       <VerticalTimeline animate={true}>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === 'work'
-          let showButton =
-            element.buttonText !== undefined &&
-            element.buttonText !== null &&
-            element.buttonText !== ''
 
           return (
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
               dateClassName='date'
+              // className='description'
               //   iconStyle={}
               //   icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
             >
-              <div className='pair2'>
-                <img src='https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png'></img>
-                <h3 className='vertical-timeline-element-title'>
-                  {element.title}
-                </h3>
+              <div className='jobcard'>
+                <div className='parent'>
+                  <div className='Image_title_subtitle_container'>
+                    <img
+                      alt='jobImage'
+                      className='work_image'
+                      src='https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png'
+                    ></img>
+                    <div className='title_and_workplace'>
+                      <h5 className='work_title_font'>{element.title}</h5>
+                      <h3 className='work_title_header_font'>Git Gud Games</h3>
+                    </div>
+                  </div>
+                  <span className='location'>
+                    <i class='bx bx-buildings'></i>
+                    {element.location}
+                  </span>
+                </div>
+
+                <div className='description2'>
+                  <p className='tiny_font'>{element.description}</p>
+                </div>
               </div>
-              <h5 className='vertical-timeline-element-subtitle'>
-                {element.location}
-              </h5>
-              <p id='description'>{element.description}</p>
-              {/* {showButton && (
-                <a
-                  className={`button ${
-                    isWorkIcon ? 'workButton' : 'schoolButton'
-                  }`}
-                  href='/'
-                >
-                  {element.buttonText}
-                </a>
-              )} */}
             </VerticalTimelineElement>
           )
         })}
