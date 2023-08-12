@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ServiceCard from "./ServiceCard";
+import ReactCardFlip from 'react-card-flip';
 
 
 const Services = ({ theme }) => {

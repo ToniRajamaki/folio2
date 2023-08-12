@@ -1,4 +1,4 @@
-.services__container {
+    .services__container {
   grid-template-columns: repeat(3, 270px);
   justify-content: center;
   column-gap: 1.8rem;
@@ -58,16 +58,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0;
     opacity: 0;
     visibility: hidden;
     /* transition: .3s; */
 }
-.services__modal-content{
-    width: 500px;
+.services__modal-content {
+    width: 100%; /* Set width to match front content width */
+    max-width: 500px; /* Add a max-width to prevent excessive growth */
     position: relative;
     background-color: var(--container-color);
-    padding:  4.5rem 2.5rem 2.5rem;
+    /* padding: 6rem 2.5rem 2.5rem; Match padding to front content */
     border-radius: 1.5rem;
 }
 .services__modal-close{
@@ -91,7 +92,7 @@
 
 .services__modal-description{
     font-size: var(--small-font-size);
-    padding: 0 3.5rem;
+    /* padding: 0 3.5rem; */
     margin-bottom: var(--mb-2);
 }
 .services__modal-services{
@@ -111,11 +112,29 @@
     font-size: var(--small-font-size);
 }
 
-/*Active modale */
-.active-modal{
+.active-modal {
     opacity: 1;
     visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 6rem 0 2rem 2.5rem; /* Padding matches front content */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #516CF7;
+    cursor: pointer;
+    z-index: var(--z-modal);
+    height: 294.06px; /* Set a fixed height that matches the front content's height */
+    overflow: hidden; /* Hide any overflow content if necessary */
 }
+
+/* ...remaining styles... */
+
+
+/* ...remaining styles... */
+
 
 /* dark mode */
 #dark .services__content{
