@@ -1,8 +1,16 @@
 .contact__container {
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
-    column-gap: 6rem;
+    /* column-gap: 6rem; */
     padding-bottom: 3rem;
+}
+
+.contact__card:hover{
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #516CF7;
+    background-color: var(--container-color-hover); /* Define the hover background color */
+    cursor: pointer;
 }
 
 .contact__title {

@@ -33,7 +33,7 @@ function App() {
         <main className='main'>
           <Home theme={theme} />
           <Services theme={theme} />
-          {/* <About theme={theme} /> */}
+          <About theme={theme} />
           <Skills theme={theme} />
           <Education></Education>
           <Qualifications theme={theme} />

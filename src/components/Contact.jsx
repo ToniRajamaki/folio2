@@ -23,6 +23,10 @@ const Contact = ({ theme }) => {
           <div className="contact__content">
             <h3 className="contact__title">Contact</h3>
             <div className="contact__info">
+
+              {/* EMAIL */}
+              <a href="mailto:zingoo16@gmail.com">
+
               <div className="contact__card">
                 <i className="bx bx-mail-send contact__card-icon"></i>
                 <h3 className="contact__card-title">Email</h3>
@@ -32,15 +36,18 @@ const Contact = ({ theme }) => {
                 <a
                   href="mailto:zingoo16@gmail.com"
                   className="contact__button"
-                >
+                  >
                   Write me{" "}
                   <i
                     className="bx bx-right-arrow-alt
-                          contact__button-icon"
-                  ></i>
+                    contact__button-icon"
+                    ></i>
                 </a>
               </div>
+                    </a>
 
+{/* WHATSPP */}
+          <a href="https://api.whatsapp.com/send?phone=+358443376433&text=Hello!">
               <div className="contact__card">
                 <i className="bx bxl-whatsapp contact__card-icon"></i>
                 <h3 className="contact__card-title">Whatsapp</h3>
@@ -48,14 +55,18 @@ const Contact = ({ theme }) => {
                 <a
                   href="https://api.whatsapp.com/send?phone=+358443376433&text=Hello!"
                   className="contact__button"
-                >
+                  >
                   Write me{" "}
                   <i
                     className="bx bx-right-arrow-alt
-                          contact__button-icon"
-                  ></i>
+                    contact__button-icon"
+                    ></i>
                 </a>
               </div>
+                    </a>
+
+{/* LINKEDIN */}
+<a href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/">
 
               <div className="contact__card">
                 <i className="bx bxl-messenger contact__card-icon"></i>
@@ -64,14 +75,15 @@ const Contact = ({ theme }) => {
                 <a
                   href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
                   className="contact__button"
-                >
+                  >
                   Write me{" "}
                   <i
                     className="bx bx-right-arrow-alt
-                          contact__button-icon"
-                  ></i>
+                    contact__button-icon"
+                    ></i>
                 </a>
               </div>
+                    </a>
             </div>
           </div>
 
