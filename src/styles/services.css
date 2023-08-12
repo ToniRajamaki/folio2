@@ -1,5 +1,5 @@
     .services__container {
-  grid-template-columns: repeat(3, 270px);
+  grid-template-columns: repeat(3, 300px);
   justify-content: center;
   column-gap: 1.8rem;
 }
@@ -65,10 +65,10 @@
 }
 .services__modal-content {
     width: 100%; /* Set width to match front content width */
-    max-width: 500px; /* Add a max-width to prevent excessive growth */
+    max-width: 600px; /* Add a max-width to prevent excessive growth */
     position: relative;
     background-color: var(--container-color);
-    /* padding: 6rem 2.5rem 2.5rem; Match padding to front content */
+    /* padding: 6rem 2.5rem 2.5rem;  */
     border-radius: 1.5rem;
 }
 .services__modal-close{
@@ -83,6 +83,8 @@
 .services__modal-title,
 .services__modal-description{
     text-align: center;
+    margin-top: 0 !important;
+    padding: 0;
 }
 .services__modal-title{
     font-size: var(--h3-font-size);
@@ -97,11 +99,16 @@
 }
 .services__modal-services{
     row-gap: 0.75rem;
+    margin-left: 10px;
+    /* gap: 0px;; */
 }
 .services__modal-service{
     display: flex;
     align-items: center;
-    column-gap: .5rem;
+    /* justify-content: center; */
+    column-gap: 3px;
+    margin-left: 16px;
+
 
 }
 .service__modal-icon{
@@ -116,12 +123,12 @@
     opacity: 1;
     visibility: visible;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
-    padding: 6rem 0 2rem 2.5rem; /* Padding matches front content */
+    /* padding: 6rem 0 2rem 2.5rem; Padding matches front content */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border: 2px solid #516CF7;
     cursor: pointer;

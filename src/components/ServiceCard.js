@@ -41,14 +41,14 @@ function ServiceCard({ modal_description, icon, title, items }) {
         }
       >
         <div className='services__modal-content' onClick={handleCloseClick}>
-          <i
+          {/* <i
             className='uil uil-times services__modal-close'
             onClick={handleCloseClick}
-          ></i>
+          ></i> */}
           <h3 className='services__modal-title'> {title}</h3>
           <p className='services__modal-description'>{modal_description}</p>
 
-          <ul className='services__modal-services grid'>
+          <ul className='services__moal-services'>
             {items.map((item, index) => (
               <li key={index} className='services__modal-service'>
                 <i className='uil uil-check-circle service__modal-icon'></i>

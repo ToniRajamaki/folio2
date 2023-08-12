@@ -27,27 +27,27 @@ const Services = ({ theme }) => {
         <span className="section__subtitle">What i offer</span>
         <div className="services__container container grid">
       <ServiceCard
-      modal_description={" Front-end developers create the user interface (UI) that determines what each part of a site or application does and how it will look."}
+      modal_description={"Modular Mindset: Writing Reusable Code Blocks."}
       icon={arrowIcon}
       title={`Web
       Development`}
-      items={["a","b","c"]}
+      items={["Fullstack Complete Solutions.","Beautiful inside and out is a must.","Responsive Designs for All Devices.","Front-End Frameworks for Efficiency."]}
       />
 
       <ServiceCard
-      modal_description={"Totally awesome UI/UX design!"}
+      modal_description={"Eye Catching, Modern & Interactive Human-centered Design."}
       icon={uIIcon}
       title={`UI/UX
       Design`}
-      items={["a","b","c"]}
+      items={["Beautiful UI & Delightful UX","Memorable Empathetic Interactions.","Awareness to ease of access","Strong UI/UX Expertize"]}
       />
 
       <ServiceCard
-      modal_description={"I code anything"}
+      modal_description={"Comprehensible and Optimized Code."}
       icon={uIIcon}
       title={`Software
       Development`}
-      items={["a","b","c"]}
+      items={["Clean & Easy-to-Read Code","Versatile Troubleshooter","Resourceful Problem solver","Agile Developing & Lean Mindset"]}
       />
         </div>
       </section>
