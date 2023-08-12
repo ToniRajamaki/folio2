@@ -23,55 +23,33 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jan 2021 - Dec 2022',
       icon: 'work',
-    },
-    {
-      id: 2,
-      title: 'Backend Developer',
-      location: 'Skystead, Craonia',
-      description:
-        'Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.',
-      buttonText: 'View Backend Projects',
-      date: 'June 2013 - August 2016',
+      imageSrc: './folio2/assets/toni/tau_logo.png',
+    }, {
+      id: 1,
+      title: 'Game Software Developer',
+      location: 'Tampere, Finland',
+      description: [
+        'Mobile game development using Unity game engine and C#.',
+        'Implement and optimize game assets for performance on mobile devices.',
+        'Collaborate with cross functional teams, including artists and programmers.',
+      ],
+      buttonText: 'View Frontend Projects',
+      date: 'Jan 2021 - Dec 2022',
       icon: 'work',
-    },
-    {
-      id: 3,
-      title: 'Quality Assurance Engineer',
-      location: 'South Warren, Geshington',
-      description:
-        'Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.',
-      buttonText: 'Company Website',
-      date: 'September 2011 - June 2013',
+      imageSrc: './folio2/assets/toni/tau_logo.png',
+    }, {
+      id: 1,
+      title: 'Game Software Developer',
+      location: 'Tampere, Finland',
+      description: [
+        'Mobile game development using Unity game engine and C#.',
+        'Implement and optimize game assets for performance on mobile devices.',
+        'Collaborate with cross functional teams, including artists and programmers.',
+      ],
+      buttonText: 'View Frontend Projects',
+      date: 'Jan 2021 - Dec 2022',
       icon: 'work',
-    },
-    {
-      id: 4,
-      title: 'Oak Ridge College',
-      location: 'South Warren, Geshington',
-      description:
-        'Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.',
-      buttonText: 'Course Certificate',
-      date: 'September 2011',
-      icon: 'school',
-    },
-    {
-      id: 5,
-      title: 'Hawking College',
-      location: 'Skystead, Craonia',
-      description:
-        'College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.',
-      buttonText: 'College Projects',
-      date: '2007 - 2011',
-      icon: 'school',
-    },
-    {
-      id: 6,
-      title: 'Marble Hills Grammar School',
-      location: 'Dragontail, Ascana',
-      description:
-        'Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.',
-      date: '2003 - 2007',
-      icon: 'school',
+      imageSrc: './folio2/assets/toni/tau_logo.png',
     },
   ]
   //   let workIconStyles = { background: "#06D6A0" };
@@ -82,16 +60,13 @@ function Experience() {
     <div>
       <VerticalTimeline animate={true}>
         {timelineElements.map((element) => {
-          let isWorkIcon = element.icon === 'work'
-
           return (
             <VerticalTimelineElement
-              key={element.key}
+              key={element.id} // Use 'id' instead of 'key'
               date={element.date}
               dateClassName='date'
-              // className='description'
-              //   iconStyle={}
-              //   icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              icon={checkIcon}
+              iconStyle={{background:'rgb(33,150,243)',width:"50px",display:"flex",justifyContent:"center",alignItems:"center"}}
             >
               <div className='jobcard'>
                 <div className='parent'>
@@ -99,7 +74,7 @@ function Experience() {
                     <img
                       alt='jobImage'
                       className='work_image'
-                      src='https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png'
+                      src={element.imageSrc}
                     ></img>
                     <div className='title_and_workplace'>
                       <h5 className='work_title_font'>{element.title}</h5>
@@ -107,13 +82,16 @@ function Experience() {
                     </div>
                   </div>
                   <span className='location'>
-                    <i class='bx bx-buildings'></i>
-                    {element.location}
+                    {locationIcon} {element.location}
                   </span>
                 </div>
 
                 <div className='description2'>
-                  <p className='tiny_font'>{element.description}</p>
+                  {element.description.map((desc, index) => (
+                    <p key={index} className='tiny_font parent2'>
+                      <div className='space_dot'>• </div> {desc}
+                    </p>
+                  ))}
                 </div>
               </div>
             </VerticalTimelineElement>
