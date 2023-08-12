@@ -14,8 +14,8 @@ const Services = ({ theme }) => {
   };
 // ICONS
   const arrowIcon= <i className="uil uil-arrow services__icon"></i>
-  const uIIcon=  <i className="uil uil-web-grid services__icon"></i>
-  const penIcon=<i className="uil uil-edit services__icon"></i>
+  const uIIcon=  <i className="bx bxs-palette services__icon"></i>
+  const penIcon=<i class='bx bx-code-curly services__icon'></i>
   useEffect(() => {
 
   AOS.init({ duration: 2000 });
@@ -43,8 +43,8 @@ const Services = ({ theme }) => {
       />
 
       <ServiceCard
-      modal_description={"Comprehensible and Optimized Code."}
-      icon={uIIcon}
+      modal_description={"Systematic Solution provider: Finding Order in Chaos."}
+      icon={penIcon}
       title={`Software
       Development`}
       items={["Clean & Easy-to-Read Code","Versatile Troubleshooter","Resourceful Problem solver","Agile Developing & Lean Mindset"]}

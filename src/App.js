@@ -38,7 +38,7 @@ function App() {
           <Education></Education>
           <Qualifications theme={theme} />
           <Work theme={theme} />
-          <Testimonials theme={theme} />
+          {/* <Testimonials theme={theme} /> */}
           <Contact theme={theme} />
         </main>
         <Footer theme={theme} />

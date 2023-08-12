@@ -26,6 +26,9 @@ function ServiceCard({ modal_description, icon, title, items }) {
             {icon}
             <h3 className='services__title'>{title}</h3>
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
           <span onClick={handleContentClick} className='services__button'>
             View More
             <i className='uil uil-arrow-right services__button-icon'></i>
@@ -45,7 +48,7 @@ function ServiceCard({ modal_description, icon, title, items }) {
             className='uil uil-times services__modal-close'
             onClick={handleCloseClick}
           ></i> */}
-          <h3 className='services__modal-title'> {title}</h3>
+          <h3 className='services__modal-title'>{icon} {title}</h3>
           <p className='services__modal-description'>{modal_description}</p>
 
           <ul className='services__moal-services'>

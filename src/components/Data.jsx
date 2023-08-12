@@ -22,10 +22,10 @@ user experiences together!
       </p>
       <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
       <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      {/* <br></br> */}
+      {/* <br></br> */}
+      {/* <br></br> */}
+      {/* <br></br> */}
       <br></br>
   {/* <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=550&size=24&duration=1600&pause=500&color=9251F7&center=true&vCenter=true&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%F0%9F%98%81;Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" /></a> */}
       

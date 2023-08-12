@@ -38,7 +38,7 @@ function Education() {
                 <EducationCard
                   schoolName='Tampere University'
                   degree={`Human-Technology Interaction
-                  Master's Degree`}
+                  Master's Degree (Tech)`}
                   duration='2021-2023'
                   description='• Long Major: Human-Technology Interaction'
                   imageSrc='./folio2/assets/toni/tau_logo.png'
