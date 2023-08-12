@@ -7,7 +7,8 @@ const Data = () => {
   <img align="center" src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/logo.svg" width="600" height="100"/>
 
       </h1>
-      <h3 className="home_subtitle"> Software Engineer</h3>
+      <h3 className="home_subtitle"> Software Engineer  |  UI/UX Designer</h3>
+
       <p className="home__description">
         {" "}
         Hey there! I'm a curious learner who enjoys
