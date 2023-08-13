@@ -16,43 +16,43 @@ flex-direction: column;
 .parent2 {
   display: flex;
   /* width: 300px; */
-  
+  margin-left: 8px !important;
   }
 
 
 
-.location {
-  text-align:start !important;
-  /* margin-top: 2px !important; */
-  padding-top: 0 !important;
-   font-size: x-small !important;
+  .location {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    text-align: end !important;
+    font-size: x-small !important;
   }
 
-.Image_title_subtitle_container {
-  display: flex;
-  flex-direction: row;
-  height: 65px;
-  /* margin-top: 16px; */
- }
+  .Image_title_subtitle_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items at the top */
+    /* justify-content: space-between; Spread items horizontally */
+    height: 65px;
+    /* margin-top: 16px; */
+  }
 
 .div4 { 
 display: flex;
 flex-direction: column;
  }
 .jobcard{
-  display: flex;
+  /* display: flex; */
 
 }
 
 
-.title_and_workplace{
+.title_and_workplace {
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
-  /* justify-content: space-evenly; */
-  justify-content: flex-start;
-  /* justify-content: space-evenly; */
-  /* gap: px; */
+  margin-left: 5px; /* Adjust this margin as needed */
+  margin-top: 5px;
 }
 
   .pair2 {
@@ -62,16 +62,13 @@ flex-direction: column;
     justify-content: space-evenly !important
     /* gap: 200px; */
   }
+
   .work_image {
     width: 50px;
     height: 50px;
-    /* padding: 1px; */
-    /* border: 2px solid #516CF7; */
     border-radius: 20%;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.18);
-/* -webkit-box-shadow: 6px 6px 12px 2px rgba(0,0,0,0.37); */
-/* -moz-box-shadow: 6px 6px 12px 2px rgba(0,0,0,0.37); */
-    
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.18);
+    margin: 5px; /* Adjust this margin as needed */
   }
   
   /* h3 {
@@ -108,16 +105,18 @@ flex-direction: column;
   }
   
   .date {
-    /* color: rgb(201, 251, 255); */
+    font-size:small !important;
+    margin-left: -50px!important;
+    margin-right: -50px!important;
   }
   
   .description2{
-    /* margin: 1.5em 0 2em 0;
-    white-space: pre-line; */
+    /* margin: 1.5em 0 2em 0; */
+    /* white-space: pre-line; */ 
     /* margin-left: 100px; */
     /* margin-right: 100px; */
     /* min-width: 500px; */
-    max-width: 50%;
+    /* max-width: 50%; */
   }
   
   .button {
@@ -160,4 +159,5 @@ flex-direction: column;
 
   .tiny_font{
     font-size: 0.813rem !important;
+    /* margin-left: 0 !important */
   }
