@@ -23,7 +23,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jan 2021 - Dec 2022',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/tau_logo.png',
+      imageSrc: './folio2/assets/toni/gitgudgames.png',
       workPlace:'Git Gud Games®'
     },
     {
@@ -37,7 +37,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'May 2019 - Jun 2019',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/tau_logo.png',
+      imageSrc: './folio2/assets/toni/atria.png',
       workPlace:'Atria®'
     },
     {
@@ -52,7 +52,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'May 2018 - Aug 2018',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/tau_logo.png',
+      imageSrc: './folio2/assets/toni/datakaistalogo.png',
       workPlace:'Datakaista®'
     },
     {
@@ -67,7 +67,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jul 2016 - Jul 2017',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/tau_logo.png',
+      imageSrc: './folio2/assets/toni/unico.png',
       workPlace:'Unico®'
     },
     {
@@ -81,7 +81,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jun 2015 - Aug 2015',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/tau_logo.png',
+      imageSrc: './folio2/assets/toni/kauhava.png',
       workPlace:'City of Kauhava'
     },
     {
@@ -96,7 +96,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jun 2014 - Aug 2014',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/tau_logo.png',
+      imageSrc: './folio2/assets/toni/kauhava.png',
       workPlace:'City of Kauhava'
     },
     {
@@ -110,7 +110,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jun 2013 - Jul 2013',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/tau_logo.png',
+      imageSrc: './folio2/assets/toni/virrankoski.png',
       workPlace:'Rakennusliike Virrankoski®'
     },
   ]
