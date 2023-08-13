@@ -154,6 +154,7 @@ function Experience() {
                   </div>
                 </div>
               </div>
+              <div className="line"></div>
               <div className='description2'>
                 {element.description.map((desc, index) => (
                   <p key={index} className='tiny_font parent2'>

@@ -20,13 +20,24 @@ flex-direction: column;
   }
 
 
+  .line {
+    border-bottom: 1px solid #516CF7;
+    box-shadow: inset;
+    /* margin: 5px auto; */
+    /* border-bottom: 4px dotted #516CF7; */
+    margin: 10px auto;
+    width: 95%;
+  }
+  
+  
 
   .location {
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 70px;
     text-align: end !important;
     font-size: x-small !important;
+    width: 120px;
   }
 
   .Image_title_subtitle_container {
@@ -75,13 +86,35 @@ flex-direction: column;
     padding-top: 0.25em;
   } */
   
+  /* .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
+
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+  
+  .vertical-timeline-element-content:hover {
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.3),
+      0 0.8em 2.5em 0 rgba(0, 0, 0, 0.2);
+    border: 4px solid #516CF7;
+    transform: scale(1.20);
+  } */
   .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
-    /* padding: 2em 3em !important; */
-    width: 550px !important;
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.5s ease-in-out, transform 0.3s ease-in-out, border 0.3s ease-in-out;
   }
-
+  
+  .vertical-timeline-element-content:hover {
+    box-shadow: 0 0 5em 0 rgba(81, 108, 247, 0.9),
+      0 0.2em 2.5px 0 rgba(0, 0, 0, 0.2);
+    border: 20px solid transparent; /* Add this line */
+    border: 2px solid #516CF7; /* Move this line here */
+    transform: scale(1.25);
+  }
+  
+  
+  
   .description2>.tiny_font {
  
     /* color: red; */
@@ -101,13 +134,14 @@ flex-direction: column;
     font-size:x-small !important;
   }.work_title_header_font{
     
-    font-size:small !important;
+    font-size:medium !important;
+    width: 220px;
   }
   
   .date {
     font-size:small !important;
-    margin-left: -50px!important;
-    margin-right: -50px!important;
+    /* margin-left: -50px!important; */
+    /* margin-right: -50px!important; */
   }
   
   .description2{
