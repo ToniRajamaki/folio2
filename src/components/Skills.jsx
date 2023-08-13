@@ -9,8 +9,8 @@ const Skills = ({ theme }) => {
   const [activeTab, setActiveTab] = useState('coding');
   const code_icon = <i className='uil uil-arrow icon' style={{ color: "#516CF7" }}></i>;
   const ui_icon = <i className='bx bxs-palette icon2' style={{ color: "#9251F7" }}></i>;
-  const codeButtonIcon = <i className="uil uil-arrow services__icon" style={{ color: "#516CF7", fontSize: "16px" }}></i>;
-  const uXButtonIcon = <i className="bx bxs-palette services__icon" style={{ color: "#516CF7", fontSize: "16px" }}></i>;
+  const codeButtonIcon = <i className="uil uil-arrow " style={{ color: "#516CF7", fontSize: "16px" }}></i>;
+  const uXButtonIcon = <i className="bx bxs-palette " style={{ color: "#516CF7", fontSize: "16px" }}></i>;
   
 
   useEffect(() => {
@@ -29,14 +29,14 @@ const Skills = ({ theme }) => {
   onClick={() => setActiveTab('coding')}
   className={`work__item2 ${activeTab === 'coding' ? 'active-work' : ''} skills__tab`}
 >
-  {activeTab === 'coding' ? <i className="uil uil-arrow services__icon" style={{ color: "white" }}></i> : codeButtonIcon}
+  {activeTab === 'coding' ? <i className="uil uil-arrow " style={{ color: "white" }}></i> : codeButtonIcon}
   Software
 </span>
 <span
   onClick={() => setActiveTab('uiux')}
   className={`work__item2 ${activeTab === 'uiux' ? 'active-work' : ''} skills__tab`}
 >
-  {activeTab === 'uiux' ? <i className="bx bxs-palette services__icon" style={{ color: "white" }}></i> : uXButtonIcon}
+  {activeTab === 'uiux' ? <i className="bx bxs-palette" style={{ color: "white" }}></i> : uXButtonIcon}
   UI/UX
 </span>
 

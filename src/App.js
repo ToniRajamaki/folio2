@@ -42,7 +42,7 @@ function App() {
           <Contact theme={theme} />
         </main>
         <Footer theme={theme} />
-        <ScrollUp theme={theme} />
+        <ScrollUp />
       </div>
     </ThemeContext.Provider>
   )

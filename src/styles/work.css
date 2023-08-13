@@ -27,6 +27,7 @@
     text-transform: capitalize;
     border: solid #516CF7;
     border-width: 1px;
+    gap: 6px;
   }
   
   .work__item2 > span {

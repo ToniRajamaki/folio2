@@ -36,7 +36,7 @@ const Works = ({ theme }) => {
               }}
               key={i}
               className={`${active === i ? "active-work" : ""}
-            work__item `}
+            work__item2 `}
             >
               {item.name}
             </span>
