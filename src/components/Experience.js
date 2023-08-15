@@ -126,7 +126,7 @@ function Experience() {
             <VerticalTimelineElement
               key={element.id} // Use 'id' instead of 'key'
               date={element.date}
-              dateClassName='date'
+              dateClassName="date"
               icon={checkIcon}
               iconStyle={{
                 background: 'rgb(33,150,243)',

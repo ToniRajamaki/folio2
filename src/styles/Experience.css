@@ -13,6 +13,12 @@ flex-direction: column;
 /* width: 300px; */
 
 }
+.vertical-timeline-element-icon{
+width: 25px !important;
+height: 25px !important;
+left: 51.3% !important;
+background-color: #516CF7 !important;
+}
 .parent2 {
   display: flex;
   /* width: 300px; */
@@ -108,11 +114,15 @@ flex-direction: column;
   .vertical-timeline-element-content:hover {
     box-shadow: 0 0 3em 0 rgba(81, 108, 247, 0.9),
       0 0 10px 0 rgba(81, 108, 247, 1);
-    /* border: 2px solid #516CF7 !important; */
     transform: scale(1.25);
-    border: 20px solid transparent; /* Add this line */
+    border: 20px solid transparent;
   }
-  
+
+  .vertical-timeline-element-date{
+    /* border: #06d6a0 1px solid; */
+    pointer-events: none;
+  }
+
   
   .description2>.tiny_font {
  
@@ -151,7 +161,7 @@ flex-direction: column;
     /* min-width: 500px; */
     /* max-width: 50%; */
   }
-  
+
   .button {
     text-decoration: none;
     padding: 0.5em 1em;
