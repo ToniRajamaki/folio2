@@ -16,7 +16,8 @@ flex-direction: column;
 .vertical-timeline-element-icon{
 width: 25px !important;
 height: 25px !important;
-left: 51.3% !important;
+left: 51.5% !important;
+top:6px !important;
 background-color: #516CF7 !important;
 }
 .parent2 {
@@ -32,16 +33,18 @@ background-color: #516CF7 !important;
     /* margin: 5px auto; */
     /* border-bottom: 4px dotted #516CF7; */
     margin: 10px auto;
-    width: 95%;
+    width: 97%;
   }
   
   
 
-  .location {
+  .location_and_time {
     display: flex;
-    align-items: center;
-    margin-left: 70px;
-    text-align: end !important;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* margin-left: 70px; */
+    /* text-align: end !important; */
     font-size: x-small !important;
     width: 120px;
   }
@@ -49,6 +52,7 @@ background-color: #516CF7 !important;
   .Image_title_subtitle_container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start; /* Align items at the top */
     /* justify-content: space-between; Spread items horizontally */
     /* height: 65px; */
@@ -68,7 +72,7 @@ flex-direction: column;
 .title_and_workplace {
   display: flex;
   flex-direction: column;
-  margin-left: 5px; /* Adjust this margin as needed */
+  margin-left: -20px; /* Adjust this margin as needed */
   margin-top: 5px;
 }
 
@@ -108,21 +112,28 @@ flex-direction: column;
   .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
       0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
-    transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out, border 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
   }
   
   .vertical-timeline-element-content:hover {
     box-shadow: 0 0 3em 0 rgba(81, 108, 247, 0.9),
       0 0 10px 0 rgba(81, 108, 247, 1);
     transform: scale(1.25);
-    border: 20px solid transparent;
   }
-
-  .vertical-timeline-element-date{
-    /* border: #06d6a0 1px solid; */
+  
+  .vertical-timeline-element-content:hover > .vertical-timeline-element-date {
+    color: #516CF7;
+    text-decoration: underline; /* Adding underline */
+    transition: color 0.4s ease-in-out, text-decoration 0.4s ease-in-out; /* Smooth transition for font color and underline */
+  }
+  
+  .vertical-timeline-element-date {
     pointer-events: none;
+    text-decoration: none; /* Resetting underline */
+    transition: color 0.4s ease-in-out, text-decoration 0.4s ease-in-out; /* Smooth transition for font color and underline */
   }
-
+  
+  
   
   .description2>.tiny_font {
  
@@ -149,6 +160,7 @@ flex-direction: column;
   
   .date {
     font-size:small !important;
+    /* margin-bottom: 100px !important; */
     /* margin-left: -50px!important; */
     /* margin-right: -50px!important; */
   }

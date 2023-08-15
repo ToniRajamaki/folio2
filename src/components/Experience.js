@@ -24,7 +24,8 @@ function Experience() {
       date: 'Jan 2021 - Dec 2022',
       icon: 'work',
       imageSrc: './folio2/assets/toni/gitgudgames.png',
-      workPlace:'Git Gud Games®'
+      workPlace: 'Git Gud Games®',
+      time: "2 Years"
     },
     {
       id: 2,
@@ -38,7 +39,8 @@ function Experience() {
       date: 'May 2019 - Jun 2019',
       icon: 'work',
       imageSrc: './folio2/assets/toni/atria.png',
-      workPlace:'Atria®'
+      workPlace: 'Atria®',
+      time: "2 Months"
     },
     {
       id: 3,
@@ -53,7 +55,8 @@ function Experience() {
       date: 'May 2018 - Aug 2018',
       icon: 'work',
       imageSrc: './folio2/assets/toni/datakaistalogo.png',
-      workPlace:'Datakaista®'
+      workPlace: 'Datakaista®',
+      time: "4 Months"
     },
     {
       id: 4,
@@ -68,7 +71,8 @@ function Experience() {
       date: 'Jul 2016 - Jul 2017',
       icon: 'work',
       imageSrc: './folio2/assets/toni/unico.png',
-      workPlace:'Unico®'
+      workPlace: 'Unico®',
+      time: "1 Year"
     },
     {
       id: 5,
@@ -82,7 +86,8 @@ function Experience() {
       date: 'Jun 2015 - Aug 2015',
       icon: 'work',
       imageSrc: './folio2/assets/toni/kauhava.png',
-      workPlace:'City of Kauhava'
+      workPlace: 'City of Kauhava',
+      time:"3 Months"
     },
     {
       id: 6,
@@ -91,13 +96,13 @@ function Experience() {
       description: [
         'Ensure the upkeep and cleanliness of shared outdoor spaces.',
         'Collaborate with management to address maintenance needs and priorities.',
-      
       ],
       buttonText: 'View Frontend Projects',
       date: 'Jun 2014 - Aug 2014',
       icon: 'work',
       imageSrc: './folio2/assets/toni/kauhava.png',
-      workPlace:'City of Kauhava'
+      workPlace: 'City of Kauhava',
+      time:"3 Months"
     },
     {
       id: 7,
@@ -111,13 +116,15 @@ function Experience() {
       date: 'Jun 2013 - Jul 2013',
       icon: 'work',
       imageSrc: './folio2/assets/toni/virrankoski.png',
-      workPlace:'Rakennusliike Virrankoski®'
+      workPlace: 'Rakennusliike Virrankoski®',
+      time:"2 Months"
     },
   ]
   //   let workIconStyles = { background: "#06D6A0" };
   //   let schoolIconStyles = { background: "#f9c74f" };
   const checkIcon = <i class='uil uil-check-circle service__modal-icon'></i>
   const locationIcon = <i class='bx bx-buildings'></i>
+  const timeIcon = <i class='bx bx-time-five'></i>
   return (
     <div>
       <VerticalTimeline animate={true}>
@@ -126,7 +133,7 @@ function Experience() {
             <VerticalTimelineElement
               key={element.id} // Use 'id' instead of 'key'
               date={element.date}
-              dateClassName="date"
+              dateClassName='date'
               icon={checkIcon}
               iconStyle={{
                 background: 'rgb(33,150,243)',
@@ -145,16 +152,24 @@ function Experience() {
                       src={element.imageSrc}
                     />
                     <div className='title_and_workplace'>
-                      <h3 className='work_title_header_font'>{element.workPlace}</h3>
+                      <h3 className='work_title_header_font'>
+                        {element.workPlace}
+                      </h3>
                       <h5 className='work_title_font'>{element.title}</h5>
                     </div>
-                    <div className='location'>
+                    <div className='location_and_time'>
+                      <div>
                       {locationIcon} {element.location}
+                      </div>
+                      <div>
+                      {timeIcon} {element.time}
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="line"></div>
+              <div className='line'></div>
               <div className='description2'>
                 {element.description.map((desc, index) => (
                   <p key={index} className='tiny_font parent2'>
