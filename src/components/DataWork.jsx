@@ -2,21 +2,21 @@
 export const projectsData = [
   {
     id: 1,
-    image: "/assets/lavageimg.jpg",
+    image: "./folio2/assets/toni/logo.png",
     title: "Lavage",
     category: "web",
     video: "/assets/lavagee.mp4",
   },
   {
     id: 2,
-    image: "/assets/camp.jpg",
+    image: "./folio2/assets/toni/profile_picture.png",
     title: "Camping",
     category: "web",
     video: "/assets/camping.mp4",
   },
   {
     id: 3,
-    image: "/assets/yt.jpg",
+    image: "./folio2/assets/toni/atria.png",
     title: "Youtube Clone",
     category: "web",
     video: "/assets/CloneYoutube.mkv",
