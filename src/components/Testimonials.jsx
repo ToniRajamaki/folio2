@@ -48,14 +48,12 @@ const Testimonials = ({ theme }) => {
         >
           {DataTestimonial.map((el, i) => {
             return (
-              <SwiperSlide className="testimonial__card" key={i}>
+              <SwiperSlide key={i}>
                 <img
                   src={el.image}
                   alt="testimonial_img"
-                  className="testimonial_img"
                 />
-                <h3 className="testimonial__name">{el.title}</h3>
-                <p className="testimonial__description">{el.description}</p>
+               
               </SwiperSlide>
             );
           })}

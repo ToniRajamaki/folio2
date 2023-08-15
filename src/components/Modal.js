@@ -1,7 +1,12 @@
 import React from 'react'
 import '../styles/modal.css'
 import DemoCarousel from './DemoCarousel'
-
+import TestimonialCarousel from './TestimonialCarousel'
+const images = [
+  './folio2/assets/toni/logo.png',
+  './folio2/assets/toni/profile_picture.png',
+  './folio2/assets/toni/atria.png',
+]
 const Modal = ({
   onClose,
   projectTitle = 'Default Project Title',
@@ -24,7 +29,7 @@ const Modal = ({
         </div>
         <div className='modal-body'>
           {/* <img className='modal_img' src={image} alt='Project' /> */}
-          <DemoCarousel></DemoCarousel>
+          <TestimonialCarousel theme="light" testimonials={images}/>
           <p>
             Description: This is the modal content. You can put any information
             here.

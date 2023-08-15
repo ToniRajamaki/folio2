@@ -15,35 +15,14 @@
 
 
 
-.carousel-image {
+.carousel-img {
     border: 2px solid #333 !important; /* Customize the border color and size as needed */
     border-radius: 4px; /* Optional: Add border radius for rounded corners */
+    width: 720px !important;
+    height: 380px!important;
   }
 
-  .carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust the height as needed */
-  }
-  
-  .carousel-indicator {
-    width: 10px;
-    height: 10px;
-    background-color: transparent;
-    border: 2px solid #516CF7;
-    border-radius: 50%;
-    margin: 0 5px;
-    transition: background-color 0.3s ease-in-out;
-  
-    &:focus {
-      outline: none;
-    }
-  
-    &.selected {
-      background-color: #516CF7;
-    }
-  }
+
 
 
 
