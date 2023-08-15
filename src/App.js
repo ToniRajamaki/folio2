@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ScrollUp from './components/ScrollUp'
-import Work from './components/Work'
+import Portfolio from './components/Portfolio'
 import Education from './components/Education'
 import './styles/load.css'
 
@@ -37,7 +37,7 @@ function App() {
           <Skills theme={theme} />
           <Education></Education>
           <Qualifications theme={theme} />
-          <Work theme={theme} />
+          <Portfolio theme={theme} />
           {/* <Testimonials theme={theme} /> */}
           <Contact theme={theme} />
         </main>

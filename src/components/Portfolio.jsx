@@ -1,12 +1,12 @@
 import React from 'react'
 import "../styles/work.css"
-import Works from './Works'
+import Projects from './Projects'
 
 // import VideoPlayer from "react-video-js-player";
 // import Camping from "./video/camping.mp4";
   
 
-const Work = ({ theme }) => {
+const Portfolio = ({ theme }) => {
     // const videoSrc = Camping;
 
   return (
@@ -14,11 +14,10 @@ const Work = ({ theme }) => {
       <section className="work section" id="portfolio">
         <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle small_margin_bottom">Most recent works</span>
-        {/* <VideoPlayer src={videoSrc} /> */}
-        <Works theme={theme} />
+        <Projects theme={theme} />
       </section>
     </div>
   );
 };
 
-export default Work
+export default Portfolio

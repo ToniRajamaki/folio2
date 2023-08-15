@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TagComponent from './TagComponent';
 import "../styles/work.css"
-import Works from './Works'
+import Works from './Projects'
 const Skills = ({ theme }) => {
   const [activeTab, setActiveTab] = useState('coding');
   const code_icon = <i className='uil uil-arrow icon' style={{ color: "#516CF7" }}></i>;
