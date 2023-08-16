@@ -1,14 +1,26 @@
-.project__card{
-    border: 2px solid  #516CF7;
+.project__card {
+    border: 2px solid #516CF7;
     border-radius: 5%;
-    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
     padding: 15px;
-}
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .project__card:hover {
+    box-shadow: 0 0 3em 0 rgba(81, 108, 247, 0.9),
+      0 0 10px 0 rgba(81, 108, 247, 1);
+  }
+  
+
+
 
 .project__img{
     width: 320px;
     height: 180px;
+}
+
+.project__button{
+    display: flex !important;
+    justify-content: flex-end;
 }
 /* CAROUSEL */
 
@@ -38,7 +50,7 @@
 .work__item{
     cursor: pointer;
     color: var(--title-color);
-    padding: 0.25rem 0.75rem;
+    ndding: 0.25rem 0.75rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
     text-transform: capitalize;

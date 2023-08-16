@@ -35,10 +35,10 @@ height: 450px !important;
     margin: 0;
   }
   
+  
   .buttons-container {
     display: flex;
-    gap: 5px;
-    align-items: center;
+    justify-content: flex-end;
   }
   .modal-body {
     display: flex;
@@ -60,22 +60,29 @@ height: 450px !important;
   
   .modal-footer {
     display: flex;
-    justify-content: flex-end;
     margin-top: 10px;
   }
   
   .modal-close-button,
-  .demo-button,
-  .code-button {
+  .demo,
+  .code {
     padding: 8px 16px;
-    margin: 0 5px;
-    border: none;
-    border-radius: 4px;
+    margin: 0 8px;
     cursor: pointer;
+    font-size: medium;
+    display: flex;
+    align-items: center; /* Align vertically center */
+    height: 40px !important;
   }
   
   .modal-close-button {
-    background-color: #ccc;
+    background-color: transparent;
+    padding: 0;
+    
+  }
+  .modal-close-button:hover {
+    color: black !important;
+    
   }
   
   .demo-button {
@@ -83,8 +90,16 @@ height: 450px !important;
     color: white;
   }
   
-  .code-button {
-    background-color: #2196f3;
-    color: white;
+  .code {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: solid #516CF7;
+    color: #516CF7 !important;
+    border-width: 1px;
+  }
+  .code:hover{
+    background-color: #516CF7 !important;
+    color: white !important;
   }
   

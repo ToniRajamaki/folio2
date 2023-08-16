@@ -17,10 +17,13 @@ const ProjectItem = ({ item }) => {
       <h3 className="project__title">{item.title}</h3>
 
       {/* Button to open the modal */}
-      <button onClick={() => setShowModal(true)} className="project__button">
-        Demo <i className="bx bx-right-arrow-alt project__button-icon"></i>
-      </button>
+      <div className="project__button">
 
+      <button onClick={() => setShowModal(true)} className="code button">
+        View <i className="bx bx-right-arrow-alt project__button-icon"></i>
+
+      </button>
+      </div>
       {/* Modal */}
       {showModal && (
         <Modal

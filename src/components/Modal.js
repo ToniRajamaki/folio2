@@ -7,6 +7,18 @@ const images = [
   './folio2/assets/toni/profile_picture.png',
   './folio2/assets/toni/atria.png',
 ]
+const github_icon = (
+  <i
+    class='bx bxl-github'
+    style={{ color: '#516CF7', fontSize: 'x-large' }}
+  ></i>
+)
+// const github_icon = <i className='uil uil-arrow icon' style={{ color: "#516CF7" }}></i>;
+const externalLink_icon = (
+  <i class='bx bx-link-external' style={{ fontSize: 'x-large' }}></i>
+)
+const close_icon = <i  class='bx bx-x-circle'
+style={{ color: '#516CF7', fontSize: '2.5rem' }}></i>
 const Modal = ({
   onClose,
   projectTitle = 'Default Project Title',
@@ -18,18 +30,16 @@ const Modal = ({
     <div className='fullscreen-modal'>
       <div className='modal-content'>
         <div className='modal-header'>
-          <h3 className='project-title'>{projectTitle}</h3>
+          <h1 className='project-title'>{projectTitle}</h1>
           <div className='buttons-container'>
-            <button className='demo-button'>Demo</button>
-            <button className='code-button'>Code</button>
             <button className='modal-close-button' onClick={onClose}>
-              Close
+            {close_icon}
             </button>
           </div>
         </div>
         <div className='modal-body'>
           {/* <img className='modal_img' src={image} alt='Project' /> */}
-          <TestimonialCarousel theme="light" testimonials={images}/>
+          <TestimonialCarousel theme='light' testimonials={images} />
           <p>
             Description: This is the modal content. You can put any information
             here.
@@ -42,7 +52,8 @@ const Modal = ({
           </div>
         </div>
         <div className='modal-footer'>
-          <p>this is footer</p>
+          <button className='demo button'> {externalLink_icon} Demo</button>
+          <button className='code button'>{github_icon} Code</button>
         </div>
       </div>
     </div>

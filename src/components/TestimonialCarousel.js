@@ -2,14 +2,15 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import { Pagination } from 'swiper'
+import { Pagination, Navigation } from 'swiper'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
-import "../styles/work.css";
+import '../styles/work.css'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
+import 'swiper/css/navigation';
 
 const TestimonialCarousel = ({ testimonials }) => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const TestimonialCarousel = ({ testimonials }) => {
     <Swiper
       className='testimonial__container'
       loop={true}
+      navigation={true}
       grabCursor={true}
       spaceBetween={24}
       pagination={{
@@ -31,14 +33,14 @@ const TestimonialCarousel = ({ testimonials }) => {
       }}
       breakpoints={{
         576: {
-          slidesPerView: 2,
+          slidesPerView: 1,
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 48,
         },
       }}
-      modules={[Pagination]}
+      modules={[Navigation,Pagination]}
     >
       {testimonials.map((el, i) => (
         <SwiperSlide key={i}>
