@@ -40,24 +40,6 @@
     align-items: center !important;
   }
 
-  .swiper-button-prev:after,
-  .swiper-button-next:after {
-      color: #516CF7;
-      font-size: 32px !important; /* Adjust size as needed */
-      background-color: rgba(0, 0, 0, 0.1);
-      padding: 10px;
-      border-radius: 20%;
-      top: 25% !important;
-  }
-  
-  .swiper-button-prev:hover:after,
-  .swiper-button-next:hover:after {
-      background-color: rgba(0, 0, 0, 0.5); /* Light background on hover */
-      color:white;
-  }
-  
-  
-  
 
 
 

@@ -24,12 +24,7 @@
 }
 
 /*Swiper Class*/
-.swiper-pagination-bullet{
-    background-color: var(--title-color) !important;
-}
-.swiper-pagination-bullet-active{
-    background-color: var(--title-color) !important;
-}
+
 /* Dark mode*/
 #dark .testimonial__card{
     background-color: #BCC5CE;

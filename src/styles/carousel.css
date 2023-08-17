@@ -1,0 +1,74 @@
+/* #app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.swiper {
+  width: 600px;
+  /* height: 500px; */
+  padding: 50px;
+  /* margin-bottom: 300px; */
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Swiper pagination horizontal */
+.modal-body .swiper-pointer-events .swiper-pagination-horizontal{
+  margin-top:0px;
+  position:relative;
+  top:44px;
+ }
+ 
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-pagination-bullet{
+  background-color: var(--title-color) !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: var(--title-color) !important;
+}
+.swiper-pagination-bullet{
+  width: 0.9em !important;
+  height: 0.9em !important; 
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    color: #516CF7;
+    font-size: 32px !important; /* Adjust size as needed */
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 20%;
+    top: 25% !important;
+}
+
+.swiper-button-prev:hover:after,
+.swiper-button-next:hover:after {
+    background-color: rgba(81, 108, 247,0.7); 
+    color:white;
+}
+
+
+

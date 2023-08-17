@@ -43,16 +43,7 @@ height: 450px !important;
   .project-title {
     margin: 0;
   }
-
-  .swiper-pagination{
-    position:initial !important;
-  }
-  .swiper-pagination-bullet{
-    /* font-size: xx-large !important; */
-    width: 0.9em !important;
-    height: 0.9em !important;
-  }
-
+ 
   
   
   .buttons-container {
@@ -96,12 +87,15 @@ height: 450px !important;
   
   .modal-close-button {
     background-color: transparent;
-    padding: 0;
+    padding: 2px;
     
   }
-  .modal-close-button:hover {
-    color: black !important;
-    
+  .modal-close-button:hover,
+  .modal-close-button:hover * {
+    background-color: rgba(81, 108, 247,0.7); 
+    color:white !important;
+    border-radius: 20%;
+    border-width: 2px;
   }
   
   .demo-button {
@@ -117,7 +111,7 @@ height: 450px !important;
     color: #516CF7 !important;
     border-width: 1px;
   }
-  .code:hover{
+  .code:hover,.code:hover *{
     background-color: #516CF7 !important;
     color: white !important;
   }
