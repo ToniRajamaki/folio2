@@ -24,6 +24,15 @@ height: 450px !important;
     max-height: 80%;
     overflow: auto;
   }
+  .carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    /* padding-right: 50px; */
+    width: 80%
+  }
+  
   .modal-header {
     display: flex;
     justify-content: space-between;
@@ -34,6 +43,16 @@ height: 450px !important;
   .project-title {
     margin: 0;
   }
+
+  .swiper-pagination{
+    position:initial !important;
+  }
+  .swiper-pagination-bullet{
+    /* font-size: xx-large !important; */
+    width: 0.9em !important;
+    height: 0.9em !important;
+  }
+
   
   
   .buttons-container {

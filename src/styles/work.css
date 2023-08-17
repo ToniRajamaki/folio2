@@ -28,12 +28,36 @@
 
 
 .carousel-img {
-    border: 2px solid #333 !important; /* Customize the border color and size as needed */
-    border-radius: 4px; /* Optional: Add border radius for rounded corners */
-    width: 720px !important;
+    /* padding: 100px,0px !important; */
+    border-top: 2px solid #516CF7 !important; /* Customize the border color and size as needed */
+    border-bottom: 2px solid #516CF7 !important; /* Customize the border color and size as needed */
+    width: 750px !important;
+    /* justify-content: center; */
     height: 380px!important;
+    /* padding: 0 50px !important; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+      color: #516CF7;
+      font-size: 32px !important; /* Adjust size as needed */
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      border-radius: 20%;
+      top: 25% !important;
+  }
+  
+  .swiper-button-prev:hover:after,
+  .swiper-button-next:hover:after {
+      background-color: rgba(0, 0, 0, 0.5); /* Light background on hover */
+      color:white;
+  }
+  
+  
+  
 
 
 
@@ -50,7 +74,7 @@
 .work__item{
     cursor: pointer;
     color: var(--title-color);
-    ndding: 0.25rem 0.75rem;
+    padding: 0.25rem 0.75rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
     text-transform: capitalize;

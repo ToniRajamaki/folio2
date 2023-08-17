@@ -10,7 +10,7 @@ import '../styles/work.css'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
-import 'swiper/css/navigation';
+import 'swiper/css/navigation'
 
 const TestimonialCarousel = ({ testimonials }) => {
   useEffect(() => {
@@ -27,20 +27,21 @@ const TestimonialCarousel = ({ testimonials }) => {
       loop={true}
       navigation={true}
       grabCursor={true}
-      spaceBetween={24}
+      spaceBetween={0}
       pagination={{
         clickable: true,
       }}
       breakpoints={{
         576: {
           slidesPerView: 1,
+          spaceBetween: 0,
         },
-        768: {
+        750: {
           slidesPerView: 1,
-          spaceBetween: 48,
+          spaceBetween: 0,
         },
       }}
-      modules={[Navigation,Pagination]}
+      modules={[Navigation, Pagination]}
     >
       {testimonials.map((el, i) => (
         <SwiperSlide key={i}>

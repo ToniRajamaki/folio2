@@ -38,8 +38,10 @@ const Modal = ({
           </div>
         </div>
         <div className='modal-body'>
-          {/* <img className='modal_img' src={image} alt='Project' /> */}
+          <div className="carousel-container">
+
           <TestimonialCarousel theme='light' testimonials={images} />
+          </div>
           <p>
             Description: This is the modal content. You can put any information
             here.

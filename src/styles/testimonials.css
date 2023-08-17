@@ -1,5 +1,6 @@
 .testimonial__container{
     width: 750px;
+    
 }
 .testimonial__card{
     background-color: var(--container-color);
