@@ -20,30 +20,49 @@ height: 450px !important;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    /* max-width: 80%; */
-    max-height: 80%;
+    width: 45%;
+    max-height: 90%;
+    white-space: nowrap;
     overflow: auto;
+    text-overflow: ellipsis;
+    position:relative;
+    bottom:-37px;
+   
   }
+.modal-description{
+  white-space:pre-line;
+  text-align: justify;
+  width: 80%;
+  /* justify-content: flex-start; */
+  
+}
+
   .carousel-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
-    /* padding-right: 50px; */
-    width: 80%
+    width: 80%;
+    overflow: hidden !important;
   }
   
   .modal-header {
     display: flex;
     justify-content: space-between;
+    /* background-color: #000000; */
     align-items: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 25px; */
+    padding-bottom: 4px;
+    /* border-bottom: 4px solid #516CF7; */
+
+  }
+  .modal-feature{
+    align-items:center;
   }
   
   .project-title {
-    margin: 0;
+    /* margin: 0; */
   }
- 
+
   
   
   .buttons-container {
@@ -54,40 +73,54 @@ height: 450px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+  
+
   }
   
   .modal-body img {
+    
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px;
   }
   
   .feature-list {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: space-evenly;
     gap: 10px;
+    width: 100%;
   }
   
   .modal-footer {
+    padding-top: 12px;
     display: flex;
-    margin-top: 10px;
+    margin-left: 20px;
+    /* gap: 10px; */
+    justify-content: space-between;
+    width: 100%;
+  }
+  .footer_buttons{
+    display: flex;
+    gap: 12px;
   }
   
   .modal-close-button,
   .demo,
   .code {
-    padding: 8px 16px;
-    margin: 0 8px;
+    /* padding: 8px 16px; */
+    /* pr12px; */
     cursor: pointer;
     font-size: medium;
     display: flex;
-    align-items: center; /* Align vertically center */
+    /* align-items: center; Align vertically center */
     height: 40px !important;
   }
   
   .modal-close-button {
     background-color: transparent;
-    padding: 2px;
+    /* padding: 2px; */
     
   }
   .modal-close-button:hover,

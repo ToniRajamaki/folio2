@@ -15,9 +15,9 @@ body {
 } */
 
 .swiper {
-  width: 600px;
+  width: 650px;
   /* height: 500px; */
-  padding: 50px;
+  padding:40px;
   /* margin-bottom: 300px; */
 }
 
@@ -61,13 +61,24 @@ body {
     background-color:transparent;
     padding: 10px;
     border-radius: 20%;
-    top: 25% !important;
 }
 
 .swiper-button-prev:hover:after,
 .swiper-button-next:hover:after {
     background-color: rgba(81, 108, 247,0.7); 
     color:white;
+}
+.carousel-img {
+  /* border-top: 2px solid #516CF7 !important; Customize the border color and size as needed */
+  /* border-bottom: 2px solid #516CF7 !important; Customize the border color and size as needed */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 750px !important;
+  /* justify-content: center; */
+  height: 380px!important;
+  /* padding: 0 50px !important; */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 

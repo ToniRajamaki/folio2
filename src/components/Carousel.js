@@ -13,9 +13,10 @@ SwiperCore.use([EffectFlip, Pagination, Navigation]) // Initialize required modu
 
 export default function Carousel() {
   const images = [
-    './folio2/assets/toni/logo.png',
+    'https://images.unsplash.com/photo-1691687824517-a62cfdef9c6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=767&q=80',
     './folio2/assets/toni/profile_picture.png',
     './folio2/assets/toni/atria.png',
+    'https://media.tenor.com/vOtcZhD5vhkAAAAi/bike-bicycle.gif',
   ]
 
   return (

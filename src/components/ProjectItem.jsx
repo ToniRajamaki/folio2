@@ -6,9 +6,13 @@ const ProjectItem = ({ item }) => {
   const [showModal, setShowModal] = useState(false);
 
   const defaultFeatureDescriptions = [
-    "Default feature 1",
-    "Default feature 2",
-    "Default feature 3",
+    "Easy of use",
+    "Delightful UX",
+    "Infromative",
+  ];
+  const techTags = [
+    "JavaScript",
+    "React",
   ];
 
   return (
@@ -32,6 +36,7 @@ const ProjectItem = ({ item }) => {
           featureDescriptions={item.features || defaultFeatureDescriptions}
           image={item.image}
           description={item.description || "Default description"}
+          techTags={techTags}
         />
       )}
     </div>

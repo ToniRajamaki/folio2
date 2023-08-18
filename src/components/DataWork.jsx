@@ -3,9 +3,9 @@ export const projectsData = [
   {
     id: 1,
     image: "./folio2/assets/toni/logo.png",
-    title: "Lavage",
+    title: "This portfolio",
     category: "web",
-    video: "/assets/lavagee.mp4",
+    description:"This is one my latest works, a highly interactive personal website that multitude of features. Designed with care, it has unobtrusive animations that lend a hint of charm to the browsing experience. As you navigate the simple layout, I hope you find something of interest."
   },
   {
     id: 2,
