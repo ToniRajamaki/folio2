@@ -11,13 +11,13 @@ import '../styles/carousel.css'
 import SwiperCore, { EffectFlip, Pagination, Navigation } from 'swiper'
 SwiperCore.use([EffectFlip, Pagination, Navigation]) // Initialize required modules
 
-export default function Carousel() {
-  const images = [
-    'https://images.unsplash.com/photo-1691687824517-a62cfdef9c6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=767&q=80',
-    './folio2/assets/toni/profile_picture.png',
-    './folio2/assets/toni/atria.png',
-    'https://media.tenor.com/vOtcZhD5vhkAAAAi/bike-bicycle.gif',
-  ]
+export default function Carousel({images}) {
+  // const images = [
+  //   'https://images.unsplash.com/photo-1691687824517-a62cfdef9c6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=767&q=80',
+  //   './folio2/assets/toni/profile_picture.png',
+  //   './folio2/assets/toni/atria.png',
+  //   'https://media.tenor.com/vOtcZhD5vhkAAAAi/bike-bicycle.gif',
+  // ]
 
   return (
     <Swiper
@@ -28,13 +28,9 @@ export default function Carousel() {
       navigation={true}
       className='mySwiper'
     >
-      {images.map(
-        (
-          image,
-          i // Changed 'testimonials.map' to 'images.map'
-        ) => (
+      {images.map( ( image,i ) => (
           <SwiperSlide key={i}>
-            <img src={image} alt='carousel-img' className='carousel-img' />{' '}
+            <img key={i} src={image} alt='carousel-img' className='carousel-img' />{' '}
             {/* Changed 'images[i]' to 'image' */}
           </SwiperSlide>
         )

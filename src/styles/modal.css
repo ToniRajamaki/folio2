@@ -98,7 +98,8 @@ height: 450px !important;
     display: flex;
     margin-left: 20px;
     /* gap: 10px; */
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 20px;
     width: 100%;
   }
   .footer_buttons{

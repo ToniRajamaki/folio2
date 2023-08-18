@@ -4,11 +4,11 @@ import DemoCarousel from './DemoCarousel'
 import TestimonialCarousel from './TestimonialCarousel'
 import Carousel from './Carousel'
 import TagComponent from './TagComponent'
-const images = [
-  './folio2/assets/toni/logo.png',
-  './folio2/assets/toni/profile_picture.png',
-  './folio2/assets/toni/atria.png',
-]
+// const images = [
+//   './folio2/assets/toni/logo.png',
+//   './folio2/assets/toni/profile_picture.png',
+//   './folio2/assets/toni/atria.png',
+// ]
 const check_icom=<i className="bx bx-badge-check"  style={{ color: '#516CF7', fontSize: 'x-large'}}></i>
 const github_icon = (
   <i
@@ -27,7 +27,7 @@ const Modal = ({
   projectTitle = 'Default Project Title',
   tags = [],
   featureDescriptions = [],
-  image = 'https://rawcdn.githack.com/TeeeJaey/PortFolio/9c2209be855bde844d2b55834e608538c1df7682/src/images/MernPos.png',
+  images = {images},
   description
 }) => {
   return (
@@ -50,7 +50,7 @@ const Modal = ({
           <div className="line"> </div>
           <div className="carousel-container">
 
-          <Carousel theme='light' testimonials={images} />
+          <Carousel theme='light' images={images} />
           </div>
           <div className="modal-description">
 
@@ -74,12 +74,12 @@ const Modal = ({
           </div>
             {/* <div className="line"></div> */}
        
+         <div className="line"></div>
         <div className='modal-footer'>
-         
           <div className='footer_buttons'>
 
-            <button className='demo button'> {externalLink_icon} Demo</button>
             <button button className='code button'>{github_icon} Code</button>
+            <button className='demo button'> {externalLink_icon} Live Demo</button>
           </div>
         </div>
         </div>

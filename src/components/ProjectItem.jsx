@@ -17,7 +17,7 @@ const ProjectItem = ({ item }) => {
 
   return (
     <div className="project__card" key={item.id}>
-      <img src={item.image} alt="project_item_image" className="project__img" />
+      <img src={item.images[0]} alt="project_item_image" className="project__img" />
       <h3 className="project__title">{item.title}</h3>
 
       {/* Button to open the modal */}
@@ -34,7 +34,7 @@ const ProjectItem = ({ item }) => {
           onClose={() => setShowModal(false)}
           projectTitle={item.title}
           featureDescriptions={item.features || defaultFeatureDescriptions}
-          image={item.image}
+          images={item.images}
           description={item.description || "Default description"}
           techTags={techTags}
         />
