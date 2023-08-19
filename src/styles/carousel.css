@@ -72,9 +72,10 @@ body {
   /* border-top: 2px solid #516CF7 !important; Customize the border color and size as needed */
   /* border-bottom: 2px solid #516CF7 !important; Customize the border color and size as needed */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  width: 750px !important;
+  width: auto !important;
   /* justify-content: center; */
-  height: 380px!important;
+  height: auto!important;
+  max-height: 380px;
   /* padding: 0 50px !important; */
   display: flex !important;
   justify-content: center !important;
