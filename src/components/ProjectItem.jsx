@@ -7,7 +7,10 @@ const ProjectItem = ({ item }) => {
 
   return (
     <div className="project__card" key={item.id}>
+      <div className="project__img">
+
       <img src={item.images[0]} alt="project_item_image" className="project__img" />
+      </div>
       <h3 className="project__title">{item.title}</h3>
 
       {/* Tags */}

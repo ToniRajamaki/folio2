@@ -3,6 +3,9 @@
     border-radius: 5%;
     padding: 15px;
     transition: box-shadow 0.2s ease-in-out;
+    max-height: 300px;
+    background-color: #ffffff;
+    width: 300px;
   }
   
   .project__card:hover {
@@ -14,8 +17,11 @@
 
 
 .project__img{
-    width: 320px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-height: 200px;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
 }
 
 .project__button{
@@ -82,11 +88,28 @@
     color: var(--container-color) !important;
 }
 
+
+
 .work__container{
-    grid-template-columns:repeat(2,max-content) ;
+    grid-template-columns:repeat(3,max-content) ;
     gap: 3rem;
     justify-content: center;
 }
+.container3 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+.grid2 {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+
+
+
+
 .work__card{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -96,8 +119,8 @@
 
 }
 .work__img{
-    width: 295px;
-    height: 190px;
+    /* width: 295px; */
+    /* height: 190px; */
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
