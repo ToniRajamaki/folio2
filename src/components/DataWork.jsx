@@ -74,18 +74,12 @@ export const projectsData = [
   {
     id: 8,
     title: "Tampere Bus Algorithms",
-    images: ["./folio2/assets/projects/misc/bus.png"],
+    images: ["./folio2/assets/projects/misc/bus.png","./folio2/assets/projects/misc/bus2.png"],
     category: "app",
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
-  },
-  {
-    id: 9,
-    title: "Sword Stacker",
-    images: ["./folio2/assets/toni/logo.png"],
-    category: "app",
-    video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Optimized Data Handling using unordered_maps selected for efficient handling of frequent functions achieving O(N) insertion, removal, and Θ(1) search. used vectors for less critical tasks due to their user-friendly nature.",
+    tags:["C++","Optimization"],
+    features:["Asymptotic Efficiecny","Optimized","Adaptive Algorithms"]
   },
   {
     id: 10,
@@ -118,7 +112,7 @@ export const projectsData = [
     description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
   },
   {
-    id: 12,
+    id: 13,
     title: "Mini Web project collection",
     images: [
       "./folio2/assets/projects/mini_projects/ez1.png",
