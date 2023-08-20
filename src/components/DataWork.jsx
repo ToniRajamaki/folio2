@@ -5,7 +5,9 @@ export const projectsData = [
     images: ["./folio2/assets/toni/logo.png"],
     title: "Portfolio Project",
     category: "web",
-    description:"This is one my latest works, a highly interactive personal website that multitude of features. Designed with care, it has unobtrusive animations that lend a hint of charm to the browsing experience. As you navigate the simple layout, I hope you find something of interest."
+    description:"This is one my latest works, a highly interactive personal website that multitude of features. Designed with care, it has unobtrusive animations that lend a hint of charm to the browsing experience. As you navigate the simple layout, I hope you find something of interest.",
+    tags:["JavaScript","React","UI/UX"],
+    features:["Asymptotic Efficiecny","Optimized","Adaptive Algorithms"]
   },
   {
     id: 2,
@@ -13,11 +15,13 @@ export const projectsData = [
     images: ["./folio2/assets/projects/misc/tetris.png"],
     category: "App",
     video: "/assets/camping.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["C++"],
+    features:["Asymptotic Efficiecny","Optimized","Adaptive Algorithms"]
   },
   {
     id: 3,
-    title: "FUZU",
+    title: "FUZU 3D Mobile Game",
     images: ["./folio2/assets/projects/fuzu/fuzu1.png",
     "./folio2/assets/projects/fuzu/fuzu2.gif",
     "./folio2/assets/projects/fuzu/fuzu3.jpg",
@@ -26,7 +30,9 @@ export const projectsData = [
   ],
     category: "App",
     video: "/assets/CloneYoutube.mkv",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["C#","Unity"],
+    features:["3D Platformer","Beautiful lvl Design","Skill tree","Highly Optimized"]
   },
   {
     id: 4,
@@ -34,7 +40,9 @@ export const projectsData = [
     images: ["./folio2/assets/projects/misc/pirkanmaan_valloitus.png",],
     category: "App",
     video: "/assets/gym.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["C++","Pair Programming"],
+    features:["Multiplayer","Random-Gen map","5 Unique resources"]
   },
   {
     id: 5,
@@ -42,7 +50,9 @@ export const projectsData = [
     images: ["./folio2/assets/projects/suez/suez1.png","./folio2/assets/projects/suez/suez2.png","./folio2/assets/projects/suez/suez3.png"],
     category: "App",
     video: "/assets/movie.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["C#","Unity"],
+    features:["Clicker Game","Trending","Immersive Audio design"]
   },
   {
     id: 6,
@@ -55,7 +65,9 @@ export const projectsData = [
   ],
     category: "App",
     video: "/assets/todo.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["C#","Unity"],
+    features:["Highly Optimized","Highly Randomized","Stunning Visuals","40% D1 Retention"]
   },
 
   {
