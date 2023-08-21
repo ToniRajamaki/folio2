@@ -3,11 +3,12 @@
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .footer__container{
+    background-color: #516CF7;
     padding: 2rem 0;
 }
 .footer__title,
 .footer__link{
-    color: var(--title-color);
+    color: #fff;
 }
 .footer__title{
     text-align: center;
@@ -29,7 +30,7 @@
 }
 .footer__social-link{
     background-color: var(--title-color);
-    color: var(--container-color);
+    color: #fff;
     font-size: 1.125rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
@@ -41,7 +42,7 @@
 .footer__copy{
     display: block;
     margin-top: 4rem;
-    color: var(--title-color);
+    color: #fff;
     text-align: center;
     font-size: var(--smaller-font-size);
 }

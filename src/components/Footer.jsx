@@ -2,7 +2,7 @@ import "../styles/footer.css";
 
 const Footer = ({ theme }) => {
   return (
-    <footer className="footer " id={theme}>
+    <footer className="" id={theme}>
       <div className="footer__container">
         <h1 className="footer__title"></h1>
 

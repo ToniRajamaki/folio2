@@ -21,7 +21,7 @@ const Contact = ({ theme }) => {
         <span className="section__subtitle">Contact Me</span>
         <div className="contact__container container grid">
           <div className="contact__content">
-            <h3 className="contact__title">Contact</h3>
+            {/* <h3 className="contact__title">Contact</h3> */}
             <div className="contact__info">
 
               {/* EMAIL */}

@@ -1,15 +1,21 @@
 .contact__container {
-    grid-template-columns: repeat(2, max-content);
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: repeat(2, max-content); */
     justify-content: center;
     /* column-gap: 6rem; */
     padding-bottom: 3rem;
 }
 
+.contact {
+    /* background: linear-gradient(to bottom, white, rgba(81, 108, 247, 1)); */
+}
+
 .contact__card:hover{
 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 110px rgba(255, 255, 255, 1);
     border: 2px solid #516CF7;
-    background-color: var(--container-color-hover); /* Define the hover background color */
+    /* background-color: var(--container-color-hover); Define the hover background color */
     cursor: pointer;
 }
 
@@ -21,17 +27,18 @@
 }
 
 .contact__info {
-    display: grid;
-    row-gap: 1rem;
-    grid-template-columns: 300px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .contact__card {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 0.75rem;
     text-align: center;
+    width: 300px;
 }
 
 .contact__card-icon {
