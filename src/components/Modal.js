@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react';
 import '../styles/modal.css'
 import DemoCarousel from './DemoCarousel'
 import TestimonialCarousel from './TestimonialCarousel'
@@ -31,18 +31,67 @@ const close_icon = (
     style={{ color: '#516CF7', fontSize: '2.5rem' }}
   ></i>
 )
-const Modal = ({
+const onOutsideClick = (e) => { 
+  console.log('e.target', e.target)
+    console.log("OSUI!!");
+  
+ }
+ const Modal = ({
   onClose,
   projectTitle = 'Default Project Title',
   tags = [],
-  features = { features },
-  images = { images },
+  features = [],
+  images = [],
   description,
   item,
 }) => {
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        modalRef.current &&
+        !modalRef.current.contains(event.target) &&
+        !event.target.classList.contains('fullscreen-modal')
+      ) {
+        onClose();
+      }
+    };
+  
+    document.addEventListener('mousedown', handleClickOutside);
+  
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [onClose]);
+  
+
+  const check_icon = (
+    <i
+      className='bx bx-badge-check'
+      style={{ color: '#516CF7', fontSize: 'x-large' }}
+    ></i>
+  );
+  const github_icon = (
+    <i
+      className='bx bxl-github'
+      style={{ color: '#516CF7', fontSize: 'x-large' }}
+    ></i>
+  );
+  const externalLink_icon = (
+    <i className='bx bx-link-external' style={{ fontSize: 'x-large' }}></i>
+  );
+  const close_icon = (
+    <i
+      className='bx bx-x-circle'
+      style={{ color: '#516CF7', fontSize: '2.5rem' }}
+    ></i>
+  );
+
   return (
-    <div className='fullscreen-modal'>
-      <div className='modal-content'>
+    <div className='modal-bg'>
+      <div className='fullscreen-modal' ref={modalRef}></div>
+      <div className='modal-content' ref={modalRef}>
         <div className='modal-header'>
           <h1 className='project-title'>{projectTitle}</h1>
           <div className='footer-tags'>
@@ -52,7 +101,6 @@ const Modal = ({
               </span>
             ))}
           </div>
-
           <div className='buttons-container'>
             <button className='modal-close-button' onClick={onClose}>
               {close_icon}
@@ -60,37 +108,29 @@ const Modal = ({
           </div>
         </div>
         <div className='modal-body'>
-          <div className='line'> </div>
+          <div className='line'></div>
           <div className='carousel-container'>
             <Carousel theme='light' images={images} />
           </div>
-          <div className='modal-description'>
-            {/* <p> */}
-            {description}
-            {/* </p> */}
-          </div>
+          <div className='modal-description'>{description}</div>
           <h3>Features:</h3>
           <div className='feature-list'>
             {features.map((feature, index) => (
               <div key={index} className='skills__data modal-feature'>
-                {check_icom}
+                {check_icon}
                 <div>
-                  <h3 className='skills__name'>{feature}</h3>{' '}
-                  {/* Use feature here */}
+                  <h3 className='skills__name'>{feature}</h3>
                 </div>
               </div>
             ))}
           </div>
-          {/* <div className="line"></div> */}
-
           <div className='line'></div>
           <div className='modal-footer'>
             <div className='footer_buttons'>
-              <button button className='code button'>
+              <button className='code button'>
                 {github_icon} Code
               </button>
               <button className='demo button'>
-                {' '}
                 {externalLink_icon} Live Demo
               </button>
             </div>
@@ -98,7 +138,7 @@ const Modal = ({
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Modal
+export default Modal;

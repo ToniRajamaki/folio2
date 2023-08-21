@@ -6,7 +6,7 @@ const ProjectItem = ({ item }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div  className="project__card" key={item.id}>
+    <div onClick={() => setShowModal(true)} className="project__card" key={item.id}>
       <div className="project__img">
 
       <img src={item.images[0]} alt="project_item_image" className="project__img" />
