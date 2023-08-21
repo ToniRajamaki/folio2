@@ -81,7 +81,9 @@ export const projectsData = [
   ],
     category: "app",
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["C#","Unity"],
+    features:["Create Luxurious Drinks","Cool Animated processes","Make money with your drinks"]
   },
   {
     id: 8,
@@ -95,11 +97,13 @@ export const projectsData = [
   },
   {
     id: 10,
-    title: "CIFAR-10 Image Recognition",
+    title: "Image Recognition",
     images: ["./folio2/assets/projects/cifar10/cifar2.png","./folio2/assets/projects/cifar10/cifar1.jpg"],
     category: "app",
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["Python","Keras","TensorFlow"],
+    features:["Trains With Data","Multiple Classifier Methods","Bayesian","Performance analysis"]
   },
   {
     id: 11,
@@ -111,7 +115,9 @@ export const projectsData = [
   ],
     category: "app",
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["C#","VR","AR"],
+    features:["Augment Food","Real-Time Application","Calibration & Testing"]
   },
   {
     id: 12,
@@ -121,7 +127,9 @@ export const projectsData = [
     "./folio2/assets/projects/ninja_blog/blog2.gif"],
     category: "web",
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["JavaScript","React","Axios"],
+    features:["Write Blogs","Create and Store New ones","Minimalistic Design"]
   },
   {
     id: 13,
@@ -135,7 +143,9 @@ export const projectsData = [
     ],
     category: "web",
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say."
+    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    tags:["JavaScript","React","HTML"],
+    features:["Lots Of Tiny Projects","Careful State Design","API","Axios"]
   },
 
 ];
