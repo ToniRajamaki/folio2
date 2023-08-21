@@ -22,10 +22,10 @@ const Services = ({ theme }) => {
 }, []);
   return (
     <div id={theme}>
-      <section className="services section" id="services" data-aos="fade-up">
+      <section className="services section" id="services" >
         <h2 className="section__title">Services</h2>
         <span className="section__subtitle">What i offer</span>
-        <div className="services__container container grid">
+        <div className="services__container container grid" data-aos="fade-up">
       <ServiceCard
       modal_description={"Modular Mindset: Writing Reusable Code Blocks."}
       icon={arrowIcon}

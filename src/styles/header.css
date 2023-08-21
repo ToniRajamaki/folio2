@@ -48,7 +48,10 @@
 /* active link*/
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    /* color: var(--title-color-dark);
+     */
+     font-weight: 600;
+     border-bottom: 2px solid #516CF7;
 }
 
 /* Change background color*/
@@ -122,7 +125,7 @@
     .nav__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 3rem;
+        gap: 5rem;
     }
 
     .nav__icon {
