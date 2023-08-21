@@ -134,8 +134,16 @@ img {
 
 .section__title_white {
   font-size: var(--h1-font-size);
-  color: white;
+  color: #516CF7;
+  text-shadow:
+    -1px -1px 0 #FFf, /* Red stroke */
+    1px -1px 0 #FFf,  /* Red stroke */
+    -1px 1px 0 #FFf,  /* Red stroke */
+    1px 1px 0 #FFf;   /* Red stroke */
 }
+
+
+
 
 .section__subtitle_light {
   display: block;
