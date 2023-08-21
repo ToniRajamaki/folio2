@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import '../styles/modal.css'
 import DemoCarousel from './DemoCarousel'
 import TestimonialCarousel from './TestimonialCarousel'
@@ -46,24 +46,41 @@ const onOutsideClick = (e) => {
   item,
 }) => {
   const modalRef = useRef(null);
+  const closeButtonRef = useRef(null);
+  const [isOpen, setIsOpen] = useState(true);
+
+  const handleModalClick = (event) => {
+    if (
+      modalRef.current &&
+      !modalRef.current.contains(event.target) &&
+      event.target !== closeButtonRef.current
+    ) {
+      setIsOpen(false);
+      onClose();
+    }
+  };
+
+  const handleModalCloseButtonClick = () => {
+    setIsOpen(false);
+    onClose();
+  };
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        modalRef.current &&
-        !modalRef.current.contains(event.target) &&
-        !event.target.classList.contains('fullscreen-modal')
-      ) {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        setIsOpen(false);
         onClose();
       }
     };
-  
-    document.addEventListener('mousedown', handleClickOutside);
-  
+
+    document.addEventListener('keydown', handleKeyDown);
+
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
     };
   }, [onClose]);
+  
+  
   
 
   const check_icon = (
@@ -89,56 +106,69 @@ const onOutsideClick = (e) => {
   );
 
   return (
-    <div className='modal-bg'>
-      <div className='fullscreen-modal' ref={modalRef}></div>
-      <div className='modal-content' ref={modalRef}>
-        <div className='modal-header'>
-          <h1 className='project-title'>{projectTitle}</h1>
-          <div className='footer-tags'>
-            {tags.map((tag, index) => (
-              <span key={index} className='tag tag-design-12'>
-                {tag}
-              </span>
-            ))}
-          </div>
-          <div className='buttons-container'>
-            <button className='modal-close-button' onClick={onClose}>
-              {close_icon}
-            </button>
-          </div>
-        </div>
-        <div className='modal-body'>
-          <div className='line'></div>
-          <div className='carousel-container'>
-            <Carousel theme='light' images={images} />
-          </div>
-          <div className='modal-description'>{description}</div>
-          <h3>Features:</h3>
-          <div className='feature-list'>
-            {features.map((feature, index) => (
-              <div key={index} className='skills__data modal-feature'>
-                {check_icon}
-                <div>
-                  <h3 className='skills__name'>{feature}</h3>
+    <>
+      {isOpen && (
+        <div
+          className='modal-bg'
+          onMouseDown={handleModalClick}
+          role='presentation'
+        >
+          <div className='fullscreen-modal' ref={modalRef}></div>
+          <div className='modal-content' ref={modalRef}>
+            <div className='modal-header'>
+              <h1 className='project-title'>{projectTitle}</h1>
+              <div className='footer-tags'>
+                {tags.map((tag, index) => (
+                  <span key={index} className='tag tag-design-12'>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <div className='buttons-container'>
+                <button
+                  ref={closeButtonRef}
+                  className='modal-close-button'
+                  onClick={handleModalCloseButtonClick}
+                >
+                  {close_icon}
+                </button>
+              </div>
+            </div>
+            <div className='modal-body'>
+              <div className='line'></div>
+              <div className='carousel-container'>
+                <Carousel theme='light' images={images} />
+              </div>
+              <div className='modal-description'>{description}</div>
+              <h3>Features:</h3>
+              <div className='feature-list'>
+                {features.map((feature, index) => (
+                  <div key={index} className='skills__data modal-feature'>
+                    {check_icon}
+                    <div>
+                      <h3 className='skills__name'>{feature}</h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className='line'></div>
+              <div className='modal-footer'>
+                <div className='footer_buttons'>
+                  <button className='code button'>
+                    {github_icon} Code
+                  </button>
+                  <button className='demo button'>
+                    {externalLink_icon} Live Demo
+                  </button>
                 </div>
               </div>
-            ))}
-          </div>
-          <div className='line'></div>
-          <div className='modal-footer'>
-            <div className='footer_buttons'>
-              <button className='code button'>
-                {github_icon} Code
-              </button>
-              <button className='demo button'>
-                {externalLink_icon} Live Demo
-              </button>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      )}
+    </>
   );
+  
 };
 
 export default Modal;

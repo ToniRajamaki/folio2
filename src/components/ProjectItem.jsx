@@ -25,12 +25,7 @@ const ProjectItem = ({ item }) => {
 
       {/* Button to open the modal */}
       </div>
-      <div>
-
-        <button onClick={() => setShowModal(true)} className="code button">
-          View <i className="bx bx-right-arrow-alt project__button-icon"></i>
-        </button>
-      </div>
+     
 
       {/* Modal */}
       {showModal && (

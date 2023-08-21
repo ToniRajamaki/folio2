@@ -6,6 +6,7 @@
     max-height: 300px;
     background-color: #ffffff;
     width: 300px;
+    cursor: pointer;
   }
   
   .project__card:hover {
