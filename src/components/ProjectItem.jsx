@@ -11,10 +11,12 @@ const ProjectItem = ({ item }) => {
 
       <img src={item.images[0]} alt="project_item_image" className="project__img" />
       </div>
+
+      <div className='title_and_tags'>
+
       <h3 className="project__title">{item.title}</h3>
 
       {/* Tags */}
-        <div className="project__button">
       <div className="project__tags">
         {item.tags && item.tags.map((tag, index) => (
           <span key={index} className='project__tag'>
@@ -22,9 +24,9 @@ const ProjectItem = ({ item }) => {
           </span>
         ))}
       </div>
+        </div>
 
       {/* Button to open the modal */}
-      </div>
      
 
       {/* Modal */}

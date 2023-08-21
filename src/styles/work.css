@@ -1,4 +1,7 @@
 .project__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid #ccc;
     border-radius: 5%;
     padding: 15px;
@@ -7,11 +10,14 @@
     background-color: #ffffff;
     width: 300px;
     cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.2s ease-in-out;
   }
   
   .project__card:hover {
     box-shadow: 0 0 3em 0 rgba(81, 108, 247, 0.9),
       0 0 10px 0 rgba(81, 108, 247, 1);
+      filter: none;
   }
  .project__tag {
     background-color: transparent;
@@ -34,14 +40,14 @@
     max-height: 200px;
   }
   
-  .project__img img {
+  /* .project__img img {
     filter: grayscale(100%);
     transition: filter 0.2s ease-in-out;
-  }
+  } */
   
-  .project__img:hover img {
+  /* .project__img:hover img {
     filter: none;
-  }
+  } */
 
 .project__button{
     display: flex !important;
@@ -50,17 +56,10 @@
 
 
 
-/* CAROUSEL */
-
-
-
-
-
-
-
-
-
-
+.title_and_tags {
+    display: flex;
+    flex-direction: column; /* Reverse the order of the flex items */
+  }
 
 
 .work__filters{
