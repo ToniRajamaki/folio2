@@ -2,7 +2,7 @@
 export const projectsData = [
   {
     id: 11,
-    title: "AR/VR Augmented Food",
+    title: "Taste-Enhancing AR/VR:",
     images: ["./folio2/assets/projects/ar/ar0.png",
     "./folio2/assets/projects/ar/ar1.gif",
     "./folio2/assets/projects/ar/ar2.png",
@@ -10,7 +10,7 @@ export const projectsData = [
   ],
     category: ["ml & ai","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    description: "Leveraged Unity and ARuCo tags to create an immersive app altering food's visual appeal. Bachelor's thesis highlighting how enticing visuals can elevate taste perception.",
     tags:["C#","VR","AR"],
     features:["Augment Food","Real-Time Application","Calibration & Testing"]
   },
@@ -20,13 +20,13 @@ export const projectsData = [
     images: ["./folio2/assets/projects/cifar10/cifar2.png","./folio2/assets/projects/cifar10/cifar1.jpg"],
     category: ["ml & ai","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    description: "Python-based image recognition app delving into Cifar-10 dataset. Explored classifiers' impact on results, yielding captivating insights and an enjoyable project journey.",
     tags:["Python","Keras","TensorFlow"],
     features:["Trains With Data","Multiple Classifier Methods","Bayesian","Performance analysis"]
   },
   {
     id: 13,
-    title: "Mini Web project collection",
+    title: "Modular React Creations",
     images: [
       "./folio2/assets/projects/mini_projects/ez1.png",
       "./folio2/assets/projects/mini_projects/ez2.gif",
@@ -36,13 +36,14 @@ export const projectsData = [
     ],
     category: ["web","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
-    tags:["JavaScript","React","HTML"],
+    description: "Collection of React apps/components with meticulous state design, prioritizing reusability. A joyful endeavor, demonstrating the power of well-structured, modular development.",
+    tags:["JavaScript","React","Redux"],
     features:["Lots Of Tiny Projects","Careful State Design","API","Axios"]
   },
   {
     id: 1,
-    images: ["./folio2/assets/toni/logo.png"],
+    images: ["./folio2/assets/projects/misc/portfolio2.png",
+      "./folio2/assets/toni/logo.png"],
     title: "Portfolio Project",
     category: ["web","featured"],
     description:"This is one my latest works, a highly interactive personal website that multitude of features. Designed with care, it has unobtrusive animations that lend a hint of charm to the browsing experience. As you navigate the simple layout, I hope you find something of interest.",
@@ -55,9 +56,9 @@ export const projectsData = [
     images: ["./folio2/assets/projects/misc/tetris.png"],
     category: ["other","featured"],
     video: "/assets/camping.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    description: "C++ Tetris rebirth via Qt Creator's GUI editor. Infused with creativity, this project offered both a playful twist on the classic game and a humorous dance with GUI complexities",
     tags:["C++","Qtcreator"],
-    features:["Asymptotic Efficiecny","Optimized","Adaptive Algorithms"]
+    features:["Tetris with twist","Keep Track of hiscore","Adjust the difficulty"]
   },
   {
     id: 3,
@@ -70,8 +71,8 @@ export const projectsData = [
   ],
   category: ["app","featured"],
   video: "/assets/CloneYoutube.mkv",
-  description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
-  tags:["C#","Unity"],
+  description: "Major 3D project at G3, starring 'Fuzu' the bird. Navigate obstacles, acquire XP and Eggs for advancement. Unveil a world of optimized performance and captivating gameplay.",
+  tags:["C#","Unity","G3"],
   features:["3D Platformer","Beautiful lvl Design","Skill tree","Highly Optimized"]
 },
   {
@@ -80,7 +81,7 @@ export const projectsData = [
     images: ["./folio2/assets/projects/misc/pirkanmaan_valloitus.png",],
     category: ["other"],
     video: "/assets/gym.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    description: "Dive into this resource-driven territory simulator. Outmaneuver your opponent, tactically manage resources, explore 'Pate's deals', and race to construct the decisive nuclear plant for victory.",
     tags:["C++","Pair Programming"],
     features:["Multiplayer","Random-Gen map","5 Unique resources"]
   },
@@ -96,9 +97,9 @@ export const projectsData = [
   ],
   category: ["app","featured"],
     video: "/assets/todo.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
-    tags:["C#","Unity"],
-    features:["Highly Optimized","Highly Randomized","Stunning Visuals","40% D1 Retention"]
+    description: "Crafted at G3, a high-performance, visually stunning roguelike turret game. Engage waves of foes, upgrade with innovative enhancements, and wield new weaponry.",
+    tags:["C#","Unity","G3"],
+    features:["Highly Optimized","Fully Randomized","Stunning Visuals","40% D1 Retention"]
   },
 
   {
@@ -112,8 +113,8 @@ export const projectsData = [
   ],
   category: ["app","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
-    tags:["C#","Unity"],
+    description: "A G3 project where players dives into crafting diverse juices, balancing complexity and delight. Navigate traps, ensuring your creations remain pristine. The juice business awaits your strategic finesse.",
+    tags:["C#","Unity","G3"],
     features:["Create Luxurious Drinks","Cool Animated processes","Make money with your drinks"]
   },
   {
@@ -136,7 +137,7 @@ export const projectsData = [
     "./folio2/assets/projects/ninja_blog/blog2.gif"],
     category: ["web","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
+    description: "Unveiling my first React project, a dynamic blog hub. Immerse in ninja sagas, contribute your narratives. Crafted under YouTube's expert guidance for a stepping stone into web development.",
     tags:["JavaScript","React","Axios"],
     features:["Write Blogs","Create and Store New ones","Minimalistic Design"]
   },
@@ -146,8 +147,8 @@ export const projectsData = [
     images: ["./folio2/assets/projects/suez/suez1.png","./folio2/assets/projects/suez/suez2.png","./folio2/assets/projects/suez/suez3.png"],
     category: ["app"],
     video: "/assets/movie.mp4",
-    description: "Description is the text that do go here, idk if it should be 2 or 3 lines. but probably three i would say.",
-    tags:["C#","Unity"],
+    description: "G3's quick gem spun from Suez Canal saga. Simple clicker game with depth. Witness random animations, NPC camaraderie, and vibrant sounds for an immersive adventure.",
+    tags:["C#","Unity","G3"],
     features:["Clicker Game","Trending","Immersive Audio design"]
   },
 
