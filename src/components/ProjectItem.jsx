@@ -39,6 +39,8 @@ const ProjectItem = ({ item }) => {
           description={item.description || "Default description"}
           tags={item.tags || ["Nope"]}
           item={item}
+          codeURL={item.codeURL}
+          demoURL={item.demoURL}
         />
       )}
     </div>

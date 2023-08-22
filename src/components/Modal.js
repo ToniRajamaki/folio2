@@ -44,6 +44,8 @@ const onOutsideClick = (e) => {
   images = [],
   description,
   item,
+  codeURL,
+  demoURL
 }) => {
   const modalRef = useRef(null);
   const closeButtonRef = useRef(null);
@@ -153,13 +155,24 @@ const onOutsideClick = (e) => {
               </div>
               <div className='line'></div>
               <div className='modal-footer'>
-                <div className='footer_buttons'>
-                  <button className='code button'>
-                    {github_icon} Code
-                  </button>
-                  <button className='demo button'>
-                    {externalLink_icon} Live Demo
-                  </button>
+              <div className='footer_buttons'>
+                  {/* Only show the button and link if demoURL is not null */}
+                  {demoURL && (
+                    <a href={demoURL} target='_blank' rel='noopener noreferrer'>
+                      <button className='demo button'>
+                        {externalLink_icon} Live Demo
+                      </button>
+                    </a>
+                  )}
+
+                  {/* Only show the button and link if codeURL is not null */}
+                  {codeURL && (
+                    <a href={codeURL} target='_blank' rel='noopener noreferrer'>
+                      <button className='code button'>
+                        {github_icon} Code
+                      </button>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
