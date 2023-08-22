@@ -24,6 +24,7 @@ export default function Carousel({ images }) {
       {images.map((image, i) => (
         <SwiperSlide key={i}>
           <img src={image} alt='carousel-img' className='carousel-img' />
+          <img src="https://media.tenor.com/xnZaQ3O98dMAAAAC/thinking-processing.gif" alt='carousel-img' className='loading' />
         </SwiperSlide>
       ))}
     </Swiper>

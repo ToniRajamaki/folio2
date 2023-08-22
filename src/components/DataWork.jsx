@@ -46,8 +46,7 @@ export const projectsData = [
   },
   {
     id: 1,
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/portfolio2.png?raw=true",
-      "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/logo.png?raw=true"],
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/portfolio2.png?raw=true"],
     title: "Portfolio Project",
     category: ["web","featured"],
     description:"This is one my latest works, a highly interactive personal website that multitude of features. Designed with care, it has unobtrusive animations that lend a hint of charm to the browsing experience. As you navigate the simple layout, I hope you find something of interest.",
@@ -157,7 +156,7 @@ export const projectsData = [
   {
     id: 5,
     title: "Suez Unblocker",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez1.png?raw=true",".https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez3.png?raw=true"],
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez1.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez3.png?raw=true"],
     category: ["app"],
     video: "/assets/movie.mp4",
     description: "G3's quick gem spun from Suez Canal saga. Simple clicker game with depth. Witness random animations, NPC camaraderie, and vibrant sounds for an immersive adventure.",
