@@ -1,28 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import { projectsData } from './DataWork';
-import { projectsNav } from './DataWork';
+import { projectsData, projectsNav } from './DataWork'; // Make sure to import projectsNav too
 import ProjectItem from './ProjectItem';
 import "../styles/work.css";
 
 const Projects = ({ theme }) => {
-  // State for the selected filter item and projects list
   const [selectedItem, setSelectedItem] = useState({ name: "all" });
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Update the projects list when the selected item changes
   useEffect(() => {
     if (selectedItem.name === "all") {
       setFilteredProjects(projectsData);
     } else {
       const newFilteredProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === selectedItem.name;
+        return (
+          project.category.includes(selectedItem.name) ||
+          project.tags.includes(selectedItem.name)
+        );
       });
       setFilteredProjects(newFilteredProjects);
     }
   }, [selectedItem]);
 
-  // Handle the filter item click and update the selected item and active index
   const handleItemClick = (e, index) => {
     setSelectedItem({ name: e.target.textContent.toLowerCase() });
     setActiveIndex(index);

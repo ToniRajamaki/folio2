@@ -23,15 +23,16 @@ function Education() {
     >
       <div
         style={{
-          backgroundColor: 'rgba(0, 0, 0, 0.4)',
+          // backgroundColor: 'rgba(0, 0, 0, 0.3)',
+          backgroundColor: 'rgba(255, 255, 255, 0.4)',
           display: 'flex',
           flexDirection: 'column',
           height: '100%', // Make sure the inner content fills the parent's fixed height
         }}
       >
         <section className='about section ' id='about'>
-          <h2 className='section__title_white'>Education</h2>
-          <span className='section__subtitle_light'>My Degrees</span>
+          <h2 className='section__title'>Education</h2>
+          <span className='section__subtitle'>My Degrees</span>
           <div className='cards-container container grid2' data-aos='fade-up'>
             <a href='https://www.tuni.fi/en/study-with-us/human-technology-interaction-computing-sciences'>
               <div className='card'>
