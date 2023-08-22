@@ -49,7 +49,7 @@ const Header = ({ toggleTheme, theme }) => {
           //   activeNav === "#home" ? "nav__link active-link" : "nav__link"
           // }
         >
-          <img className="nav__logo" src="./folio2/assets/toni/logo.png" alt="" />
+          <img className="nav__logo" src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/logo.png?raw=true" alt="" />
         </a>
   
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>

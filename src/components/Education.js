@@ -15,7 +15,7 @@ function Education() {
     <div
       style={{
         height: '80vh', // Set a fixed height for the parent div
-        backgroundImage: `url('./folio2/assets/toni/tau.png')`,
+        backgroundImage: `url('https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau.png?raw=true')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -42,7 +42,7 @@ function Education() {
                   Master's Degree (Tech)`}
                   duration='2021-2023'
                   description='• Long Major: Human-Technology Interaction'
-                  imageSrc='./folio2/assets/toni/tau_logo.png'
+                  imageSrc='https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau_logo.png?raw=true'
                 />
               </div>
             </a>
@@ -54,7 +54,7 @@ function Education() {
                   duration='2021 - 2022'
                   description={`• Business operations development
                 • Productization, Sales & Marketing`}
-                  imageSrc='./folio2/assets/toni/ahlman.png'
+                  imageSrc='https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/ahlman.png?raw=true'
                 />
               </div>
             </a>
@@ -67,7 +67,7 @@ function Education() {
                   duration='2018-2021'
                   description={`• Major: Signal Processing
                 • Minor: Industrial Economics`}
-                  imageSrc='./folio2/assets/toni/tau_logo.png'
+                  imageSrc='https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau_logo.png?raw=true'
                 />
               </div>
             </a>

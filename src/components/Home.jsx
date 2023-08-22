@@ -15,7 +15,7 @@ const Home = ({theme}) => {
 
             <div className="home__img">
               <img
-                src="./folio2/assets/toni/profile_picture.png"
+                src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/profile_picture.png?raw=true"
                 alt="about__img"
                 className="home__img"
               />

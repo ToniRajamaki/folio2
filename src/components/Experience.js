@@ -23,7 +23,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jan 2021 - Dec 2022',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/gitgudgames.png',
+      imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/gitgudgames.png?raw=true',
       workPlace: 'Git Gud Games®',
       time: "2 Years"
     },
@@ -38,7 +38,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'May 2019 - Jun 2019',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/atria.png',
+      imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/atria.png?raw=true',
       workPlace: 'Atria®',
       time: "2 Months"
     },
@@ -54,7 +54,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'May 2018 - Aug 2018',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/datakaistalogo.png',
+      imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/datakaistalogo.png?raw=true',
       workPlace: 'Datakaista®',
       time: "4 Months"
     },
@@ -70,7 +70,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jul 2016 - Jul 2017',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/unico.png',
+      imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/unico.png?raw=true',
       workPlace: 'Unico®',
       time: "1 Year"
     },
@@ -85,7 +85,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jun 2015 - Aug 2015',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/kauhava.png',
+      imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/kauhava.png?raw=true',
       workPlace: 'City of Kauhava',
       time:"3 Months"
     },
@@ -100,7 +100,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jun 2014 - Aug 2014',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/kauhava.png',
+      imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/kauhava.png?raw=true',
       workPlace: 'City of Kauhava',
       time:"3 Months"
     },
@@ -115,7 +115,7 @@ function Experience() {
       buttonText: 'View Frontend Projects',
       date: 'Jun 2013 - Jul 2013',
       icon: 'work',
-      imageSrc: './folio2/assets/toni/virrankoski.png',
+      imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/virrankoski.png?raw=true',
       workPlace: 'Rakennusliike Virrankoski®',
       time:"2 Months"
     },
