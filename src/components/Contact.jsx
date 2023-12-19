@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
+import ContactCard from "./ContactCard";
 
 const Contact = ({ theme }) => {
   const form = useRef();
@@ -25,7 +26,7 @@ const Contact = ({ theme }) => {
             <div className="contact__info">
 
               {/* EMAIL */}
-              <a href="mailto:zingoo16@gmail.com">
+              {/* <a href="mailto:zingoo16@gmail.com">
 
               <div className="contact__card">
                 <i className="bx bx-mail-send contact__card-icon"></i>
@@ -44,7 +45,8 @@ const Contact = ({ theme }) => {
                     ></i>
                 </a>
               </div>
-                    </a>
+                    </a> */}
+                    <ContactCard></ContactCard>
 
 {/* WHATSPP */}
           <a href="https://api.whatsapp.com/send?phone=+358443376433&text=Hello!">
@@ -66,7 +68,8 @@ const Contact = ({ theme }) => {
                     </a>
 
 {/* LINKEDIN */}
-<a href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/">
+<a href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
+target='_blank'>
 
               <div className="contact__card">
                 <i className="bx bxl-messenger contact__card-icon"></i>
@@ -74,9 +77,10 @@ const Contact = ({ theme }) => {
                 <span className="contact__card-data">Toni Rajamäki</span>
                 <a
                   href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
+                  target='_blank'
                   className="contact__button"
                   >
-                  Write me{" "}
+                  Connect with me{" "}
                   <i
                     className="bx bx-right-arrow-alt
                     contact__button-icon"

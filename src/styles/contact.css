@@ -103,6 +103,14 @@
     padding: 1.5rem;
     z-index: 1;
 }
+.contact__button.copied,
+.copied-icon {
+  color: #516CF7;
+  font-weight: 800; /* Green shade similar to #9251F7 */
+}
+
+/* Rest of your CSS for contact__button and other elements */
+
 
 .contact__form-tag {
     position: absolute;
