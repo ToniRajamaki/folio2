@@ -32,7 +32,7 @@ function App() {
         <Header toggleTheme={toggleTheme} theme={theme} />
         <main className='main'>
           <Home theme={theme} />
-          <Services theme={theme} />
+          {/* <Services theme={theme} /> */}
           {/* <About theme={theme} /> */}
           <Skills theme={theme} />
           <Education></Education>

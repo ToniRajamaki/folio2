@@ -43,6 +43,10 @@ height: 450px !important;
     bottom:-37px;
    
   }
+
+  .modal-contet :hover{
+    cursor: default;
+  }
 .modal-description{
   white-space:pre-line;
   text-align: justify;

@@ -86,8 +86,9 @@
 
 .education-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 50px rgba(81, 108, 247, 0.8);
-  border: 6px solid #516CF7;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 50px rgba(81, 108, 247, 0.8);
+   */
+  border: 3px solid #516CF7;
 }
 
 .education-card:hover .rounded-image {
@@ -99,5 +100,5 @@
 }
 
 .education-card:hover {
-  cursor: pointer;
+  cursor: alias;
 }

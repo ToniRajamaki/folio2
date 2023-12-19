@@ -7,7 +7,7 @@ function DownloadCVButton() {
       {' '}
       <a
         download=''
-        href='assets/toniCV.pdf'
+        href='assets/Toni_Rajamäki_CV.pdf'
         className='button_small button--flex'>
         Download CV
         <svg

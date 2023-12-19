@@ -63,7 +63,7 @@ const Header = ({ toggleTheme, theme }) => {
       Home
     </Link>
   </li>
-  <li className="nav__item">
+  {/* <li className="nav__item">
     <Link
       to="services"
       spy={true}
@@ -75,7 +75,7 @@ const Header = ({ toggleTheme, theme }) => {
     >
       Services
     </Link>
-  </li>
+  </li> */}
   <li className="nav__item">
     <Link
       to="skills"

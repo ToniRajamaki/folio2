@@ -112,25 +112,27 @@ flex-direction: column;
   .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
       0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
-    transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+    transition: box-shadow 0.24s ease-in-out, transform 0.24s ease-in-out;
   }
   
   .vertical-timeline-element-content:hover {
-    box-shadow: 0 0 3em 0 rgba(81, 108, 247, 0.9),
-      0 0 10px 0 rgba(81, 108, 247, 1);
+    /* box-shadow: 0 0 2em 0 rgba(81, 108, 247, 0.9),
+      0 0 3px 0 rgba(81, 108, 247, 1); */
+      border: 2px solid #516CF7;
     transform: scale(1.25);
+    cursor: zoom-in;
   }
   
   .vertical-timeline-element-content:hover > .vertical-timeline-element-date {
     color: #516CF7;
     text-decoration: underline; /* Adding underline */
-    transition: color 0.4s ease-in-out, text-decoration 0.4s ease-in-out; /* Smooth transition for font color and underline */
+    transition: color 0.24s ease-in-out, text-decoration 0.24s ease-in-out; /* Smooth transition for font color and underline */
   }
   
   .vertical-timeline-element-date {
     pointer-events: none;
     text-decoration: none; /* Resetting underline */
-    transition: color 0.4s ease-in-out, text-decoration 0.4s ease-in-out; /* Smooth transition for font color and underline */
+    transition: color 0.24s ease-in-out, text-decoration 0.24s ease-in-out; /* Smooth transition for font color and underline */
   }
   
   

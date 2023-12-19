@@ -19,8 +19,7 @@ function Education() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-      }}
-    >
+      }}>
       <div
         style={{
           // backgroundColor: 'rgba(0, 0, 0, 0.3)',
@@ -28,13 +27,14 @@ function Education() {
           display: 'flex',
           flexDirection: 'column',
           height: '100%', // Make sure the inner content fills the parent's fixed height
-        }}
-      >
+        }}>
         <section className='about section ' id='about'>
           <h2 className='section__title'>Education</h2>
           <span className='section__subtitle'>My Degrees</span>
           <div className='cards-container container grid2' data-aos='fade-up'>
-            <a href='https://www.tuni.fi/en/study-with-us/human-technology-interaction-computing-sciences'>
+            <a
+              href='https://www.tuni.fi/en/study-with-us/human-technology-interaction-computing-sciences'
+              target='_blank'>
               <div className='card'>
                 <EducationCard
                   schoolName='Tampere University'
@@ -46,7 +46,7 @@ function Education() {
                 />
               </div>
             </a>
-            <a href='https://ahlmanedu.fi/'>
+            <a href='https://ahlmanedu.fi/' target='_blank'>
               <div className='card'>
                 <EducationCard
                   schoolName='AhlmanEdu'
@@ -58,7 +58,9 @@ function Education() {
                 />
               </div>
             </a>
-            <a href='https://www.tuni.fi/en/about-us/computing-sciences#switcher-trigger-overview'>
+            <a
+              href='https://www.tuni.fi/en/about-us/computing-sciences#switcher-trigger-overview'
+              target='_blank'>
               <div className='card'>
                 <EducationCard
                   schoolName='Tampere University'
