@@ -164,6 +164,18 @@ export const projectsData = [
     features:["Clicker Game","Trending","Immersive Audio design"],
     demoURL:"https://play.google.com/store/apps/details?id=com.GitGudGamesOy.FreeSuezCanal"
   },
+  //############# UI/UX PROJECTS ###############
+  {
+    id: 5,
+    title: "FitAR",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez1.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez3.png?raw=true"],
+    category: ["UI/UX","all"],
+    video: "/assets/movie.mp4",
+    description: "G3's quick gem spun from Suez Canal saga. Simple clicker game with depth. Witness random animations, NPC camaraderie, and vibrant sounds for an immersive adventure.",
+    tags:["C#","Unity","G3"],
+    features:["Clicker Game","Trending","Immersive Audio design"],
+    demoURL:"https://play.google.com/store/apps/details?id=com.GitGudGamesOy.FreeSuezCanal"
+  },
 
 ];
 
@@ -185,6 +197,9 @@ export const projectsNav = [
   },
   {
     name: "all",
+  },
+  {
+    name: "UI/UX",
   },
 
 ];
