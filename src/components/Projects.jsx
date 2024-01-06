@@ -4,7 +4,7 @@ import ProjectItem from './ProjectItem';
 import "../styles/work.css";
 
 const Projects = ({ theme }) => {
-  const [selectedItem, setSelectedItem] = useState({ name: "all" });
+  const [selectedItem, setSelectedItem] = useState({ name: "featured" });
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
 

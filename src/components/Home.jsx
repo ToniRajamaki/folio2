@@ -24,7 +24,7 @@ const Home = ({theme}) => {
             <Data />
           </div>
           <img src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/waves.svg" width="100%" height="150"></img>
-          {/* <ScrollDown /> */}
+              {/* <ScrollDown /> */}
         </div>
       </section>
     </div>

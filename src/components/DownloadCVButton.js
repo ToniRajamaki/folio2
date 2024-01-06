@@ -7,9 +7,11 @@ function DownloadCVButton() {
       {' '}
       <a
         download=''
-        href='assets/Toni_Rajamäki_CV.pdf'
+        href='https://drive.google.com/file/d/15hEjPiwKp4ZnGCYUUSxLehTkyQVA36-P/view?usp=sharing'
+        // href='assets/Toni_Rajamäki_CV.pdf'
+        target="__blank"
         className='button_small button--flex'>
-        Download CV
+        See my CV
         <svg
           className='button__icon'
           xmlns='http://www.w3.org/2000/svg'
