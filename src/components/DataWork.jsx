@@ -168,7 +168,7 @@ export const projectsData = [
   {
     id: 14,
     title: "FitAR",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/1.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/thumbnail.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/5.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/6.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/4.gif?raw=true"],
@@ -182,7 +182,7 @@ export const projectsData = [
   {
     id: 15,
     title: "FutuMED",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/6.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/thumbnail.jpg?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/1.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/3.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/5.png?raw=true",
@@ -198,7 +198,7 @@ export const projectsData = [
   {
     id: 16,
     title: "Habitica ReDesign",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/habitica_redesign/6.jpg?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/habitica_redesign/thumbnail.jpg?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/habitica_redesign/image 2.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/habitica_redesign/Rectangle 1.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/habitica_redesign/Rectangle 2.png?raw=true",
@@ -233,7 +233,7 @@ export const projectsData = [
   {
     id: 18,
     title: "LibreOffice Settings",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/libreoffice/6.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/libreoffice/thumbnail2.jpg?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/libreoffice/5.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/libreoffice/3.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/libreoffice/1.png?raw=true",
@@ -249,7 +249,7 @@ export const projectsData = [
   {
     id: 20,
     title: "TOAS Heuristic evaluation",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/9.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/thumbnail.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/4.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/5.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/3.png?raw=true",
@@ -280,7 +280,7 @@ export const projectsData = [
   {
     id: 21,
     title: "TALK HOME",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/10.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/thumbnail.jpg?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/1.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/4.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/5.png?raw=true",
