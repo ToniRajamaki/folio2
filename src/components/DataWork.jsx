@@ -266,7 +266,7 @@ export const projectsData = [
     id: 19,
     title: "Feedback Engagement",
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/6.png?raw=true",
-    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/1.gif?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/thumbnail.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/3.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/2.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/5.png?raw=true"],
@@ -276,6 +276,39 @@ export const projectsData = [
     tags:["AR","UI/UX","Product Design","Interaction Design"],
     features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
     demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
+  },
+  {
+    id: 21,
+    title: "TALK HOME",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/10.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/1.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/4.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/5.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/6.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/8.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/3.png?raw=true"],
+    category: ['ui/ux'],
+    video: "/assets/movie.mp4",
+    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
+    tags:["AR","UI/UX","Product Design","Interaction Design"],
+    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
+    demoURL:"https://drive.google.com/drive/folders/1IW9FSVE8lchmszNK4VcD8oQVYco8UkJv?usp=sharing"
+  },
+  {
+    id: 21,
+    title: "FitnessBPM",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/6.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/1.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/2.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/3.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/4.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/5.png?raw=true"],
+    category: ['ui/ux'],
+    video: "/assets/movie.mp4",
+    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
+    tags:["AR","UI/UX","Product Design","Interaction Design"],
+    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
+    demoURL:"https://www.figma.com/proto/vM5s9GExMRFpzVYZAuMsd7/Innovation-course-WIreframes?page-id=0%3A1&type=design&node-id=1-4&viewport=547%2C-77%2C0.94&t=jsuyFro2DdxFAzsL-1&scaling=scale-down&starting-point-node-id=1%3A96&mode=design"
   },
 
 ];
