@@ -295,11 +295,14 @@ export const projectsData = [
     demoURL:"https://drive.google.com/drive/folders/1IW9FSVE8lchmszNK4VcD8oQVYco8UkJv?usp=sharing"
   },
   {
-    id: 21,
+    id: 22,
     title: "FitnessBPM",
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/6.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/1.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/2.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/7.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/8.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/9.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/3.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/4.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/5.png?raw=true"],
