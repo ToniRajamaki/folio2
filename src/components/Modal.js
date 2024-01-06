@@ -141,9 +141,9 @@ const onOutsideClick = (e) => {
               <div className='carousel-container'>
                 <Carousel theme='light' images={images} />
               </div>
-              <div className='modal-description'>{description}</div>
+              {/* Features */}
               <h3>Features:</h3>
-              <div className='feature-list'>
+              <div className='feature-list'> 
                 {features.map((feature, index) => (
                   <div key={index} className='skills__data modal-feature'>
                     {check_icon}
@@ -153,6 +153,8 @@ const onOutsideClick = (e) => {
                   </div>
                 ))}
               </div>
+              {/* Description */}
+              <div className='modal-description'>{description}</div>
               <div className='line'></div>
               <div className='modal-footer'>
               <div className='footer_buttons'>

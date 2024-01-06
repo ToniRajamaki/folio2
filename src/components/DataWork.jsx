@@ -145,7 +145,7 @@ export const projectsData = [
     title: "Ninja Blog",
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ninja_blog/blog0.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ninja_blog/blog1.gif?raw=true",
-    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ninja_blog/blog2.gif?raw=true"],
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ninja_blog/blog2.gif?raw=true,"],
     category: ["web","featured"],
     video: "/assets/gym_mobile.mp4",
     description: "Unveiling my first React project, a dynamic blog hub. Immerse in ninja sagas, contribute your narratives. Crafted under YouTube's expert guidance for a stepping stone into web development.",
@@ -166,15 +166,18 @@ export const projectsData = [
   },
   //############# UI/UX PROJECTS ###############
   {
-    id: 5,
+    id: 14,
     title: "FitAR",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez1.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez3.png?raw=true"],
-    category: ["UI/UX","all"],
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/1.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/4.gif?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/6.gif?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/5.gif?raw=true"],
+    category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "G3's quick gem spun from Suez Canal saga. Simple clicker game with depth. Witness random animations, NPC camaraderie, and vibrant sounds for an immersive adventure.",
-    tags:["C#","Unity","G3"],
-    features:["Clicker Game","Trending","Immersive Audio design"],
-    demoURL:"https://play.google.com/store/apps/details?id=com.GitGudGamesOy.FreeSuezCanal"
+    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
+    tags:["AR","UI/UX","Product Design","Interaction Design"],
+    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
+    demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
   },
 
 ];
@@ -196,11 +199,10 @@ export const projectsNav = [
     name: "other",
   },
   {
-    name: "all",
+    name: 'UI/UX',
   },
   {
-    name: "UI/UX",
-  },
-
+    name: "all",
+  }
 ];
 
