@@ -181,8 +181,8 @@ export const projectsData = [
   },
   {
     id: 15,
-    title: "FitAR",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/1.png?raw=true",
+    title: "FutuMED",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/6.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/5.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/6.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/4.gif?raw=true"],
