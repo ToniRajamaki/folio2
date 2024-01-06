@@ -297,7 +297,7 @@ export const projectsData = [
   {
     id: 22,
     title: "FitnessBPM",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/6.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/thumbnail.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/1.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/2.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/7.png?raw=true",
