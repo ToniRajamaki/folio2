@@ -8,7 +8,7 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar2.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar3.png?raw=true",
   ],
-    category: ["ml & ai","featured"],
+    category: ["other","featured"],
     video: "/assets/gym_mobile.mp4",
     description: "Leveraged Unity and ARuCo tags to create an immersive app altering food's visual appeal. Bachelor's thesis highlighting how enticing visuals can elevate taste perception.",
     tags:["C#","VR","AR"],
@@ -20,7 +20,7 @@ export const projectsData = [
     id: 10,
     title: "Image Recognition",
     images: ["https://github.com/ToniRajamaki/folio2/blob/abf8282d6520d05917c332c64b8e702e58a94076/public/assets/projects/cifar10/cifar2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/cifar10/cifar1.jpg?raw=true"],
-    category: ["ml & ai","featured"],
+    category: ["other","featured"],
     video: "/assets/gym_mobile.mp4",
     description: "Python-based image recognition app delving into Cifar-10 dataset. Explored classifiers' impact on results, yielding captivating insights and an enjoyable project journey.",
     tags:["Python","Keras","TensorFlow"],
@@ -190,10 +190,10 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/2.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
-    demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
+    description: "In our UI/UX project FutuMED, we focused on creating a tool that revolutionizes healthcare by enabling remote and automated monitoring of vital signs. This concept, inspired by team member Kati's insights as a nurse, aims to ease the daily routines of medical professionals. FutuMED integrates digitization and artificial intelligence to display comprehensive data on patients' lifestyles, physical, and mental health. Adhering to rigorous standards like the EU General Data Protection Regulation, it promises to enhance patient care, improve diagnostics, and ensure safety. This project showcases a forward-thinking approach in healthcare technology, emphasizing efficiency and personalized patient care",
+    tags:["Human-centered Design","User research","UX Evaluation"],
+    features:["Vital tracking","Remote Monitoring","Patient profiles"],
+    demoURL:""
   },
   {
     id: 16,
@@ -206,10 +206,10 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/habitica_redesign/image 3.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
-    demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
+    description: "In our UI/UX project, we innovated upon the existing Habitica app, a tool for habit and productivity management. Our approach involved brainstorming new ideas to enhance user motivation, building upon the app's existing framework. We got inspired by Duolingos way of being able to set up wager for goal and thus implemnted such system. We focused on creating interactive designs using Figma, which allowed us to visualize our enhancements in a tangible way. These designs aimed to deepen user engagement by integrating elements of self-determination and goal-setting theories, transforming routine tasks into imaginative quests and incorporating progression features like experience bars and levels. We also enhanced the social aspect of the app by designing more interactive parties, fostering community and peer support. Our process included rigorous testing of these designs to ensure they effectively resonated with users, ultimately aiming to elevate the overall user experience in Habitica.",
+    tags:["UX Design","Wireframing","Product Development"],
+    features:["Reward system","Task Customization","Positive reinforcement"],
+    demoURL:""
   },
   {
     id: 17,
@@ -225,10 +225,10 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sampo/2.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
-    demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
+    description: "A 3 person-project, Sampo, is a web service designed to boost study motivation and encourage physical activity among young people. Its core value proposition is offering an enjoyable way to achieve personal goals alongside friends. A key focus of Sampo is enhancing community spirit within educational institutions and fostering networking among students. The service features student registration by organizations, allowing them to join specific subject communities or class groups. This enables students to freely create their own groups, compete, or organize random events with other groups. Activities range from sports competitions like kyykkä to academic challenges, such as accumulating the most study credits in a year. While primarily aimed at secondary education students, Sampo is open to external participants, broadening its community reach and impact.",
+    tags:["UI/UX Design","Interactive Design","Responsive","Service Design"],
+    features:["Promoting Study motivation","Event Organazing","Community goals & hiscores"],
+    demoURL:"https://www.figma.com/proto/NDfItwans8AxX29clPr0u9/HTI-2-Esiteht%C3%A4v%C3%A4-4-wf?node-id=25-1061&starting-point-node-id=25%3A1061&mode=design&t=VNNUXv6wLGFu5riv-1"
   },
   {
     id: 18,
@@ -241,26 +241,26 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/libreoffice/2.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
-    demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
+    description: "In our five-person project, we collaborated with one of the creators of LibreOffice to redesign its options dialog, aiming to enhance user accessibility and simplify its interface. The original design of LibreOffice, a product of The Document Foundation, was feature-rich but overwhelming for novice users. Our challenge was to balance the needs of different user groups, maintaining functionality while removing clutter. Through user research, including analyzing bug reports and conducting interviews, we identified key areas for improvement. We created an affinity diagram to pinpoint issues in the complex menu and developed a prototype in Figma. Our design emphasized usability, and we worked closely with The Document Foundation using their resources, like a whiteboard, for effective categorization. In the end, the LibreOffice creator was pleased with our work, acknowledging our contribution to making the software more accessible and user-friendly. This collaboration highlighted the importance of user-centered design in open-source software development.",
+    tags:["OpenSource project","UX/UI","User Research","Usability Testing"],
+    features:["Enhanced accessibility","User-Friendly Navigation","Intuitive Design"],
+    demoURL:""
   },
   {
     id: 20,
     title: "TOAS Heuristic evaluation",
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/thumbnail.png?raw=true",
-    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/4.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/2.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/5.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/3.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/7.png?raw=true",
-    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/2.png?raw=true"],
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/4.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
-    demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
+    description: "In our five-member team project, we conducted a usability assessment of the TOAS housing foundation's website, focusing on the perspective of under-25-year-old housing applicants. We carried out the evaluation remotely via Zoom, involving four participants—three on computers and one on a mobile device. Each test session was led by a moderator responsible for task distribution and communication, while two observers silently monitored the proceedings. Our assessment covered 11 tasks related to site navigation, information retrieval, property management, and application form completion, all relevant to a student’s housing search. We identified 22 usability issues, rated on a severity scale from 1 (critical) to 4 (cosmetic), with most problems being significant or minor usability issues. Despite testers initially having a good impression of the site, it was ultimately perceived as somewhat illogical and cumbersome. The housing foundation, TOAS, was very pleased with the thoroughness and insights of our work, rewarding our efforts with movie tickets, a gesture that highlighted their appreciation of our contribution to improving their website's user experience.",
+    tags:["Heuristic Evaluation","Usability Testing","UX  Testing"],
+    features:["User-centric approach","Extensive heuristic evaluation","Usability Tested"],
+    demoURL:""
   },
   {
     id: 19,
@@ -272,10 +272,10 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/5.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
-    demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
+    description: "In our four-person team, we collaborated on a fun and experience-driven project to design an engaging feedback system for restaurants. We observed that many restaurants don't actively collect on-site feedback, and customers often hesitate to voice concerns directly. To address this, we proposed an online feedback system embedded in the restaurant's website, enabling honest post-meal reviews. Our design counters the aggressive tactics seen in current systems, like persistent pop-ups on delivery sites, which can discourage genuine feedback. We also considered the lack of incentives in existing systems; a complicated or unrewarding process might lead to less thoughtful responses. By simplifying the feedback process and integrating it seamlessly into the restaurant's existing online presence, we aimed to make the system beneficial for both customers and restaurants. This approach would encourage honest feedback, making customers feel their opinions are valued and helping restaurants improve their service and offerings.",
+    tags:["Experience Driven Design","UI/UX","Interaction Design"],
+    features:["Responsive Design","User-friendly interface","Minimalistic & Seamless"],
+    demoURL:"https://www.figma.com/proto/vgWK2iVmD49yt4I1e3ycYY/Feedback-system-low-fi-ptototype-design?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&t=NU0coJ3XJq3U5Qzw-1&mode=design"
   },
   {
     id: 21,
@@ -289,9 +289,9 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/3.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
+    description: "In our four-person team, we developed a futuristic smart voice assistant, focusing on enhancing the interaction with smart home devices. This project, rooted in extensive background research, involved expanding on existing speech command technologies while infusing substantial user customization options. Our approach was inspired by current solutions, but we aimed to introduce innovative concepts and features that cater to future needs. Central to our design was the improvement of user experience, especially for those with mobility impairments, achieved through natural language processing and intuitive controls. This assistant not only offered hands-free convenience for busy individuals but also integrated seamlessly with other smart home technologies. Our efforts culminated in creating a more accessible, efficient, and user-friendly smart home environment, demonstrating our commitment to pushing the boundaries of auditory interaction in smart technology.",
+    tags:["UI/UX","Product Design","Human-Centered Design"],
+    features:["Speech Command Recognition","Highly customizable","Home automation"],
     demoURL:"https://drive.google.com/drive/folders/1IW9FSVE8lchmszNK4VcD8oQVYco8UkJv?usp=sharing"
   },
   {
@@ -308,9 +308,9 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/5.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
-    tags:["AR","UI/UX","Product Design","Interaction Design"],
-    features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
+    description: "FitnessBPM, an innovative solo project, is a highly gamified application that transforms fitness tracking into an engaging experience. Using a smart ring or watch, it tracks the user's beats per minute (BPM) and converts this data into experience points (EXP) within the app. The design, developed through extensive background research, includes setting various fitness goals and providing personalized challenges and suggestions. Its gamifying elements are chosen for their effectiveness in motivating and engaging users, while also promoting group activities. The app features levels, challenges, achievements, and badges to reward progress and encourage continued use. Creating FitnessBPM was an enjoyable journey; I crafted interactive designs using Figma, conducted UX testing on the prototype, and made iterative improvements based on user feedback. This project showcases my commitment to combining fitness with fun and community through thoughtful and user-centric design.",
+    tags:["Wireframing","Product Design","Interaction Design"],
+    features:["Gamified sports app","Smart device integration","Promoting healthy lifestyle"],
     demoURL:"https://www.figma.com/proto/vM5s9GExMRFpzVYZAuMsd7/Innovation-course-WIreframes?page-id=0%3A1&type=design&node-id=1-4&viewport=547%2C-77%2C0.94&t=jsuyFro2DdxFAzsL-1&scaling=scale-down&starting-point-node-id=1%3A96&mode=design"
   },
 
@@ -321,19 +321,16 @@ export const projectsNav = [
     name: "featured",
   },
   {
+    name: 'UI/UX',
+  },
+  {
     name: "Web",
   },
   {
     name: "app",
   },
   {
-    name: "ML & AI",
-  },
-  {
     name: "other",
-  },
-  {
-    name: 'UI/UX',
   },
   {
     name: "all",
