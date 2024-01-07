@@ -134,6 +134,9 @@ flex-direction: column;
     text-decoration: none; /* Resetting underline */
     transition: color 0.24s ease-in-out, text-decoration 0.24s ease-in-out; /* Smooth transition for font color and underline */
   }
+  .vertical-timeline::before {
+    background-color: #516df773 !important;
+  }
   
   
   
