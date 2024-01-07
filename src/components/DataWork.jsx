@@ -13,11 +13,28 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar3.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar1.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar2.png?raw=true",
-    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar3.png?raw=true",
   ],
     category: ["other","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Leveraged Unity and ARuCo tags to create an immersive app altering food's visual appeal. Bachelor's thesis highlighting how enticing visuals can elevate taste perception.",
+    description: <>
+    <h2>🍲 Taste-enhancing AR/VR</h2>
+    <p>Taste-enhancing AR/VR changes how food looks using AR (Augmented Reality). You can see these cool changes on any device with a camera, like VR glasses or phones. This was my project for my Bachelor's degree in Computer Science, and it's about exploring how what we see can change how we taste food.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Reading Data from ARuCo Markers:</strong> The app can understand special markers to create augmented reality effects.</li>
+      <li><strong>Generating Augmented Content:</strong> It can make digital images appear in specific places in real-time.</li>
+      <li><strong>Camera Calibration:</strong> Adjusting the camera for a more reliable and accurate AR experience.</li>
+    </ul>
+    <br/>
+    <h3>💻 Technologies Used</h3>
+    <ul>
+      <li><strong>Unity and C#:</strong> Main tools for building the app, chosen for their power and because I wanted to get better at using them.</li>
+      <li><strong>SourceTree for Version Control:</strong> Keeping track of changes and updates to the project easily.</li>
+      <li><strong>Frameworks for Camera and Tags:</strong> Special software helping with camera settings and recognizing ARuCo tags.</li>
+    </ul>
+</>
+,
     tags:["C#","VR","AR"],
     features:["Augment Food","Real-Time Application","Calibration & Testing"],
     codeURL: "https://github.com/ToniRajamaki/FoodAugmentationWithUnity",
@@ -29,7 +46,28 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/abf8282d6520d05917c332c64b8e702e58a94076/public/assets/projects/cifar10/cifar2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/cifar10/cifar1.jpg?raw=true"],
     category: ["other","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Python-based image recognition app delving into Cifar-10 dataset. Explored classifiers' impact on results, yielding captivating insights and an enjoyable project journey.",
+    description: <>
+    <h2>🖼️ Cifar10 Image Recognition</h2>
+    <p>The 'Cifar10 Image Recognition' project can recognize images from the CIFAR-10 database. This was developed as part of a machine learning course at Tampere University. The main goal was to use Python, Keras, and TensorFlow to create a system that yields good results accurately and within a reasonable timeframe.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Semi-Good Accuracy:</strong> The classifier achieves respectable accuracy in image recognition.</li>
+      <li><strong>Decent Speed:</strong> It processes images quickly.</li>
+      <li><strong>Minimal Training Data Needed:</strong> Performs well without a large amount of training data.</li>
+      <li><strong>Easy to Fine-Tune:</strong> The system is user-friendly and can be adjusted for better performance.</li>
+    </ul>
+    <br/>
+    <h3>💻 Technologies Used</h3>
+    <ul>
+      <li><strong>Python:</strong> The primary programming language used.</li>
+      <li><strong>Keras and TensorFlow:</strong> Employed for creating the image classification model.</li>
+      <li><strong>Database Tools:</strong> Used for handling and managing the datasets.</li>
+    </ul>
+    <br/>
+    <p><strong>Extra Info:</strong> This project was exciting, especially trying to fine-tune the classifier for better performance.</p>
+</>
+,
     tags:["Python","Keras","TensorFlow"],
     features:["Trains With Data","Multiple Classifier Methods","Bayesian","Performance analysis"],
     codeURL: "https://github.com/ToniRajamaki/Machine-Learning",
@@ -46,7 +84,27 @@ export const projectsData = [
     ],
     category: ["web","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Collection of React apps/components with meticulous state design, prioritizing reusability. A joyful endeavor, demonstrating the power of well-structured, modular development.",
+    description: <>
+    <h2>💻 Modular React Creations</h2>
+    <p>'Modular React Creations' is a collection of simple React projects I developed while learning React. This personal project was aimed at enhancing my basic front-end skills and was a fun journey.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Variety of Projects:</strong> Includes a range of projects, some focusing on reusable components, others on beautiful CSS design.</li>
+      <li><strong>Focus on Front-End Development:</strong> Each project is crafted to improve specific aspects of front-end development.</li>
+    </ul>
+    <br/>
+    <h3>💻 Technologies Used</h3>
+    <ul>
+      <li><strong>Modern JavaScript with Hooks:</strong> Utilizing the latest JavaScript features and React Hooks for component management.</li>
+      <li><strong>React JS:</strong> Building projects with React to create dynamic user interfaces.</li>
+      <li><strong>HTML & CSS:</strong> Applying fundamental web technologies for structure and styling.</li>
+      <li><strong>Careful State Design:</strong> Thoughtful design of application states to ensure responsiveness and efficiency.</li>
+    </ul>
+    <br/>
+    <p><strong>Extra Info:</strong> This project was a valuable practice in exploring and applying various React concepts and techniques.</p>
+</>
+,
     tags:["JavaScript","React","Redux"],
     features:["Lots Of Tiny Projects","Careful State Design","API","Axios"],
     codeURL: "https://github.com/ToniRajamaki?tab=repositories&q=&type=&language=javascript&sort=",
@@ -56,7 +114,28 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/portfolio2.png?raw=true"],
     title: "Portfolio Project",
     category: ["web","featured"],
-    description:"This is one my latest works, a highly interactive personal website that multitude of features. Designed with care, it has unobtrusive animations that lend a hint of charm to the browsing experience. As you navigate the simple layout, I hope you find something of interest.",
+    description:<>
+    <h2>🌐 Interactive Personal Website</h2>
+    <p>This is one of my latest works: a highly interactive personal website with a multitude of features. It’s designed to enhance the user experience with subtle animations and a simple layout, hopefully offering something interesting for every visitor. This project is continuously improved in my spare time, adding new features and refining existing ones.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Unobtrusive Animations:</strong> Adds charm to the browsing experience without being distracting.</li>
+      <li><strong>Simple and Effective Layout:</strong> Easy navigation to help users find what they're looking for.</li>
+      <li><strong>Continuous Improvement:</strong> Regularly updated with new features and optimizations.</li>
+    </ul>
+    <br/>
+    <h3>💻 Technologies Used</h3>
+    <ul>
+      <li><strong>Modern JavaScript:</strong> Utilizing the latest features of JavaScript for dynamic functionality.</li>
+      <li><strong>React:</strong> Building the website with React for an efficient, interactive user interface.</li>
+      <li><strong>HTML & CSS:</strong> Using fundamental web technologies for a solid structure and aesthetic appeal.</li>
+      <li><strong>Customized React Libraries:</strong> Enhancing the site with React libraries, tailored to fit the site’s unique style and needs.</li>
+    </ul>
+    <br/>
+    <p><strong>Extra Info:</strong> This personal project is a fun endeavor where I experiment with new ideas and continuously push the boundaries of my web development skills.</p>
+</>,
+
     tags:["JavaScript","React","UI/UX"],
     features:["Asymptotic Efficiecny","Optimized","Adaptive Algorithms"],
     codeURL:"https://github.com/ToniRajamaki/folio2",
@@ -68,7 +147,24 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/tetris.png?raw=true"],
     category: ["other","featured"],
     video: "/assets/camping.mp4",
-    description: "C++ Tetris rebirth via Qt Creator's GUI editor. Infused with creativity, this project offered both a playful twist on the classic game and a humorous dance with GUI complexities",
+    description: <>
+    <h2>🎮 C++ Tetris Rebirth via Qt Creator</h2>
+    <p>This project is a creative reimagining of the classic Tetris game, developed using Qt Creator's GUI editor. It's a playful twist on Tetris, combined with the challenge of mastering the complexities of GUI development.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Classic Tetris Gameplay:</strong> Reviving the beloved game with a fresh perspective.</li>
+      <li><strong>GUI Development Exploration:</strong> Navigating through the intricacies of Qt Creator's GUI editor, despite its initial complexity.</li>
+    </ul>
+    <br/>
+    <h3>💻 Technologies Used</h3>
+    <ul>
+      <li><strong>C++:</strong> The main programming language used for the project.</li>
+      <li><strong>Qt Creator's GUI Editor:</strong> Employed for developing the game's graphical interface, offering a unique learning experience.</li>
+    </ul>
+    <br/>
+    <p><strong>Extra Info:</strong> As part of the Programming Structures course at Tampere University, this project was both fun and educational. It has inspired me to consider recreating it in a more robust environment like Unity, with the potential for further development.</p>
+</>,
     tags:["C++","Qtcreator"],
     features:["Tetris with twist","Keep Track of hiscore","Adjust the difficulty"],
     codeURL: "https://github.com/ToniRajamaki/tetris-",
@@ -84,7 +180,30 @@ export const projectsData = [
   ],
   category: ["app","featured"],
   video: "/assets/CloneYoutube.mkv",
-  description: "Major 3D project at G3, starring 'Fuzu' the bird. Navigate obstacles, acquire XP and Eggs for advancement. Unveil a world of optimized performance and captivating gameplay.",
+  description: <>
+  <h2>🕹️ Major 3D Unity Platformer: Fuzu's Adventure at Git Gud Games</h2>
+  <p>Join Fuzu the bird in a major 3D platformer project developed at Git Gud Games. Navigate through challenging obstacles, collect XP and Eggs to progress, and explore a world of optimized performance and immersive gameplay. This project draws some inspiration from the idea of a rogue-like 3D Flappy Bird.</p>
+  <br/>
+  <h3>🌟 Key Features</h3>
+  <ul>
+    <li><strong>Engaging Platformer Gameplay:</strong> Experience the thrill of guiding Fuzu through a series of challenging and entertaining levels.</li>
+    <li><strong>XP and Egg Collection:</strong> Collect experience points and eggs to advance in the game and unlock new capabilities.</li>
+    <li><strong>Inspired by Rogue-like Elements:</strong> Incorporating aspects of rogue-like games to enhance the fun and replayability.</li>
+  </ul>
+  <br/>
+  <h3>💻 Technologies and Contributions</h3>
+  <ul>
+    <li><strong>Agile Development:</strong> Employing agile methodologies for efficient and rapid game development.</li>
+    <li><strong>C# Programming:</strong> Crafting various game mechanics and ensuring optimal performance on diverse devices, including older Android phones.</li>
+    <li><strong>UI Design:</strong> Creating user interfaces that enhance player interaction and experience.</li>
+    <li><strong>Audio Design:</strong> Contributing to the audio aspects of the game, enriching the overall atmosphere and immersion.</li>
+    <li><strong>Level design:</strong> Creating 3D game assets and developing randomnly generating gameworld with beautiful levels.</li>
+    <li><strong>Ideation of Core Mechanics:</strong> Actively involved in brainstorming and defining the fundamental gameplay mechanics.</li>
+  </ul>
+  <br/>
+  <p><strong>Extra Info:</strong> This project at Git Gud Games was a comprehensive endeavor, showcasing my versatility in game development.</p>
+</>
+,
   tags:["C#","Unity","G3"],
   features:["3D Platformer","Beautiful lvl Design","Skill tree","Highly Optimized"],
   demoURL:"https://www.youtube.com/watch?v=bjdl9BJKhxI&ab_channel=GitGudGames"
@@ -95,8 +214,24 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/pirkanmaan_valloitus.png?raw=true"],
     category: ["other"],
     video: "/assets/gym.mp4",
-    description: "Dive into this resource-driven territory simulator. Outmaneuver your opponent, tactically manage resources, explore 'Pate's deals', and race to construct the decisive nuclear plant for victory.",
-    tags:["C++","Pair Programming"],
+    description: <>
+    <h2>🌍 Resource-Driven Territory Simulator</h2>
+    <p>Engage in a strategic battle of wits with this resource-driven territory simulator. Developed as a pair project for the Programming 3: API course at Tampere University, this game challenges players to tactically manage resources, engage in 'Pate's deals', and race to build a nuclear plant for victory.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Strategic Resource Management:</strong> Players must thoughtfully manage resources to outmaneuver their opponents.</li>
+      <li><strong>Complex Gameplay Mechanics:</strong> Designed to challenge players' critical thinking and strategic planning.</li>
+      <li><strong>Race to Victory:</strong> The ultimate goal is to construct a nuclear plant to claim victory over the territory.</li>
+    </ul>
+    <br/>
+    <h3>💻 Development Experience</h3>
+    <p>Collaborating closely, we developed the game using QtCreator and C++. Although initially challenging to navigate QtCreator's GUI system, we eventually mastered it to create an engaging gameplay experience.</p>
+    <br/>
+    <p><strong>Extra Info:</strong> This project was not only a fun learning experience but also a testament to our ability to create intricate gameplay mechanics and effective collaboration.</p>
+</>
+,
+    tags:["C++","Pair Programming","GUI"],
     features:["Multiplayer","Random-Gen map","5 Unique resources"],
     codeURL:"https://github.com/ToniRajamaki/dominationGame/tree/main",
   },
@@ -112,7 +247,28 @@ export const projectsData = [
   ],
   category: ["app","featured"],
     video: "/assets/todo.mp4",
-    description: "Crafted at G3, a high-performance, visually stunning roguelike turret game. Engage waves of foes, upgrade with innovative enhancements, and wield new weaponry.",
+    description: <>
+    <h2>🎮 High-Performance Roguelike Turret Game at Git Gud Games</h2>
+    <p>Crafted at Git Gud Games, this roguelike turret game combines high performance with stunning visuals. Players engage in thrilling battles against waves of enemies, upgrade with innovative enhancements, and experiment with an array of new weaponry. Developed in collaboration with Moonee.com, an Israeli mobile game publisher, this project was a substantial endeavor at Git Gud Games.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Engaging Enemy Waves:</strong> Battle against various foes in intense combat scenarios.</li>
+      <li><strong>Innovative Upgrades:</strong> Enhance your turret with unique and powerful upgrades.</li>
+      <li><strong>Diverse Weaponry:</strong> Wield a variety of weapons to defeat your enemies.</li>
+    </ul>
+    <br/>
+    <h3>💻 My Contributions</h3>
+    <ul>
+      <li><strong>Core Gameplay Programming:</strong> Implementing fundamental gameplay elements to bring the game to life.</li>
+      <li><strong>2D Asset Production:</strong> Creating a range of visual assets to enrich the game's aesthetic appeal.</li>
+      <li><strong>Particle System Development:</strong> Designing various particle systems to enhance the game's visual effects.</li>
+      <li><strong>Collaborative Testing and Development:</strong> Working alongside Moonee.com to ensure a polished and engaging gaming experience.</li>
+    </ul>
+    <br/>
+    <p><strong>Extra Info:</strong> This project was an enjoyable and multifaceted challenge, allowing me to delve into different aspects of game development, from programming to asset creation.</p>
+</>
+,
     tags:["C#","Unity","G3"],
     features:["Highly Optimized","Fully Randomized","Stunning Visuals","40% D1 Retention"],
     demoURL:"https://www.youtube.com/watch?v=mQf923EoPJE&ab_channel=GitGudGames"
@@ -129,7 +285,28 @@ export const projectsData = [
   ],
   category: ["app","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "A G3 project where players dives into crafting diverse juices, balancing complexity and delight. Navigate traps, ensuring your creations remain pristine. The juice business awaits your strategic finesse.",
+    description:<>
+    <h2>🍹 Juice Crafting Game at Git Gud Games</h2>
+    <p>A creative project from Git Gud Games, where players immerse themselves in the art of crafting diverse juices. This game balances the complexity of navigating traps with the delight of creating unique juice blends. It's all about strategic finesse in the juice business. Developed through rapid iteration using agile methods, this project offered a fun and dynamic development experience.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Creative Juice Crafting:</strong> Combine various ingredients to create unique juice blends.</li>
+      <li><strong>Navigating Traps:</strong> Overcome challenges and ensure your juice creations remain top-notch.</li>
+      <li><strong>Strategic Gameplay:</strong> Employ clever strategies to succeed in the competitive juice business.</li>
+    </ul>
+    <br/>
+    <h3>💻 My Contributions</h3>
+    <ul>
+      <li><strong>Gameplay Brainstorming:</strong> Ideating the core gameplay concept and hook to engage players.</li>
+      <li><strong>Gameplay Programming:</strong> Developing key gameplay elements for a smooth and enjoyable experience.</li>
+      <li><strong>Asset Creation:</strong> Producing both 3D and 2D assets to bring the game's visual world to life.</li>
+      <li><strong>Animation and Particle Design:</strong> Crafting animations and particle effects to enhance the game's aesthetics.</li>
+    </ul>
+    <br/>
+    <p><strong>Extra Info:</strong> Working on this juice crafting game was a delightful and engaging experience, allowing me to explore various aspects of game development from concept to execution.</p>
+</>
+,
     tags:["C#","Unity","G3"],
     features:["Create Luxurious Drinks","Cool Animated processes","Make money with your drinks"],
     demoURL:"https://play.google.com/store/apps/details?id=com.gitgudgames.juicemaker"
@@ -140,7 +317,22 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/bus.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/bus2.png?raw=true"],
     category: ["other"],
     video: "/assets/gym_mobile.mp4",
-    description: "Optimized Data Handling using unordered_maps selected for efficient handling of frequent functions achieving O(N) insertion, removal, and Θ(1) search. used vectors for less critical tasks due to their user-friendly nature.",
+    description: <>
+    <h2>🔍 Optimized Data Handling in Algorithms and Data Structures</h2>
+    <p>This project, part of the Algorithms and Data Structures programming course at Tampere University, focused on optimizing data handling using unordered_maps for efficient execution of frequent functions. The goal was to achieve O(N) insertion, removal, and Θ(1) search, with vectors used for less critical tasks due to their user-friendly nature.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Unordered_maps for Efficiency:</strong> Utilized to handle frequent functions efficiently, optimizing data processes.</li>
+      <li><strong>Vectors for User-friendly Tasks:</strong> Employing vectors in areas where ease of use is a priority.</li>
+    </ul>
+    <br/>
+    <h3>💻 Project Insights</h3>
+    <p>This project was both challenging and intriguing. It was a crucial part of one of my favorite courses at the university, where I learned a lot about data structures and algorithms.</p>
+    <br/>
+    <p><strong>Extra Info:</strong> The course and this project significantly contributed to my understanding of efficient data management and algorithm optimization.</p>
+</>
+,
     tags:["C++","Optimization"],
     features:["Asymptotic Efficiecny","Optimized","Adaptive Algorithms"],
     codeURL:"https://github.com/ToniRajamaki/TIRAGA_bus_stops"
@@ -155,7 +347,22 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ninja_blog/blog2.gif?raw=true,"],
     category: ["web","featured"],
     video: "/assets/gym_mobile.mp4",
-    description: "Unveiling my first React project, a dynamic blog hub. Immerse in ninja sagas, contribute your narratives. Crafted under YouTube's expert guidance for a stepping stone into web development.",
+    description: <>
+    <h2>📖 Ninja Blog: A Dynamic Blog Hub</h2>
+    <p>'Ninja Blog' is a dynamic and interactive blog hub where users can dive into the world of ninja sagas and contribute their own stories. This project was crafted as a personal endeavor under the guidance of YouTube experts, serving as a stepping stone into the realm of web development.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Read and Write Blogs:</strong> Users can immerse themselves in ninja tales or share their own.</li>
+      <li><strong>Responsive Design:</strong> The blog hub is designed to be accessible and visually appealing on various devices.</li>
+    </ul>
+    <br/>
+    <h3>💻 Technologies and Learning Experience</h3>
+    <p>This project was a fun learning experience, undertaken in my spare time to deepen my understanding of React JS and modern JavaScript hooks.</p>
+    <br/>
+    <p><strong>Extra Info:</strong> 'Ninja Blog' not only enhanced my web development skills but also provided a creative outlet to explore storytelling in the digital space.</p>
+</>
+,
     tags:["JavaScript","React","Axios"],
     features:["Write Blogs","Create and Store New ones","Minimalistic Design"],
     codeURL:"https://github.com/ToniRajamaki/Ninja-react-blog"
@@ -166,10 +373,29 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez1.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/suez/suez3.png?raw=true"],
     category: ["app"],
     video: "/assets/movie.mp4",
-    description: "G3's quick gem spun from Suez Canal saga. Simple clicker game with depth. Witness random animations, NPC camaraderie, and vibrant sounds for an immersive adventure.",
+    description: <>
+    <h2>🚢 Suez Canal Incident-Inspired Clicker Game at Git Gud Games</h2>
+    <p>Developed at Git Gud Games, this quick gem is a simple yet deep clicker game based on the real-life Suez Canal incident. Created using agile methods and rapid iteration, this project was an intense but exciting sprint into game development.</p>
+    <br/>
+    <h3>🌟 Key Features</h3>
+    <ul>
+      <li><strong>Randomized Animations and NPC Interactions:</strong> Keeping players engaged with varied and unexpected in-game events.</li>
+      <li><strong>Vibrant Sounds:</strong> Enhancing the user experience with immersive audio.</li>
+      <li><strong>Minimalistic Design:</strong> Offering a clean and straightforward user interface for easy gameplay.</li>
+    </ul>
+    <br/>
+    <h3>💻 My Contributions</h3>
+    <ul>
+      <li><strong>Asset Creation:</strong> Developing visual elements to enrich the game's aesthetic.</li>
+      <li><strong>Audio Setup:</strong> Implementing sound effects and background music for an immersive experience.</li>
+      <li><strong>UX Refinements:</strong> Fine-tuning various aspects of the game to improve the overall user experience.</li>
+    </ul>
+    <br/>
+    <p><strong>Extra Info:</strong> Being part of this project during a hectic sprint was a unique and enriching experience, contributing significantly to my understanding of fast-paced game development.</p>
+</>
+,
     tags:["C#","Unity","G3"],
     features:["Clicker Game","Trending","Immersive Audio design"],
-    demoURL:"https://play.google.com/store/apps/details?id=com.GitGudGamesOy.FreeSuezCanal"
   },
   //############# UI/UX PROJECTS ###############
   {
