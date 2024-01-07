@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/data.css";
+import "../styles/Datawork.css";
 
 const Data = () => {
   return (

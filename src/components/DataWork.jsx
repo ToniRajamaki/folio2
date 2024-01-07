@@ -1,3 +1,10 @@
+import "../styles/Datawork.css";
+const i = (
+  <i
+    className='bx bx-badge-check'
+    style={{ color: '#516CF7', fontSize: 'large' }}
+  ></i>
+);
 
 export const projectsData = [
   {
@@ -174,7 +181,42 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/fitar/4.gif?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FITAR is a smartphone app that uses Augmented Reality (AR) to help gym-goers understand exercises better. It offers customizable workout plans, letting users easily pick exercises for each session. This makes planning workouts simple. The app shows a life-sized virtual humanoid demonstrating exercises right on your phone screen. Users can watch these exercises from various angles in real-time. This feature helps in maintaining proper form and preventing injuries. It's like having a personal trainer available 24/7 through AR. Additionally, users can rate the exercises and workout plans, providing valuable feedback and personalizing their fitness journey.",
+    description: <>
+    <h2>🏋️ FITAR: Augmented Reality Fitness App</h2>
+    <p>FITAR, my personal project, is a smartphone app that uses Augmented Reality (AR) to enhance the gym experience, offering customizable workout plans and a virtual humanoid trainer.</p>
+    <br/>
+    <h3>🔍 Project Concept</h3>
+    <p>The idea behind FITAR was to simplify workout planning and improve exercise form, utilizing AR technology to bring a personal trainer experience to the user's smartphone.</p>
+    <br/>
+    <h3>⚙️ Key Features of FITAR</h3>
+    <ul>
+      <li><strong>AR Exercise Demonstrations:</strong> Life-sized virtual humanoid showing exercises in real-time.</li>
+      <li><strong>Customizable Workout Plans:</strong> Easy selection of exercises for personalized sessions.</li>
+      <li><strong>User Feedback Integration:</strong> Allowing users to rate exercises and tailor their fitness journey.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Extensive User Research:</strong> Gathering background information and analyzing existing solutions in the fitness app market.</li>
+      <li><strong>Gamification Exploration:</strong> Researching ways to gamify the workout experience to increase user engagement.</li>
+      <li><strong>Figma:</strong> Creating interactive mockup for UX testing.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ Personal Challenges and Growth</h3>
+    <ul>
+      <li><strong>Managing Workload:</strong> Navigating the challenges of handling a large project scope single-handedly.</li>
+      <li><strong>Appreciation for Team Skills Diversity:</strong> Learning the value of having a team with varied skills and expertise.</li>
+      <li><strong>Enhanced Learning Experience:</strong> Gaining substantial knowledge in various aspects of app development and AR technology.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Power of AR in Fitness:</strong> Understanding the impact of augmented reality in enhancing workout experiences.</li>
+      <li><strong>Importance of User-Centric Design:</strong> Recognizing the need for thorough user research in creating effective fitness solutions.</li>
+      <li><strong>Value of Personal Development:</strong> Acknowledging the growth achieved through overcoming the challenges of solo project management.</li>
+    </ul>
+</>
+,
     tags:["AR","UI/UX","Product Design","Interaction Design"],
     features:["Augmented Reality","Promote healthy lifestyle","Personal trainer"],
     demoURL:"https://www.figma.com/proto/QL1J9OfPg9Qmh8QPwGBZYy/HTI-560-FITAR?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&mode=design&t=FVgUIZZd3DHnatnN-1"
@@ -190,7 +232,43 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/medical/2.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "In our UI/UX project FutuMED, we focused on creating a tool that revolutionizes healthcare by enabling remote and automated monitoring of vital signs. This concept, inspired by team member Kati's insights as a nurse, aims to ease the daily routines of medical professionals. FutuMED integrates digitization and artificial intelligence to display comprehensive data on patients' lifestyles, physical, and mental health. Adhering to rigorous standards like the EU General Data Protection Regulation, it promises to enhance patient care, improve diagnostics, and ensure safety. This project showcases a forward-thinking approach in healthcare technology, emphasizing efficiency and personalized patient care",
+    description:<>
+    <h2>🌐 FutuMED: Innovating Healthcare Monitoring</h2>
+    <p>Our team of five, including a professional nurse, created FutuMED to modernize healthcare by enabling remote and automated monitoring of vital signs, enhancing the efficiency and personalization of patient care.</p>
+    <br/>
+    <h3>🔍 Problem Identification</h3>
+    <p>Our goal was to ease the workload of medical professionals by integrating digital solutions for automated monitoring and patient data analysis.</p>
+    <br/>
+    <h3>⚙️ Key Features of FutuMED</h3>
+    <ul>
+      <li><strong>Remote Vital Sign Monitoring:</strong> Enables healthcare professionals to track patients' health remotely.</li>
+      <li><strong>Integration of AI:</strong> Incorporates AI for comprehensive analysis of patients' physical and mental health.</li>
+      <li><strong>Security and Privacy:</strong> Adheres to the EU General Data Protection Regulation for patient data safety.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Insights from Medical Professional:</strong> Utilizing team member's expertise and network in healthcare for targeted research.</li>
+      <li><strong>Clear Project Goals:</strong> Recognizing the importance of a well-defined framework and unified team objectives.</li>
+      <li><strong>Invaluable User Insights:</strong> Conducting targeted inquiries to gather crucial feedback from the right people.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Contributing to Ideation:</strong> Actively participating in brainstorming sessions for innovative concepts.</li>
+      <li><strong>UI wireframing:</strong> Focusing on the UI design aspects of the project to enhance user interaction.</li>
+      <li><strong>Analysing Data:</strong> We collected lots of data from user research and it needed to be analysed for practical use.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Enhancing Healthcare Through Technology:</strong> Understanding the impact of digital solutions in healthcare.</li>
+      <li><strong>Value of Professional Insights:</strong> Learning the importance of industry-specific knowledge in project development.</li>
+      <li><strong>Importance of Clear Framework:</strong> Recognizing the need for a well-defined project scope and team alignment.</li>
+    </ul>
+</>
+
+ ,
     tags:["Human-centered Design","User research","UX Evaluation"],
     features:["Vital tracking","Remote Monitoring","Patient profiles"],
     demoURL:""
@@ -206,7 +284,41 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/habitica_redesign/image 3.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "In our UI/UX project, we innovated upon the existing Habitica app, a tool for habit and productivity management. Our approach involved brainstorming new ideas to enhance user motivation, building upon the app's existing framework. We got inspired by Duolingos way of being able to set up wager for goal and thus implemnted such system. We focused on creating interactive designs using Figma, which allowed us to visualize our enhancements in a tangible way. These designs aimed to deepen user engagement by integrating elements of self-determination and goal-setting theories, transforming routine tasks into imaginative quests and incorporating progression features like experience bars and levels. We also enhanced the social aspect of the app by designing more interactive parties, fostering community and peer support. Our process included rigorous testing of these designs to ensure they effectively resonated with users, ultimately aiming to elevate the overall user experience in Habitica.",
+    description: <>
+    <h2>🌟 Enhancing Habitica for User Motivation</h2>
+    <p>Our 4-person-team's UI/UX project focused on innovating the Habitica app, aiming to boost habit and productivity management by integrating new, motivational features inspired by Duolingo's wager system.</p>
+    <br/>
+    <h3>🔍 Problem Identification</h3>
+    <p>Habitica web service was allready full of gamified elements so, it was challenging to ideate new concepts that integrate seamlessly.</p>
+    <br/>
+    <h3>⚙️ Key Features of the Redesign</h3>
+    <ul>
+      <li><strong>Wager System for Goals:</strong> Implementing a system inspired by Duolingo to set up wagers for achieving goals.</li>
+      <li><strong>Interactive Quests and Progression:</strong> Transforming tasks into quests with experience bars and levels to deepen user engagement.</li>
+      <li><strong>Social Interaction Enhancement:</strong> Designing more interactive parties to foster community and peer support.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Figma for Interactive Design:</strong> Utilizing Figma to create and visualize the new features interactively.</li>
+      <li><strong>Integrating Theories of Motivation:</strong> Employing self-determination and goal-setting theories in the design process.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Creating Interactive Figma Designs:</strong> Leading the development of interactive designs to showcase new concepts.</li>
+      <li><strong>Ideating New Concepts:</strong> Generating innovative ideas to enhance the app's motivational aspects.</li>
+      <li><strong>Contributing to Various Project Aspects:</strong> Engaging in other essential aspects of the project development.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Enhancing User Engagement:</strong> Understanding how creative design elements can significantly improve user motivation and interaction.</li>
+      <li><strong>Importance of Social Features:</strong> Recognizing the role of community and social support in habit-forming applications.</li>
+      <li><strong>Effective Ideation:</strong> Learning the value of brainstorming and conceptualizing new features in app design.</li>
+    </ul>
+</>
+,
     tags:["UX Design","Wireframing","Product Development"],
     features:["Reward system","Task Customization","Positive reinforcement"],
     demoURL:""
@@ -225,7 +337,44 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sampo/2.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "A 3 person-project, Sampo, is a web service designed to boost study motivation and encourage physical activity among young people. Its core value proposition is offering an enjoyable way to achieve personal goals alongside friends. A key focus of Sampo is enhancing community spirit within educational institutions and fostering networking among students. The service features student registration by organizations, allowing them to join specific subject communities or class groups. This enables students to freely create their own groups, compete, or organize random events with other groups. Activities range from sports competitions like kyykkä to academic challenges, such as accumulating the most study credits in a year. While primarily aimed at secondary education students, Sampo is open to external participants, broadening its community reach and impact.",
+    description:<>
+    <h2>🎓 Sampo: Web Service for Uni students</h2>
+    <p>In a three-person team, we created 'Sampo', a web service designed to boost study motivation and physical activity among students, focusing on community building and networking.</p>
+    <br/>
+    <h3>🔍 Problem Identification</h3>
+    <p>Our goal was to create a service that benefits university students by combining education and physical activity, enhancing community spirit and networking.</p>
+    <br/>
+    <h3>⚙️ Key Features of Sampo</h3>
+    <ul>
+      <li><strong>Student Registration by Organizations:</strong> Allowing students to join subject communities or class groups.</li>
+      <li><strong>Group Creation and Events:</strong> Enabling students to form groups, compete, or organize events like sports and academic challenges.</li>
+      <li><strong>Community and Networking Focus:</strong> Enhancing community spirit within educational institutions.</li>
+      <li><strong>Broad Accessibility:</strong> Open to external participants to widen community reach and impact.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Service Design for University Students:</strong> Targeting the specific needs and interests of this group.</li>
+      <li><strong>UI and Visual Design:</strong> Focusing on creating an intuitive and engaging user interface.</li>
+      <li><strong>Miro whiteboard:</strong> Organizing resources, brainstorming and ideating different concepts.</li>
+      
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Idea Brainstorming:</strong> Generating innovative concepts for the service.</li>
+      <li><strong>UI and Visual Design:</strong> Leading the design aspects to create a visually appealing and user-friendly interface.</li>
+      <li><strong>Project Management:</strong> Coordinating team efforts and managing project timelines.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Combining Physical and Academic Activities:</strong> Understanding the benefits of integrating diverse activities in a student community.</li>
+      <li><strong>Importance of Community in Education:</strong> Recognizing the role of community spirit in enhancing student motivation and networking.</li>
+      <li><strong>Design for Engagement:</strong> Learning how effective UI/UX design can encourage participation and interaction in a web service.</li>
+    </ul>
+</>
+,
     tags:["UI/UX Design","Interactive Design","Responsive","Service Design"],
     features:["Promoting Study motivation","Event Organazing","Community goals & hiscores"],
     demoURL:"https://www.figma.com/proto/NDfItwans8AxX29clPr0u9/HTI-2-Esiteht%C3%A4v%C3%A4-4-wf?node-id=25-1061&starting-point-node-id=25%3A1061&mode=design&t=VNNUXv6wLGFu5riv-1"
@@ -241,7 +390,43 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/libreoffice/2.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "In our five-person project, we collaborated with one of the creators of LibreOffice to redesign its options dialog, aiming to enhance user accessibility and simplify its interface. The original design of LibreOffice, a product of The Document Foundation, was feature-rich but overwhelming for novice users. Our challenge was to balance the needs of different user groups, maintaining functionality while removing clutter. Through user research, including analyzing bug reports and conducting interviews, we identified key areas for improvement. We created an affinity diagram to pinpoint issues in the complex menu and developed a prototype in Figma. Our design emphasized usability, and we worked closely with The Document Foundation using their resources, like a whiteboard, for effective categorization. In the end, the LibreOffice creator was pleased with our work, acknowledging our contribution to making the software more accessible and user-friendly. This collaboration highlighted the importance of user-centered design in open-source software development.",
+    description: <>
+    <h2>📝 Redesigning LibreOffice Options Dialog</h2>
+    <p>Our five-person team worked with one of the LibreOffice's creators to redesign its options dialog, focusing on enhancing user accessibility and simplifying the interface.</p>
+    <br/>
+    <h3>🔍 Problem Identification</h3>
+    <p>We tackled the challenge of balancing the feature-rich design of LibreOffice with the need for simplicity, aiming to make it less overwhelming for novice users.</p>
+    <br/>
+    <h3>⚙️ Key Features of the Redesign</h3>
+    <ul>
+      <li><strong>User Research:</strong> Analyzing bug reports and conducting interviews to identify improvement areas.</li>
+      <li><strong>Simplified Interface:</strong> Streamlining the menu to enhance user experience.</li>
+      <li><strong>Figma Prototyping:</strong> Developing prototypes to visualize the new design.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Affinity Diagramming:</strong> Organizing research findings to understand user needs better.</li>
+      <li><strong>Collaborative Whiteboard Sessions:</strong> Engaging with The Document Foundation team for effective categorization and brainstorming.</li>
+      <li><strong>Iterative Usability Testing:</strong> Refining the design based on feedback from various user groups.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Wireframing:</strong> Creating wireframes as foundational designs for the new interface.</li>
+      <li><strong>Methodology Selection:</strong> Choosing the most effective research and design methodologies.</li>
+      <li><strong>Active Participation in Whiteboard Sessions:</strong> Contributing significantly to brainstorming and ideation processes.</li>
+      <li><strong>Usability Testing:</strong> Leading the usability testing and refining the process for better results.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>User-Centered Design in Open Source:</strong> Understanding the impact of user-focused design in open-source software.</li>
+      <li><strong>Challenges of Diverse User Recruitment:</strong> Learning the importance of including various user groups in testing, despite recruitment challenges.</li>
+      <li><strong>Effective Interface Simplification:</strong> Gaining insights into creating more accessible and user-friendly software interfaces.</li>
+    </ul>
+</>
+,
     tags:["OpenSource project","UX/UI","User Research","Usability Testing"],
     features:["Enhanced accessibility","User-Friendly Navigation","Intuitive Design"],
     demoURL:""
@@ -257,7 +442,41 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/toas/4.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "In our five-member team project, we conducted a usability assessment of the TOAS housing foundation's website, focusing on the perspective of under-25-year-old housing applicants. We carried out the evaluation remotely via Zoom, involving four participants—three on computers and one on a mobile device. Each test session was led by a moderator responsible for task distribution and communication, while two observers silently monitored the proceedings. Our assessment covered 11 tasks related to site navigation, information retrieval, property management, and application form completion, all relevant to a student’s housing search. We identified 22 usability issues, rated on a severity scale from 1 (critical) to 4 (cosmetic), with most problems being significant or minor usability issues. Despite testers initially having a good impression of the site, it was ultimately perceived as somewhat illogical and cumbersome. The housing foundation, TOAS, was very pleased with the thoroughness and insights of our work, rewarding our efforts with movie tickets, a gesture that highlighted their appreciation of our contribution to improving their website's user experience.",
+    description: <>
+    <h2>🔍 Usability Assessment of TOAS Housing Website</h2>
+    <p>Our five-member team conducted a comprehensive usability assessment of the TOAS housing foundation's website, focusing on the experience of young housing applicants under 25 years old.</p>
+    <br/>
+    <h3>👥 Problem Identification</h3>
+    <p>We aimed to evaluate the website's usability for young users, identifying areas that could hinder their ability to find and apply for housing effectively.</p>
+    <br/>
+    <h3>⚙️ Key Features of the Assessment</h3>
+    <ul>
+      <li><strong>Remote Testing via Zoom:</strong> Involving four participants using both computers and a mobile device.</li>
+      <li><strong>Task-Based Evaluation:</strong> Covering site navigation, information retrieval, property management, and application processes.</li>
+      <li><strong>Severity Rating of Issues:</strong> Identifying and categorizing usability issues on a scale from critical to cosmetic.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Heuristic Evaluation:</strong> Conducting an in-depth analysis of the website based on established usability principles.</li>
+      <li><strong>Usability Testing:</strong> Performing tests to assess the ease of use and user experience of the website.</li>
+      <li><strong>Documentation & Reporting:</strong> Thoroughly documenting findings and providing actionable insights to TOAS.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Extensive Heuristic Evaluation:</strong> Big part of detailed heuristic analysis of the website's user interface.</li>
+      <li><strong>Usability Testing:</strong> Actively participating in conducting and refining the usability tests.</li>
+      <li><strong>Reporting and Documentation:</strong> Preparing comprehensive reports of our findings and recommendations.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Importance of User-Centric Design:</strong> Gained insights into the significance of designing with the user's perspective in mind.</li>
+      <li><strong>Value of Thorough Testing:</strong> Learning the impact of comprehensive usability testing in identifying and resolving issues.</li>
+      <li><strong>Teamwork and Diversity:</strong> Appreciating the strength of a diverse team in bringing different perspectives to a project.</li>
+    </ul>
+</>,
     tags:["Heuristic Evaluation","Usability Testing","UX  Testing"],
     features:["User-centric approach","Extensive heuristic evaluation","Usability Tested"],
     demoURL:""
@@ -272,7 +491,44 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/feedback/5.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "In our four-person team, we collaborated on a fun and experience-driven project to design an engaging feedback system for restaurants. We observed that many restaurants don't actively collect on-site feedback, and customers often hesitate to voice concerns directly. To address this, we proposed an online feedback system embedded in the restaurant's website, enabling honest post-meal reviews. Our design counters the aggressive tactics seen in current systems, like persistent pop-ups on delivery sites, which can discourage genuine feedback. We also considered the lack of incentives in existing systems; a complicated or unrewarding process might lead to less thoughtful responses. By simplifying the feedback process and integrating it seamlessly into the restaurant's existing online presence, we aimed to make the system beneficial for both customers and restaurants. This approach would encourage honest feedback, making customers feel their opinions are valued and helping restaurants improve their service and offerings.",
+    description: <>
+    <h2>🍴 Engaging Feedback System for Restaurants</h2>
+    <p>Our four-person team worked on creating an online feedback system for restaurants, focusing on enhancing customer engagement and ensuring genuine reviews post-meal.</p>
+    <br/>
+    <h3>🔍 Problem Identification</h3>
+    <p>We identified a gap in how restaurants collect feedback: Many lacked an effective system to gather honest opinions from customers on-site.</p>
+    <br/>
+    <h3>⚙️ Key Features</h3>
+    <ul>
+      <li><strong>Online Integration:</strong> A feedback system embedded in the restaurant's website for ease of access.</li>
+      <li><strong>Choice of Survey Length:</strong> Offering customers the option to choose between short and long surveys, respecting their time and preference.</li>
+      <li><strong>User-Centric Design:</strong> Ensuring the system is intuitive and user-friendly to encourage genuine feedback.</li>
+      <li><strong>Incentivized Responses:</strong> Providing incentives to motivate thoughtful and honest reviews.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Research on Existing Solutions:</strong> Analyzing available feedback systems and integrating the best features.</li>
+      <li><strong>Human-Centered Approach:</strong> Designing with a focus on user experience and preferences.</li>
+      <li><strong>Iterative Development:</strong> Continuously refining the system based on feedback and usability testing.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Idea Brainstorming:</strong> Generating creative solutions for the feedback system.</li>
+      <li><strong>Rough Sketches:</strong> Visualizing initial ideas through basic sketches.</li>
+      <li><strong>Project Management:</strong> Coordinating the team and overseeing project progress.</li>
+      <li><strong>Refining Experience Goals:</strong> Focusing on enhancing the overall user experience of the system.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Effective Feedback Collection:</strong> Understanding the nuances of designing systems that encourage honest feedback.</li>
+      <li><strong>Importance of User Choice:</strong> Learning how providing options can improve user engagement.</li>
+      <li><strong>Value of User-Centric Design:</strong> Recognizing the importance of designing with the end-user in mind for better product acceptance.</li>
+    </ul>
+</>
+,
     tags:["Experience Driven Design","UI/UX","Interaction Design"],
     features:["Responsive Design","User-friendly interface","Minimalistic & Seamless"],
     demoURL:"https://www.figma.com/proto/vgWK2iVmD49yt4I1e3ycYY/Feedback-system-low-fi-ptototype-design?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&t=NU0coJ3XJq3U5Qzw-1&mode=design"
@@ -289,7 +545,44 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/home_assistant/3.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "In our four-person team, we developed a futuristic smart voice assistant, focusing on enhancing the interaction with smart home devices. This project, rooted in extensive background research, involved expanding on existing speech command technologies while infusing substantial user customization options. Our approach was inspired by current solutions, but we aimed to introduce innovative concepts and features that cater to future needs. Central to our design was the improvement of user experience, especially for those with mobility impairments, achieved through natural language processing and intuitive controls. This assistant not only offered hands-free convenience for busy individuals but also integrated seamlessly with other smart home technologies. Our efforts culminated in creating a more accessible, efficient, and user-friendly smart home environment, demonstrating our commitment to pushing the boundaries of auditory interaction in smart technology.",
+    description: <>
+    <h2>🔊 Futuristic AI Voice Assistant for Smart Homes</h2>
+    <p>In a four-person team, we developed a <strong>futuristic smart voice assistant</strong> to enhance interaction with smart home devices, focusing on user customization and accessibility, especially for those with mobility impairments.</p>
+    <br/>
+    <h3>🔍 Problem Identification</h3>
+    <p>Our goal was to go beyond existing speech command technologies, targeting home automation enthusiasts with a need for a more customizable and futuristic solution.</p>
+    <br/>
+    <h3>⚙️ Key Features</h3>
+    <ul>
+      <li><strong>Advanced Customization:</strong> Extensive user customization options for personalized experiences.</li>
+      <li><strong>Accessibility Focus:</strong> Designed to improve user experience for individuals with mobility impairments.</li>
+      <li><strong>Natural Language Processing:</strong> Intuitive controls through advanced speech recognition.</li>
+      <li><strong>Integration with Smart Home Devices:</strong> Seamless connectivity with various smart home technologies.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Extensive Background Research:</strong> Deep dive into existing solutions and potential improvements.</li>
+      <li><strong>Iterative Design Process:</strong> Multiple rounds of presentations and refinements for optimal product design.</li>
+      <li><strong>Low-Fidelity Mockups:</strong> Creation of basic mockups to visualize the assistant’s functionality.</li>
+      <li><strong>Audio Demonstrations:</strong> Developing audio samples to showcase the assistant's capabilities.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Idea Brainstorming:</strong> Contributing creative concepts in the initial stages.</li>
+      <li><strong>Interaction Design:</strong> Focusing on how users would interact with the voice assistant.</li>
+      <li><strong>Background Research:</strong> Investigating existing technologies and user needs.</li>
+      <li><strong>Audio Demo Creation:</strong> Crafting audio demonstrations for the assistant.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Future-Oriented Design:</strong> The importance of designing for future needs and technologies.</li>
+      <li><strong>Customization in Smart Technology:</strong> Understanding how personalization enhances user experience in home automation.</li>
+      <li><strong>Accessibility in Design:</strong> Learning the significance of designing for users with diverse needs, especially in smart homes.</li>
+    </ul>
+</>,
     tags:["UI/UX","Product Design","Human-Centered Design"],
     features:["Speech Command Recognition","Highly customizable","Home automation"],
     demoURL:"https://drive.google.com/drive/folders/1IW9FSVE8lchmszNK4VcD8oQVYco8UkJv?usp=sharing"
@@ -308,11 +601,52 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/UI_UX/sports_app/5.png?raw=true"],
     category: ['ui/ux'],
     video: "/assets/movie.mp4",
-    description: "FitnessBPM, an innovative solo project, is a highly gamified application that transforms fitness tracking into an engaging experience. Using a smart ring or watch, it tracks the user's beats per minute (BPM) and converts this data into experience points (EXP) within the app. The design, developed through extensive background research, includes setting various fitness goals and providing personalized challenges and suggestions. Its gamifying elements are chosen for their effectiveness in motivating and engaging users, while also promoting group activities. The app features levels, challenges, achievements, and badges to reward progress and encourage continued use. Creating FitnessBPM was an enjoyable journey; I crafted interactive designs using Figma, conducted UX testing on the prototype, and made iterative improvements based on user feedback. This project showcases my commitment to combining fitness with fun and community through thoughtful and user-centric design.",
+    description:<>
+    <h2>📱 FitnessBPM: Gamified Fitness App</h2>
+    <p><strong>FitnessBPM</strong> is an innovative project that tracks heartbeat rates and builds a gamified environment around that.</p>
+    <br/>
+    <h3>🔍 Problem Identification</h3>
+    <p>The primary challenge addressed by <strong>FitnessBPM</strong> was to make fitness tracking more interactive and appealing to users. The project also required researching pragmatic hardware and software solutions.</p>
+    <br/>
+    <h3>⚙️ Key Features</h3>
+    <ul>
+      <li><strong>Custom Fitness Goals:</strong> Users can set various fitness targets.</li>
+      <li><strong>Personalized Challenges:</strong> Offering tailored challenges and suggestions.</li>
+      <li><strong>Gamification:</strong> Incorporating game-like elements for better user engagement.</li>
+      <li><strong>Interactive UI:</strong> Designing a user-friendly and appealing interface.</li>
+      <li><strong>Accessibility Features:</strong> Ensuring the app is accessible to a diverse user base.</li>
+      <li><strong>Data Visualization:</strong> Creating engaging and informative data displays.</li>
+    </ul>
+    <br/>
+    <h3>🛠 Methods & Tools</h3>
+    <ul>
+      <li><strong>Experience-Driven Design:</strong> Focused on creating an intuitive user experience, informed by user feedback and testing.</li>
+      <li><strong>User Testing:</strong> Conducted extensive user testing sessions to refine the UX/UI elements.</li>
+      <li><strong>Agile Project Management:</strong> Employed agile methodologies for efficient and adaptive project management.</li>
+      <li><strong>Figma for Interactive Prototyping:</strong> Utilized Figma for rapid low-fidelity prototyping and iterating designs.</li>
+    </ul>
+    <br/>
+    <h3>🙋‍♂️ My Role in the Project</h3>
+    <ul>
+      <li><strong>Interactive Design:</strong> Creating designs using Figma.</li>
+      <li><strong>User Experience Testing:</strong> Conducting tests and gathering feedback for continuous improvement.</li>
+      <li><strong>Prototyping:</strong> Developing interactive prototypes for user testing.</li>
+      <li><strong>Project Management:</strong> Coordinating between different teams and managing timelines.</li>
+    </ul>
+    <br/>
+    <h3>📚 Key Learnings</h3>
+    <ul>
+      <li><strong>Effective Gamification:</strong> The power of game elements in user engagement.</li>
+      <li><strong>Iterative Design:</strong> The importance of ongoing improvements based on user feedback.</li>
+      <li><strong>Community Building:</strong> Integrating social aspects into fitness tracking.</li>
+    </ul>
+</>
+  ,
     tags:["Wireframing","Product Design","Interaction Design"],
     features:["Gamified sports app","Smart device integration","Promoting healthy lifestyle"],
     demoURL:"https://www.figma.com/proto/vM5s9GExMRFpzVYZAuMsd7/Innovation-course-WIreframes?page-id=0%3A1&type=design&node-id=1-4&viewport=547%2C-77%2C0.94&t=jsuyFro2DdxFAzsL-1&scaling=scale-down&starting-point-node-id=1%3A96&mode=design"
   },
+  
 
 ];
 
