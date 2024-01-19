@@ -13,9 +13,11 @@
 
 .contact__card:hover{
 
-    box-shadow: 0 0px 110px rgba(255, 255, 255, 1);
-    border: 2px solid #516CF7;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* border: 2px solid #9251F7; */
+    /* border-style: inset; */
     /* background-color: var(--container-color-hover); Define the hover background color */
+    /* background-color: #ADF5FF; Background color on hover */
     cursor: pointer;
 }
 
@@ -33,17 +35,22 @@
 }
 
 .contact__card {
+    position: relative;
+    overflow: hidden; /* Ensure the circle doesn't extend outside the card */
+    /* ... other styles ... */
+    /* transition: background-color 1s; */
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem;
     border-radius: 0.75rem;
     text-align: center;
     width: 300px;
+    transition: background-color 0.4s;
 }
 
 .contact__card-icon {
     font-size: 2rem;
-    color: var(--title-color);
+    color: #9251F7;
     margin-bottom: var(--mb-0-25);
 }
 
@@ -54,6 +61,7 @@
 
 .contact__card-title {
     font-weight: var(--font-medium);
+    color: #9251F7;
 }
 
 .contact__card-data {
@@ -62,7 +70,7 @@
 }
 
 .contact__button {
-    color: var(--text-color);
+    color: #9251F7;
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;
@@ -97,7 +105,7 @@
     height: 100%;
     border: 2px solid rgba(0, 0, 0, 0.3);
     background: none;
-    color: var(--text-color);
+    color: #9251F7;
     outline: none;
     border-radius: 0.75rem;
     padding: 1.5rem;
@@ -105,7 +113,7 @@
 }
 .contact__button.copied,
 .copied-icon {
-  color: #516CF7;
+  color: #9251F7;
   font-weight: 800; /* Green shade similar to #9251F7 */
 }
 

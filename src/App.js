@@ -39,8 +39,12 @@ function App() {
           <Qualifications theme={theme} />
           <Portfolio theme={theme} />
           {/* <Testimonials theme={theme} /> */}
-          <Contact theme={theme} />
+          {/* <Contact theme={theme} /> */}
         </main>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <Footer theme={theme} />
         <ScrollUp />
       </div>

@@ -18,8 +18,8 @@ const Contact = ({ theme }) => {
   return (
     <div id={theme}>
       <section className="contact section" id="contact">
-        <h2 className="section__title">Get in Touch</h2>
-        <span className="section__subtitle">Contact Me</span>
+        <h2 className="section__title white">Get in Touch</h2>
+        <span className="section__subtitle light_gray">Contact Me</span>
         <div className="contact__container container grid">
           <div className="contact__content">
             {/* <h3 className="contact__title">Contact</h3> */}
@@ -49,7 +49,7 @@ const Contact = ({ theme }) => {
                     <ContactCard></ContactCard>
 
 {/* WHATSPP */}
-          <a href="https://api.whatsapp.com/send?phone=+358443376433&text=Hello!">
+          {/* <a href="https://api.whatsapp.com/send?phone=+358443376433&text=Hello!">
               <div className="contact__card">
                 <i className="bx bxl-whatsapp contact__card-icon"></i>
                 <h3 className="contact__card-title">Whatsapp</h3>
@@ -65,14 +65,14 @@ const Contact = ({ theme }) => {
                     ></i>
                 </a>
               </div>
-                    </a>
+                    </a> */}
 
 {/* LINKEDIN */}
 <a href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
 target='_blank'>
 
               <div className="contact__card">
-                <i className="bx bxl-messenger contact__card-icon"></i>
+                <i className="uil uil-linkedin contact__card-icon"></i>
                 <h3 className="contact__card-title">Linked In</h3>
                 <span className="contact__card-data">Toni Rajamäki</span>
                 <a

@@ -11,14 +11,17 @@
     width: 300px;
     cursor: pointer;
     /* filter: grayscale(100%); */
-    transition: filter 0.2s ease-in-out;
+    /* transition: filter 0.2s ease-in-out; */
+    transition: box-shadow 0.25s ease-in-out;
   }
   
   .project__card:hover {
     /* box-shadow: 0 0 1em 0 rgba(81, 108, 247, 0.9),
       0 0 3px 0 rgba(81, 108, 247, 1); */
       box-sizing: border-box;
-      border: 2px solid #516CF7;
+      /* border: 2px solid #516CF7; */
+      /* transform: scale(1.05); */
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
       
   }
  .project__tag {
@@ -123,7 +126,7 @@
   }
 .grid2 {
     display: grid;
-    gap: 1.5rem;
+    gap: 2rem;
   }
 
 

@@ -51,6 +51,7 @@ const Projects = ({ theme }) => {
         ))}
       </div>
     </div>
+    
   );
 };
 

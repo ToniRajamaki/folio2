@@ -3,13 +3,64 @@
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .footer__container{
-    background-color: #516CF7;
+    /* background-color: #516CF7; */
     padding: 2rem 0;
+    z-index: 2;
 }
 .footer__title,
 .footer__link{
     color: #fff;
+    z-index: 2;
 }
+
+
+/* for animation */
+@keyframes fillAnimation {
+    from {
+      transform: scale(0);
+      opacity: 1;
+    }
+    to {
+      transform: scale(2); /* Adjust based on footer size */
+      opacity: 1; /* Keep the circle visible after animation */
+    }
+  }
+  
+  .footer-animate {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .footer-circle {
+    position: absolute;
+    bottom: 0; /* Start from the bottom */
+    left: 50%; /* Centered horizontally */
+    transform: translateX(-50%) scale(0);
+    width: 200%; /* Make sure this is large enough to cover the footer */
+    height: 200%; /* Same as width */
+    background-color: #9251F7; /* Your specified color */
+    border-radius: 50%;
+    pointer-events: none;
+    animation: fillAnimation 2s ease-out forwards;
+    z-index: 1; /* Lower z-index so it stays behind the content */
+  }
+  
+  .footer__container {
+    position: relative;
+    z-index: 2; /* Higher z-index to stay on top */
+    /* Rest of your styles for footer__container */
+  }
+  
+  .white{
+    color:white;
+  }
+  .light_gray{
+    color:lightgray;
+  }
+  
+  
+
+
 
 
 .footer__title{
@@ -25,6 +76,8 @@
     justify-content: center;
     column-gap: 1.5rem;
     margin-bottom: var(--mb-2);
+    list-style: none; /* Removes bullet points */
+    padding-left: 0; /* Removes default padding */
 }
 .footer__social{
     display: flex;
