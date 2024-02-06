@@ -3,8 +3,11 @@ import '../styles/home.css'
 import Data from './Data'
 import ScrollDown from './ScrollDown'
 import Social from './Social'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = ({theme}) => {
+  
   return (
     <div id={theme}>
       <section className="home section" id="home">
