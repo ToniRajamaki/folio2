@@ -69,23 +69,25 @@ const Contact = ({ theme }) => {
 
 {/* LINKEDIN */}
 <a href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
-target='_blank'>
+target='_blank'
+rel="noreferrer">
 
               <div className="contact__card">
                 <i className="uil uil-linkedin contact__card-icon"></i>
                 <h3 className="contact__card-title">Linked In</h3>
                 <span className="contact__card-data">Toni Rajamäki</span>
-                <a
+                <span
                   href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
                   target='_blank'
                   className="contact__button"
+                  rel="noreferrer"
                   >
                   Connect with me{" "}
                   <i
                     className="bx bx-right-arrow-alt
                     contact__button-icon"
                     ></i>
-                </a>
+                </span>
               </div>
                     </a>
             </div>

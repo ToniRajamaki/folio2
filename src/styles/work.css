@@ -6,9 +6,8 @@
     border-radius: 5%;
     padding: 15px;
     transition: box-shadow 0.2s ease-in-out;
-    max-height: 300px;
     background-color: #ffffff;
-    width: 300px;
+    width: 25vw;
     cursor: pointer;
     /* filter: grayscale(100%); */
     /* transition: filter 0.2s ease-in-out; */
@@ -226,11 +225,16 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
-.work__container {
-    gap: 1.25rem;
-
-}
+@media screen and (max-width: 1000px) {
+    .work__container{
+        grid-template-columns:repeat(2,50%) ;
+        gap: 2rem;
+        justify-content: space-evenly;
+    }
+    .project__card{
+        width: 90%;
+        justify-self:center;
+    }
 .work__card{
     padding: 1rem;
 }
@@ -243,15 +247,26 @@
 }
 /* For medium devices */
 @media screen and (max-width: 768px) {
-.work__container{
-    grid-template-columns: max-content;
+    .work__container{
+        grid-template-columns: max-content;
+    }
+    .project__card{
+        width: 90%;
+    }
 }
-}
-
 @media screen and (max-width: 576px) {
 .work__container{
     grid-template-columns: 1fr;
+    justify-content: center;
+    grid-template-columns: max-content;
 }
+.project__card{
+    width: 90%;
+}
+.project__item{
+    width: 100% !important;
+}
+
 .work__img{
    width: 100%;
 }
@@ -294,11 +309,19 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+.work-container{
+    justify-content: center;
+    grid-template-columns: max-content;
+}
+.project__card{
+    width: 300px !important;
+}
 .work__item{
     font-size: var(--slakk-font-size) ;
 }
 .work__filters {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   column-gap: 0.75rem;
@@ -329,4 +352,5 @@
     
 
 }
+
 }

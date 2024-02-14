@@ -6,14 +6,54 @@
 }
 
 .skills-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  max-width: 38.3rem;
+}
+
+/* When the width is less than 1000px, switch to a grid with 3 columns */
+@media (max-width: 999px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    max-width: 50%;
-    border: red 1px solid;
+
   }
+}
+
+/* When the width is less than 625px, switch to a grid with 2 columns */
+@media (max-width: 624px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+  }
+}
+
+@media (max-width: 425px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+
+  }
+}
+
+/* Original media query for screens wider than 1000px */
+@media (min-width: 1000px) {
+  .skills-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+
+  }
+}
+
   
   .skill-tag {
     display: flex;

@@ -45,7 +45,7 @@ const Projects = ({ theme }) => {
       </div>
 
       {/* Display filtered projects */}
-      <div className="work__container container3 grid2">
+      <div className="work__container grid2 container3 ">
         {filteredProjects.map((project) => (
           <ProjectItem item={project} key={project.id} />
         ))}

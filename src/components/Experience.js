@@ -122,9 +122,9 @@ function Experience() {
   ]
   //   let workIconStyles = { background: "#06D6A0" };
   //   let schoolIconStyles = { background: "#f9c74f" };
-  const checkIcon = <i class='uil uil-check-circle service__modal-icon'></i>
-  const locationIcon = <i class='bx bx-buildings'></i>
-  const timeIcon = <i class='bx bx-time-five'></i>
+  const checkIcon = <i className='uil uil-check-circle service__modal-icon'></i>
+  const locationIcon = <i className='bx bx-buildings'></i>
+  const timeIcon = <i className='bx bx-time-five'></i>
   return (
     <div>
       <VerticalTimeline animate={true}>
@@ -173,7 +173,7 @@ function Experience() {
               <div className='description2'>
                 {element.description.map((desc, index) => (
                   <p key={index} className='tiny_font parent2'>
-                    <div className='space_dot'>• </div> {desc}
+                    <span className='space_dot'>• </span> {desc}
                   </p>
                 ))}
               </div>

@@ -11,12 +11,29 @@
   max-width: 300px; /* Max width remains to control size on larger screens */
   margin: 15px;
   transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s, height 0.3s;
+
+}
+.education-content{
+  background-color: rgba(255, 255, 255, 0.4);
+  min-height: 80vh;
+}
+
+.education-background {
+  background-image: url('https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau.png?raw=true');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh; /* Changed from height to min-height */
+  background-color: rgba(255, 255, 255, 0.4);
+  
+
 }
 
 .image-container {
   position: relative;
   overflow: hidden;
   height: 225px;
+  
 }
 
 .rounded-image {
@@ -32,6 +49,8 @@
   left: 0;
   width: 100%;
   height: 100%;
+  
+
 }
 
 .content-container {
@@ -41,7 +60,7 @@
 .school-name,
 .degree-container,
 .description-container {
-  background-color: #f0f0f0; /* Unified background color setting */
+  background-color: #f0f0f0;
   padding: 8px 12px;
 }
 
@@ -52,12 +71,13 @@
 
 .degree-container,
 .description-container {
-  border-top: 1px solid #ccc; /* Added to maintain consistency */
+  border-top: 1px solid #ccc;
+  
 }
 
 .degree,
 .description {
-  margin: 0; /* Reset margin */
+  margin: 0;
   font-size: 0.9rem;
   white-space: pre-line;
 }
@@ -69,7 +89,7 @@
 
 .cards-container {
   display: flex;
-  flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
   padding: 20px;
@@ -78,7 +98,7 @@
 .education-card:hover {
   transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  cursor: pointer; /* Changed to pointer for clarity */
+  cursor: pointer;
 }
 
 .education-card:hover .rounded-image,
@@ -93,5 +113,8 @@
   }
   .education-card {
     width: auto; /* Adjusts width to fit smaller screens */
+  }
+  .education-background {
+    min-height: 100vh; /* Optional: Adjusts min-height for smaller devices */
   }
 }
