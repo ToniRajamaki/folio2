@@ -15,7 +15,7 @@ function Education() {
   return (
     <div className="education-background">
       <div className="education-content">
-        <section className="about section" id="about">
+        <section className="about section" id="education">
           <h2 className="section__title">Education</h2>
           <span className="section__subtitle">My Degrees</span>
           <div className="cards-container container grid2" data-aos="fade-up">

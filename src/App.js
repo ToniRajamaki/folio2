@@ -44,7 +44,7 @@ function App() {
           {/* <Contact theme={theme} /> */}
         </main>
         <Footer theme={theme} />
-        <ScrollUp />
+        {window.innerWidth > 1000 && <ScrollUp />}
       </div>
     </ThemeContext.Provider>
   )

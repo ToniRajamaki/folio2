@@ -39,62 +39,93 @@ const back = [
       { name: 'Gimp', bgColor: 'rgba(91, 85, 69,0.15)', imgPath: 'https://raw.githubusercontent.com/ToniRajamaki/folio2/4530467e93fcd59217997fb89ab39ff9cc2b1f90/public/assets/svgs/The_GIMP_icon_-_gnome.svg' },
   ];
 
-function Skills2({theme}) {
-    useEffect(() => {
-        AOS.init({ duration: 1000 });
-      }, []);
+function Skills2({ theme }) {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
-    return (
-        <div id={theme}>
-      
+  // Enhanced function to handle mouse enter with larger and more varied rotation angles
+  const handleMouseEnter = (e, bgColor) => {
+    // Generate larger and more varied random rotation angles with higher minimum values
+    const rotateX = Math.floor(Math.random() * 40) - 20; // Random rotateX between -20 and 20
+    const rotateY = Math.floor(Math.random() * 40) - 20; // Random rotateY between -20 and 20
+    const perspective = 600; // Perspective distance
+
+    e.currentTarget.style.backgroundColor = bgColor;
+    e.currentTarget.style.border = `1px solid ${bgColor}`;
+    e.currentTarget.style.boxShadow = 'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px';
+    e.currentTarget.style.color = '#000';
+    e.currentTarget.style.fontWeight = 'bold';
+    // Apply enhanced 3D transformation
+    e.currentTarget.style.transform = `perspective(${perspective}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  };
+
+  // Function to handle mouse leave
+  const handleMouseLeave = (e) => {
+    e.currentTarget.style.backgroundColor = ''; // Reset to original or specify a default color
+    e.currentTarget.style.border = "none";
+    e.currentTarget.style.boxShadow = "none";
+    e.currentTarget.style.color = ''; // Reset to original or specify a default color
+    e.currentTarget.style.fontWeight = ''; // Reset to original or specify a default font weight
+    e.currentTarget.style.transform = ''; // Reset transformation
+  };
+
+  return (
+    <div id={theme}>
       <section className="skills section" id="skills">
         <h2 className="section__title">Skills</h2>
         <span className="section__subtitle small_margin_bottom">My technical level</span>
         <div className='skills2-container'>
-                <h1>Front-end</h1>
-                <br />
-            <div className="skills-container" data-aos="fade-right">
-                {front.map((skill, index) => (
-                    <div className="skill-tag" key={index}>
-                        <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
-                            <img src={skill.imgPath} alt={skill.name} className="skill-image" />
-                        </div>
-                        <span className="skill-name">{skill.name}</span>
-                    </div>
-                ))}
-            </div>
-            <br />
-            <br />
-            <h1>Back-end</h1>
-            <br />
-            <div className="skills-container" data-aos="fade-left">
-                {back.map((skill, index) => (
-                    <div className="skill-tag" key={index}>
-                        <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
-                            <img src={skill.imgPath} alt={skill.name} className="skill-image" />
-                        </div>
-                        <span className="skill-name">{skill.name}</span>
-                    </div>
-                ))}
-            </div>
-            <br />
-            <h1>Tools</h1>
-            <br />
-            <div className="skills-container" data-aos="fade-right">
-                {tools.map((skill, index) => (
-                    <div className="skill-tag" key={index}>
-                        <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
-                            <img src={skill.imgPath} alt={skill.name} className="skill-image" />
-                        </div>
-                        <span className="skill-name">{skill.name}</span>
-                    </div>
-                ))}
-            </div>
+          <h1>Front-end</h1>
+          <br />
+          <div className="skills-container" data-aos="fade-right">
+            {front.map((skill, index) => (
+              <div className="skill-tag" key={index}
+                   onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                   onMouseLeave={handleMouseLeave}>
+                <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
+                  <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+                </div>
+                <span className="skill-name">{skill.name}</span>
+              </div>
+            ))}
+          </div>
+          <br /><br />
+          <h1>Back-end</h1>
+          <br />
+          <div className="skills-container" data-aos="fade-left">
+            {back.map((skill, index) => (
+              <div className="skill-tag" key={index}
+                   onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                   onMouseLeave={handleMouseLeave}>
+                <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
+                  <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+                </div>
+                <span className="skill-name">{skill.name}</span>
+              </div>
+            ))}
+          </div>
+          <br />
+          <h1>Tools</h1>
+          <br />
+          <div className="skills-container" data-aos="fade-right">
+            {tools.map((skill, index) => (
+              <div className="skill-tag" key={index}
+                   onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                   onMouseLeave={handleMouseLeave}>
+                <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
+                  <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+                </div>
+                <span className="skill-name">{skill.name}</span>
+              </div>
+            ))}
+          </div>
         </div>
-        
       </section>
+      <br></br>
+      <br></br>
     </div>
-    );
+  );
 }
 
 export default Skills2;

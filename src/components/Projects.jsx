@@ -28,7 +28,7 @@ const Projects = ({ theme }) => {
   };
 
   return (
-    <div>
+    <div id={theme}>
       {/* Filter items */}
       <div className="work__filters">
         {projectsNav.map((item, index) => (

@@ -37,7 +37,7 @@ const Header = ({ toggleTheme, theme }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navigationLinks = ['home', 'skills', 'about', 'qualification', 'portfolio', 'contact'];
+  const navigationLinks = ['home', 'skills', 'education', 'qualification', 'portfolio', 'contact'];
 
   return (
     <header className="header" id={theme}>
@@ -53,7 +53,7 @@ const Header = ({ toggleTheme, theme }) => {
               </li>
             )}
             {navigationLinks.map((section, index, array) =>
-              !(isMenuVisible && (index === 0 || index === array.length - 1)) ? (
+              !(isMenuVisible && (index === 0 || index === array.length - 0)) ? (
                 <li key={section} className="nav__item">
                   <Link to={section} spy={true} smooth={true} duration={0} className={activeNav === `#${section}` ? 'nav__link active-link' : 'nav__link'}>
                     {section.charAt(0).toUpperCase() + section.slice(1)}
