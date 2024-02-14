@@ -63,7 +63,7 @@ const Header = ({ toggleTheme, theme }) => {
             )}
             {/* Conditionally render the last item (DownloadCVButton) based on `isMenuVisible` */}
             {!isMenuVisible && (
-              <li className="nav__item">
+              <li className="nav__item cv-button">
                 <DownloadCVButton />
               </li>
             )}

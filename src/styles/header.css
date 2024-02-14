@@ -19,9 +19,10 @@
 .nav__logo,
 .nav__toggle {
     color: var(--title-color);
-    width: 100px;
+    width: 6rem;
     /* padding: 10px; */
-    margin-left: 40px;
+    margin-left: 4rem;
+    padding-top: 1rem;
 }
 
 .nav__list {
@@ -44,7 +45,14 @@
     list-style-type: none;
     display: flex;
     align-self: center;
+    margin-left: 0;
 
+}
+
+@media (max-width: 1000px) {
+    .cv-button {
+        display: none;
+    }
 }
 
 .nav__icon,
@@ -136,12 +144,7 @@
         bottom: 0;
     }
 
-    .nav__list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        /* gap: 5rem; */
-    }
-
+   
     .nav__icon {
         font-size: 1.2rem;
     }
