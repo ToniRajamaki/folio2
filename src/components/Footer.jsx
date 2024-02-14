@@ -42,7 +42,7 @@ const Footer = ({ theme }) => {
             to="home"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={0}
             className="footer__link"
         >
             Home
@@ -54,7 +54,7 @@ const Footer = ({ theme }) => {
             to="skills"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={0}
             className="footer__link"
         >
             Skills
@@ -66,7 +66,7 @@ const Footer = ({ theme }) => {
             to="about"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={0}
             className="footer__link"
         >
             Education
@@ -78,7 +78,7 @@ const Footer = ({ theme }) => {
             to="qualification"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={0}
             className="footer__link"
         >
             Experience
@@ -90,7 +90,7 @@ const Footer = ({ theme }) => {
             to="portfolio"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={0}
             className="footer__link"
         >
             Portfolio

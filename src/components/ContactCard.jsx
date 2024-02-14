@@ -6,6 +6,7 @@ const ContactCard = () => {
   const [isCopied, setIsCopied] = useState(false);
 
   const copyToClipboard = (e) => {
+    alert("✉️Email:  zingoo16@gmail.com copied to clipboard✅");
     e.preventDefault();
     navigator.clipboard.writeText(email)
       .then(() => {
