@@ -4,6 +4,8 @@
 }
 
 .home__content {
+    display: grid;
+    gap: 1.5rem;
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
@@ -64,7 +66,6 @@
 }
 
 .home__img {
-    /* background: url(../../public/assets/hazem.jpg); */
     background-position: center;
     background-size: cover;
     order: 1;
@@ -267,6 +268,9 @@
     .home__scroll {
         display: none;
     }
+    .typed-text{
+        padding-left: 4rem;
+    }
 
 }
 
@@ -286,6 +290,12 @@
     .home__hand {
         width: 22px;
         height: 22px;
+    }
+    .typed-text{
+        padding-left: 4rem;
+    }
+    .waves{
+        display: none;
     }
 }
 

@@ -15,7 +15,7 @@ const Data = () => {
       Greetings! I'm Toni! With a solid <span className="hl">2-year</span> background in professional <span className="hl">Software Development</span> and a <span className="hl">Master's degree</span> in <span className="hl">Human Technology Interaction</span>, I'm a curious learner who values <span className="hl">self-development.</span> I have a deep knowledge and passion for <span className="hl">UI/UX Design</span>, making me a well-rounded creator. Alongside my technical skills, I'm <span className="hl">business-knowledgeable</span>, adding value to your team. If you're seeking someone who aligns with these skills and values, then you're the kind of team I'm <span className="hl">excited</span> to join.
 
       </p>
-      <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
+      <img className="typed-text" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
       <br></br>
       {/* <br></br> */}
       {/* <br></br> */}

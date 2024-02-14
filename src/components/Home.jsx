@@ -11,7 +11,7 @@ const Home = ({theme}) => {
   return (
     <div id={theme}>
       <section className="home section" id="home">
-        <div className="home__container container grid">
+        <div className="home__container  ">
           <div className="home__content grid">
             <Social />
                {/* profile picture */}
@@ -26,7 +26,7 @@ const Home = ({theme}) => {
             
             <Data />
           </div>
-          <img src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/waves.svg" width="100%" height="150"></img>
+          <img className='waves' src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/waves.svg" width="100%" height="150"></img>
               {/* <ScrollDown /> */}
         </div>
       </section>

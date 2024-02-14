@@ -1,83 +1,67 @@
-import React from 'react'
-import EducationCard from './EducationCard'
-import ed from '../styles/EducationCard.css'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
-import '../styles/skills.css'
+import React, { useEffect } from 'react';
+import EducationCard from './EducationCard';
+import '../styles/EducationCard.css'; // Ensure your CSS file is correctly linked
+import 'aos/dist/aos.css'; // AOS styles, import in App.js if used globally
+import AOS from 'aos';
 
+// Component Definition
 function Education() {
+  // Initialize AOS library for animations
   useEffect(() => {
-    AOS.init({ duration: 2000 })
-  }, [])
+    AOS.init({ duration: 2000 });
+  }, []);
 
+  // Render the Education component
   return (
-    <div
-      style={{
-        height: '80vh', // Set a fixed height for the parent div
-        backgroundImage: `url('https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau.png?raw=true')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}>
-      <div
-        style={{
-          // backgroundColor: 'rgba(0, 0, 0, 0.3)',
-          backgroundColor: 'rgba(255, 255, 255, 0.4)',
-          display: 'flex',
-          flexDirection: 'column',
-          height: '100%', // Make sure the inner content fills the parent's fixed height
-        }}>
-        <section className='about section ' id='about'>
-          <h2 className='section__title'>Education</h2>
-          <span className='section__subtitle'>My Degrees</span>
-          <div className='cards-container container grid2' data-aos='fade-up'>
-            <a
-              href='https://www.tuni.fi/en/study-with-us/human-technology-interaction-computing-sciences'
-              target='_blank'>
-              <div className='card'>
+    <div className="education-background">
+      <div className="education-content">
+        <section className="about section" id="about">
+          <h2 className="section__title">Education</h2>
+          <span className="section__subtitle">My Degrees</span>
+          <div className="cards-container container grid2" data-aos="fade-up">
+            {/* Dynamic rendering of education cards */}
+            {[
+              {
+                href: 'https://www.tuni.fi/en/study-with-us/human-technology-interaction-computing-sciences',
+                schoolName: 'Tampere University',
+                degree: "Human-Technology Interaction Master's Degree (Tech)",
+                duration: '2021-2023',
+                description: '• Long Major: Human-Technology Interaction',
+                imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau_logo.png?raw=true',
+              },
+              {
+                href: 'https://ahlmanedu.fi/',
+                schoolName: 'AhlmanEdu',
+                degree: 'Professional Entrepreneurship Diploma',
+                duration: '2021 - 2022',
+                description: '• Business operations development\n• Productization, Sales & Marketing',
+                imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/ahlman.png?raw=true',
+              },
+              {
+                href: 'https://www.tuni.fi/en/about-us/computing-sciences#switcher-trigger-overview',
+                schoolName: 'Tampere University',
+                degree: "Computing Sciences Bachelor's Degree",
+                duration: '2018-2021',
+                description: '• Major: Signal Processing\n• Minor: Industrial Economics',
+                imageSrc: 'https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau_logo.png?raw=true',
+              },
+              // Add more education entries here as needed
+            ].map((edu, index) => (
+              <a key={index} href={edu.href} target="_blank" rel="noopener noreferrer" className="card-link">
                 <EducationCard
-                  schoolName='Tampere University'
-                  degree={`Human-Technology Interaction
-                  Master's Degree (Tech)`}
-                  duration='2021-2023'
-                  description='• Long Major: Human-Technology Interaction'
-                  imageSrc='https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau_logo.png?raw=true'
+                  schoolName={edu.schoolName}
+                  degree={edu.degree}
+                  duration={edu.duration}
+                  description={edu.description}
+                  imageSrc={edu.imageSrc}
                 />
-              </div>
-            </a>
-            <a href='https://ahlmanedu.fi/' target='_blank'>
-              <div className='card'>
-                <EducationCard
-                  schoolName='AhlmanEdu'
-                  degree='Professional Entrepreneurship Diploma'
-                  duration='2021 - 2022'
-                  description={`• Business operations development
-                • Productization, Sales & Marketing`}
-                  imageSrc='https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/ahlman.png?raw=true'
-                />
-              </div>
-            </a>
-            <a
-              href='https://www.tuni.fi/en/about-us/computing-sciences#switcher-trigger-overview'
-              target='_blank'>
-              <div className='card'>
-                <EducationCard
-                  schoolName='Tampere University'
-                  degree={`Computing Sciences
-                  Bachelor's Degree`}
-                  duration='2018-2021'
-                  description={`• Major: Signal Processing
-                • Minor: Industrial Economics`}
-                  imageSrc='https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/tau_logo.png?raw=true'
-                />
-              </div>
-            </a>
+              </a>
+            ))}
           </div>
         </section>
       </div>
     </div>
-  )
+  );
 }
 
-export default Education
+export default Education;

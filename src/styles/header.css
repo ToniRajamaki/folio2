@@ -42,6 +42,9 @@
 }
 .nav__item {
     list-style-type: none;
+    display: flex;
+    align-self: center;
+
 }
 
 .nav__icon,
@@ -106,8 +109,8 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .header {
-        top: initial;
-        bottom: 0;
+        /* top: initial; */
+        /* bottom: 0; */
     }
 
     .nav {
@@ -120,11 +123,12 @@
         bottom: -100%;
         left: 0;
         width: 100%;
-    background-color: #BCC5CE;
+    background-color: #ffffff;
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
+        border: 2px solid #516CF7;
     }
 
     /* show menu */
@@ -185,7 +189,7 @@
     .header {
         width: 100%;
         position: fixed;
-        bottom: 0;
+        /* bottom: 0; */
         left: 0;
         z-index: var(--z-fixed);
         background-color: var(--body-color);
