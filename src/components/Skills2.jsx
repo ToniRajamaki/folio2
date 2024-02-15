@@ -73,13 +73,13 @@ function Skills2({ theme }) {
   return (
     <div id={theme}>
       <section className="skills section" id="skills">
-        <h2 className="section__title">Skills</h2>
-        <span className="section__subtitle">My technical level</span>
+        <h2 className="section__title ">Skills</h2>
+        <span className="section__subtitle small_margin_bottom">My technical level</span>
   
         <div className='skills2-container'>
           {/* Front-end Section */}
           <div className='skills-section-container'>
-            <h4 className='skills-header'>Front-end</h4>
+            <p className='skills-header'>Front-end</p>
             <div className="skills-container" data-aos="fade-right">
               {front.map((skill, index) => (
                 <div className="skill-tag" key={index}
@@ -96,7 +96,7 @@ function Skills2({ theme }) {
   
           {/* Back-end Section */}
           <div className='skills-section-container'>
-            <h4 className='skills-header'>Back-end</h4>
+            <p className='skills-header'>Back-end</p>
             <div className="skills-container" data-aos="fade-left">
               {back.map((skill, index) => (
                 <div className="skill-tag" key={index}
@@ -113,7 +113,7 @@ function Skills2({ theme }) {
   
           {/* Tools Section */}
           <div className='skills-section-container'>
-            <h4 className='skills-header'>Tools</h4>
+            <p className='skills-header'>Tools</p>
             <div className="skills-container" data-aos="fade-right">
               {tools.map((skill, index) => (
                 <div className="skill-tag" key={index}

@@ -41,10 +41,10 @@ const Header = ({ toggleTheme, theme }) => {
   const navigationLinks = ['home', 'skills', 'education', 'qualification', 'portfolio', 'contact'];
 
   return (
-    <header data-aos="fade-down" className="header" id={theme}>
+    <header className="header" id={theme}>
       <nav className="nav container">
         <div className={isMenuVisible ? 'nav__menu show-menu' : 'nav__menu'}>
-          <ul className="nav__list">
+          <ul  className="nav__list">
             {/* Always render the first item (logo) in the top nav bar but not in the toggleable menu */}
             {!isMenuVisible && (
               <li className="nav__item">
@@ -72,7 +72,7 @@ const Header = ({ toggleTheme, theme }) => {
 
           <i className="uil uil-times nav__close" onClick={() => setMenuVisibility(!isMenuVisible)} aria-label="Close menu"></i>
         </div>
-        <div className="nav__toggle" onClick={() => setMenuVisibility(!isMenuVisible)} aria-label="Toggle menu">
+        <div  className="nav__toggle" onClick={() => setMenuVisibility(!isMenuVisible)} aria-label="Toggle menu">
           <i className="uil uil-apps" style={{ fontSize: '150%' }}></i>
         </div>
       </nav>

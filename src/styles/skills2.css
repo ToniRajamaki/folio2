@@ -118,4 +118,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+  font-size:var(--smal-font-size);
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
 }
