@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import '../styles/header.css';
 import ReactSwitch from 'react-switch'; // Ensure this is being used elsewhere
 import DownloadCVButton from './DownloadCVButton';
+import Aos from 'aos';
 
 const Header = ({ toggleTheme, theme }) => {
   const [activeNav, setActiveNav] = useState('#home');
@@ -40,7 +41,7 @@ const Header = ({ toggleTheme, theme }) => {
   const navigationLinks = ['home', 'skills', 'education', 'qualification', 'portfolio', 'contact'];
 
   return (
-    <header className="header" id={theme}>
+    <header data-aos="fade-down" className="header" id={theme}>
       <nav className="nav container">
         <div className={isMenuVisible ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className="nav__list">

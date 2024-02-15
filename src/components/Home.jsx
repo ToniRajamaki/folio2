@@ -16,7 +16,7 @@ const Home = ({theme}) => {
             <Social />
                {/* profile picture */}
 
-            <div className="home__img">
+            <div className="home__img" data-aos="flip-left" data-aos-delay="1000" data-aos-duration="1000">
               <img
                 src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/profile_picture.png?raw=true"
                 alt="about__img"
@@ -26,7 +26,8 @@ const Home = ({theme}) => {
             
             <Data />
           </div>
-          <img className='waves' src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/waves.svg" width="100%" height="150"></img>
+          <img data-aos="fade-up" data-aos-delay="1000"
+           className='waves' src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/waves.svg" width="100%" height="150"></img>
               {/* <ScrollDown /> */}
         </div>
       </section>

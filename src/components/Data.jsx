@@ -1,21 +1,23 @@
 import React from "react";
 import "../styles/data.css";
 import "../styles/Datawork.css";
+import AOS from "aos";
 
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-  <img align="center" src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/logo.svg" width="600" height="100"/>
+        {/* //title */}
+  <img data-aos="fade-right" align="center" src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/logo.svg" width="600" height="100"/>
 
       </h1>
-      <h3 className="home_subtitle"> Software Engineer  |  UI/UX Designer</h3>
+      <h3 data-aos="fade-left" data-aos-delay="500" className="home_subtitle"> Software Engineer  |  UI/UX Designer</h3>
 
-      <p className="home__description">
+      <p data-aos="zoom-in"  data-aos-delay="1500" data-aos-duration="1000" className="home__description">
       Greetings! I'm Toni! With a solid <span className="hl">2-year</span> background in professional <span className="hl">Software Development</span> and a <span className="hl">Master's degree</span> in <span className="hl">Human Technology Interaction</span>, I'm a curious learner who values <span className="hl">self-development.</span> I have a deep knowledge and passion for <span className="hl">UI/UX Design</span>, making me a well-rounded creator. Alongside my technical skills, I'm <span className="hl">business-knowledgeable</span>, adding value to your team. If you're seeking someone who aligns with these skills and values, then you're the kind of team I'm <span className="hl">excited</span> to join.
 
       </p>
-      <img className="typed-text" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
+      <img data-aos="zoom-in-right"  data-aos-delay="2000"  className="typed-text" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
       <br></br>
       {/* <br></br> */}
       {/* <br></br> */}
@@ -24,7 +26,7 @@ const Data = () => {
       <br></br>
   {/* <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=550&size=24&duration=1600&pause=500&color=9251F7&center=true&vCenter=true&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%F0%9F%98%81;Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" /></a> */}
       
-      <a href="#portfolio" className="button button--flex">
+      <a data-aos="zoom-in"  data-aos-delay="3000" href="#portfolio" className="button button--flex">
         See my projects
         <svg
           className="button__icon"

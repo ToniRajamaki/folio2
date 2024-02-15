@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from 'aos';
 
 const Social = () => {
   return (
@@ -17,6 +18,8 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
+        data-aos="fade-right"
+        data-aos-delay="1400"
       >
         <i className="uil uil-linkedin"></i>
       </a>
@@ -26,6 +29,9 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
+        data-aos="fade-right"
+        data-aos-delay="1600"
+
       >
         <i className="uil uil-github"></i>
       </a>
