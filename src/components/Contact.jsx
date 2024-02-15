@@ -68,7 +68,7 @@ const Contact = ({ theme }) => {
                     </a> */}
 
 {/* LINKEDIN */}
-<a href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
+<a data-aos="fade-left" data-aos-delay="400" href="https://www.linkedin.com/in/toni-rajam%C3%A4ki-025055283/"
 target='_blank'
 rel="noreferrer">
 

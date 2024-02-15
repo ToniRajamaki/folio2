@@ -1,8 +1,6 @@
-
-
-.skills2-container{
-    display: grid;
-    place-items: center;
+.skills2-container {
+  display: grid;
+  place-items: center;
 }
 
 .skills-container {
@@ -11,71 +9,69 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 1rem;
-  max-width: 38.3rem;
+  max-width: 38.3rem; /* Keep this to limit the maximum width */
+  width: 100%; /* Ensure it takes the full width of its container */
+  margin: auto; /* Center it within its parent */
 }
 
-/* When the width is less than 1000px, switch to a grid with 3 columns */
 @media (max-width: 999px) {
   .skills-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
   }
 }
 
-/* When the width is less than 625px, switch to a grid with 2 columns */
 @media (max-width: 624px) {
   .skills-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
   }
 }
 
 @media (max-width: 425px) {
   .skills-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1rem;
   }
 }
 
-/* Original media query for screens wider than 1000px */
 @media (min-width: 1000px) {
   .skills-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1rem;
+      max-width: 100%; /* Allow it to expand fully within the container */
+  }
 
+  /* Ensuring alignment with the first grid item */
+  .skills-header, .skills-container {
+      padding-left: 0;
+      margin-left: 0;
   }
 }
 
-  
 .skill-tag {
   display: flex;
   align-items: center;
   justify-content: start;
   background-color: #e4edeb86;
   border-radius: 6px;
-  width: 12rem;
+  width: 12rem; /* You might need to adjust this based on your design */
   height: 3.5rem;
   box-sizing: border-box;
   padding: 0.5rem;
   position: relative;
   overflow: hidden;
-  transform-style: preserve-3d; /* Enable 3D transformations */
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition for 3D effect and shadow */
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .skill-tag:hover {
-  /* Apply 3D rotation */
-  transform: perspective(600px) rotateX(20deg) rotateY(10deg);
-  /* Optional: Add a shadow to enhance the 3D effect */
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: perspective(600px) rotateX(20deg) rotateY(10deg);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .skill-tag::before {
@@ -83,16 +79,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 0; /* Initially hidden */
+  width: 0;
   height: 100%;
   background-color: inherit;
-  transition: width 0.3s ease; /* Smooth transition for the width */
+  transition: width 0.3s ease;
   border-radius: 6px;
   z-index: 0;
 }
 
 .skill-tag:hover::before {
-  width: 100%; /* Fills the tag on hover */
+  width: 100%;
 }
 
 .image-bg {
@@ -108,7 +104,7 @@
 
 .skill-image {
   width: 60%;
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
   z-index: 2;
 }
 
@@ -118,3 +114,8 @@
   z-index: 1;
 }
 
+.skills-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}

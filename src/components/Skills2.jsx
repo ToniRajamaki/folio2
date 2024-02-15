@@ -74,58 +74,65 @@ function Skills2({ theme }) {
     <div id={theme}>
       <section className="skills section" id="skills">
         <h2 className="section__title">Skills</h2>
-        <span className="section__subtitle small_margin_bottom">My technical level</span>
+        <span className="section__subtitle">My technical level</span>
+  
         <div className='skills2-container'>
-          <h1>Front-end</h1>
-          <br />
-          <div className="skills-container" data-aos="fade-right">
-            {front.map((skill, index) => (
-              <div className="skill-tag" key={index}
-                   onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
-                   onMouseLeave={handleMouseLeave}>
-                <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
-                  <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+          {/* Front-end Section */}
+          <div className='skills-section-container'>
+            <h4 className='skills-header'>Front-end</h4>
+            <div className="skills-container" data-aos="fade-right">
+              {front.map((skill, index) => (
+                <div className="skill-tag" key={index}
+                    onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                    onMouseLeave={handleMouseLeave}>
+                  <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
+                    <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+                  </div>
+                  <span className="skill-name">{skill.name}</span>
                 </div>
-                <span className="skill-name">{skill.name}</span>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-          <br /><br />
-          <h1>Back-end</h1>
-          <br />
-          <div className="skills-container" data-aos="fade-left">
-            {back.map((skill, index) => (
-              <div className="skill-tag" key={index}
-                   onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
-                   onMouseLeave={handleMouseLeave}>
-                <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
-                  <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+  
+          {/* Back-end Section */}
+          <div className='skills-section-container'>
+            <h4 className='skills-header'>Back-end</h4>
+            <div className="skills-container" data-aos="fade-left">
+              {back.map((skill, index) => (
+                <div className="skill-tag" key={index}
+                    onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                    onMouseLeave={handleMouseLeave}>
+                  <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
+                    <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+                  </div>
+                  <span className="skill-name">{skill.name}</span>
                 </div>
-                <span className="skill-name">{skill.name}</span>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-          <br />
-          <h1>Tools</h1>
-          <br />
-          <div className="skills-container" data-aos="fade-right">
-            {tools.map((skill, index) => (
-              <div className="skill-tag" key={index}
-                   onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
-                   onMouseLeave={handleMouseLeave}>
-                <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
-                  <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+  
+          {/* Tools Section */}
+          <div className='skills-section-container'>
+            <h4 className='skills-header'>Tools</h4>
+            <div className="skills-container" data-aos="fade-right">
+              {tools.map((skill, index) => (
+                <div className="skill-tag" key={index}
+                    onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                    onMouseLeave={handleMouseLeave}>
+                  <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
+                    <img src={skill.imgPath} alt={skill.name} className="skill-image" />
+                  </div>
+                  <span className="skill-name">{skill.name}</span>
                 </div>
-                <span className="skill-name">{skill.name}</span>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
-      <br></br>
-      <br></br>
+      <br /><br />
     </div>
   );
+  
 }
 
 export default Skills2;
