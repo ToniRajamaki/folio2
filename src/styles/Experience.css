@@ -51,6 +51,7 @@ background-color: #516CF7 !important;
 
   .Image_title_subtitle_container {
     display: flex;
+    flex-wrap:wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start; /* Align items at the top */
@@ -63,18 +64,25 @@ background-color: #516CF7 !important;
 display: flex;
 flex-direction: column;
  }
-.jobcard{
-  /* display: flex; */
-
-}
+/* .jobcard{
+  display: flex;
+  flex-wrap: wrap;
+} */
 
 
 .title_and_workplace {
   display: flex;
   flex-direction: column;
-  margin-left: -20px; /* Adjust this margin as needed */
   margin-top: 5px;
 }
+
+ @media (min-width: 1000px){
+  .title_and_workplace {
+    margin-left: -20px;
+  }
+   
+ }
+
 
   .pair2 {
     display: flex;
@@ -114,14 +122,20 @@ flex-direction: column;
       0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
     transition: box-shadow 0.24s ease-in-out, transform 0.24s ease-in-out;
   }
-  
+
   .vertical-timeline-element-content:hover {
-    /* box-shadow: 0 0 2em 0 rgba(81, 108, 247, 0.9),
-      0 0 3px 0 rgba(81, 108, 247, 1); */
-      /* border: 2px solid #516CF7; */
-    transform: scale(1.25);
-    cursor: zoom-in;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+
+  @media (min-width: 1150px) {
+    .vertical-timeline-element-content:hover {
+      /* box-shadow: 0 0 2em 0 rgba(81, 108, 247, 0.9),
+        0 0 3px 0 rgba(81, 108, 247, 1); */
+        /* border: 2px solid #516CF7; */
+      transform: scale(1.25);
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
   }
   
   .vertical-timeline-element-content:hover > .vertical-timeline-element-date {
