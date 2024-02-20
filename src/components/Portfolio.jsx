@@ -15,18 +15,6 @@ const Portfolio = ({ theme }) => {
         <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle small_margin_bottom">Most recent works</span>
 
-
-
-
-
-
-
-
-    
-
-
-
-        
         <Projects theme={theme} />
       </section>
     </div>
