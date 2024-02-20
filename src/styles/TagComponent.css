@@ -1,6 +1,26 @@
 
 
 
+.tag.tag-design-12:hover {
+  background: linear-gradient(to top, #516CF7 0%, #516CF7 0%) !important;
+  transition: background-size 2s !important;
+  background-size: 100% 100% !important;
+  color: white !important;
+}
+
+.tag.tag-design-12 { 
+    background-color: transparent;
+    color: #516CF7;
+    border: 2px solid #516CF7;
+    padding: 4px 12px;
+    margin: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .tag-purple{
   background-color: transparent;
   color: #9251F7;
@@ -16,7 +36,25 @@
   transition: ease-out 0.5s;
 }
 
+.tag.tag-design-12:hover {
+  background: linear-gradient(to top, #516CF7 0%, #516CF7 0%) !important;
+  transition: background-size 2s !important;
+  background-size: 100% 100% !important;
+  color: white !important;
+}
 
+.tag.tag-design-12 { 
+    background-color: transparent;
+    color: #516CF7;
+    border: 2px solid #516CF7;
+    padding: 4px 12px;
+    margin: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 
 .tag-purple:hover{
@@ -30,7 +68,25 @@
   transition: box-shadow 0.3s, color 0.3s;
 }
 
+.tag.tag-design-12:hover {
+  background: linear-gradient(to top, #516CF7 0%, #516CF7 0%) !important;
+  transition: background-size 2s !important;
+  background-size: 100% 100% !important;
+  color: white !important;
+}
 
+.tag.tag-design-12 { 
+    background-color: transparent;
+    color: #516CF7;
+    border: 2px solid #516CF7;
+    padding: 4px 12px;
+    margin: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 
 
