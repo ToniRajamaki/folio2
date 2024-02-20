@@ -27,22 +27,20 @@ const TagComponent = ({ tags, heading, color, icon }) => {
 
   return (
     <div>
-      <div className='pair'>
-        {icon}
-        <h2 style={tagStyle}>{heading}</h2>
+      <div className='pair ui-skills'>
+      <p className='skills-header'>🎨UI/UX </p>
       </div>
-
-      <div className='tags'>
+      <div className='ui-skills'>
         {tags.map((tag, index) => (
           <span
-            key={index}
-            className={tagClassName}
-            style={{ ...tagStyle, opacity: renderedTags.includes(tag) ? 1 : 0 }}
+          key={index}
+          className="tag-purple"
+          style={{ ...tagStyle, opacity: renderedTags.includes(tag) ? 1 : 0 }}
           >
             {tag}
           </span>
         ))}
-      </div>
+        </div>
     </div>
   );
 };

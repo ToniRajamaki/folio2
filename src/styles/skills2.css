@@ -1,6 +1,7 @@
 .skills2-container {
   display: grid;
   place-items: center;
+  max-width: 90%;
 }
 
 .skills-container {
@@ -13,6 +14,19 @@
   width: 100%; /* Ensure it takes the full width of its container */
   margin: auto; /* Center it within its parent */
 }
+
+.ui-skills {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 80rem; /* Keep this to limit the maximum width */
+
+  gap: 1rem;
+  padding: 0;
+ margin-left: 10%; /* Add 10% margin to center the element horizontally */
+    margin-right: 10%; /* Add 10% margin to center the element horizontally */
+}
+
 
 @media (max-width: 999px) {
   .skills-container {
@@ -121,4 +135,6 @@
   font-size:var(--smal-font-size);
   margin-top: 4rem;
   margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }

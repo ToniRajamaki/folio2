@@ -36,7 +36,6 @@ function App() {
           {/* <Services theme={theme} /> */}
           {/* <About theme={theme} /> */}
           <Skills2 theme={theme}/>
-          {/* <Skills theme={theme} /> */}
           <Education></Education>
           <Qualifications theme={theme} />
           <Portfolio theme={theme} />

@@ -6,7 +6,7 @@ import TagComponent from './TagComponent';
 import "../styles/work.css"
 import Works from './Projects'
 const Skills = ({ theme }) => {
-  const [activeTab, setActiveTab] = useState('coding');
+  const [activeTab, setActiveTab] = useState('uiux');
   const code_icon = <i className='uil uil-arrow icon' style={{ color: "#516CF7" }}></i>;
   const ui_icon = <i className='bx bxs-palette icon2' style={{ color: "#9251F7" }}></i>;
   const codeButtonIcon = <i className="uil uil-arrow " style={{ color: "#516CF7", fontSize: "16px" }}></i>;

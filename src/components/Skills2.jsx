@@ -3,6 +3,7 @@ import '../styles/skills2.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import TagComponent from './TagComponent';
 
 // Array of skill objects
 const front = [
@@ -38,6 +39,7 @@ const back = [
       { name: 'Miro', bgColor: 'rgba(253, 206, 56,0.25)', imgPath: 'https://raw.githubusercontent.com/ToniRajamaki/folio2/4530467e93fcd59217997fb89ab39ff9cc2b1f90/public/assets/svgs/miro.svg' },
       { name: 'Gimp', bgColor: 'rgba(91, 85, 69,0.15)', imgPath: 'https://raw.githubusercontent.com/ToniRajamaki/folio2/4530467e93fcd59217997fb89ab39ff9cc2b1f90/public/assets/svgs/The_GIMP_icon_-_gnome.svg' },
   ];
+  const ui_icon = <i className='bx bxs-palette icon2' style={{ color: "#9251F7" }}></i>;
 
 function Skills2({ theme }) {
   useEffect(() => {
@@ -79,7 +81,7 @@ function Skills2({ theme }) {
         <div className='skills2-container'>
           {/* Front-end Section */}
           <div className='skills-section-container'>
-            <p data-aos="fade-right" className='skills-header'>Front-end</p>
+            <p data-aos="fade-right" className='skills-header'>💻Front-end</p>
             <div className="skills-container" data-aos="fade-right">
               {front.map((skill, index) => (
                 <div className="skill-tag" key={index}
@@ -96,7 +98,7 @@ function Skills2({ theme }) {
   
           {/* Back-end Section */}
           <div className='skills-section-container'>
-            <p data-aos="fade-left" className='skills-header'>Back-end</p>
+            <p data-aos="fade-left" className='skills-header'>📊Back-end</p>
             <div className="skills-container" data-aos="fade-left">
               {back.map((skill, index) => (
                 <div className="skill-tag" key={index}
@@ -113,7 +115,7 @@ function Skills2({ theme }) {
   
           {/* Tools Section */}
           <div className='skills-section-container'>
-            <p data-aos="fade-right" className='skills-header'>Tools</p>
+            <p data-aos="fade-right" className='skills-header'>🛠️Tools</p>
             <div className="skills-container" data-aos="fade-right">
               {tools.map((skill, index) => (
                 <div className="skill-tag" key={index}
@@ -127,6 +129,14 @@ function Skills2({ theme }) {
               ))}
             </div>
           </div>
+          <div data-aos="fade-left" >
+              <TagComponent
+                tags={["UI Design", "Visual Design", "UX Design", "Testing", "Interaction Design", "Accessability", "Prototyping", "Web/Mobile Design", "Agile Development", "AR/VR Design", "User Research", "Wireframing", "Human-Centered Design"]}
+                heading='UI/UX Skills'
+                color="#9251F7"
+                icon={ui_icon}
+              ></TagComponent>
+            </div>  
         </div>
       </section>
       <br /><br />
