@@ -45,6 +45,11 @@ const Header = ({ toggleTheme, theme }) => {
       <nav className="nav container">
         <div className={isMenuVisible ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul  className="nav__list">
+          <li className="nav__item">
+                <a href="http://localhost:3000/folio2/project#home">
+                  <img className="nav__logo" src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/logo.png?raw=true" alt="Logo" />
+                </a>
+              </li>
             {/* Always render the first item (logo) in the top nav bar but not in the toggleable menu */}
             {!isMenuVisible && (
               <li className="nav__item">
