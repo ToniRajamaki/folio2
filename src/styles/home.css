@@ -3,6 +3,17 @@
 
 }
 
+.home{
+    padding-bottom: 0 !important;
+}
+
+.full-height{
+    height: 100% !important;
+    width: 100% !important;
+    min-height: 100vh !important;
+    position: relative;
+
+}
 .home__content {
     display: grid;
     gap: 1.5rem;
@@ -296,8 +307,19 @@
     }
     .waves{
         display: none;
+        border-radius: 0px !important;
     }
 }
+.waves{
+    position: relative;
+}
 
-
+.wave1 {
+    border-bottom: -5em;
+    position: relative;
+    bottom: 1em;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 
