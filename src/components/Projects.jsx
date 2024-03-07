@@ -50,6 +50,7 @@ const Projects = ({ theme }) => {
           <ProjectItem item={project} key={project.id} />
         ))}
       </div>
+    
     </div>
     
   );
