@@ -1,3 +1,7 @@
+.about{
+  border-top: 0 !important;
+}
+
 .education-card {
   position: relative;
   flex-shrink: 0;

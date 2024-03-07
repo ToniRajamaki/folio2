@@ -103,6 +103,7 @@ const Skills = ({ theme }) => {
 
         {/* ... Rest of your component code ... */}
       </section>
+      
     </div>
   );
 };

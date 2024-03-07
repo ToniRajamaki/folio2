@@ -10,6 +10,10 @@
     justify-self: center;
 }
 
+.section-subtile{
+    color: #BCC5CE;
+}
+
 .about__info {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;

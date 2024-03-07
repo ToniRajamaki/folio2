@@ -130,3 +130,10 @@
         gap: 0.5rem;
     }
 }
+
+.wave1 {
+    position: relative;
+    width: 100%;
+    z-index: 30;
+    margin-bottom: 1em;
+  }
