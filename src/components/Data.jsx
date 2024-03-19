@@ -25,7 +25,7 @@ const Data = () => {
     <div className="home__data">
       <h1 className="home__title">
         {/* //title */}
-  <img data-aos="fade-right" align="center" src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/main/logo.svg" width="600" height="100"/>
+  <img data-aos="fade-right" align="center" src="https://github.com/ToniRajamaki/folio2/blob/minimal/public/assets/toni/logo-and-name.png?raw=true" width="600" height="100"/>
 
       </h1>
       <h3 data-aos="fade-left" data-aos-delay="500" className="home_subtitle"> Software Engineer  |  UI/UX Designer</h3>
