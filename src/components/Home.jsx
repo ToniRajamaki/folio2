@@ -10,9 +10,9 @@ import "../styles/home.css";
 const Home = ({theme}) => {
   
   return (
-    <div id={theme} className='full-height'>
-      <section className="home section" id="home">
-        <div className="home__container  ">
+    <div id={theme}>
+      <section className="home section " id="home">
+        <div className="home__container container  ">
           <div className="home__content grid">
             <Social />
                {/* profile picture */}
