@@ -19,7 +19,8 @@ const Skills = ({ theme }) => {
 
   return (
     <div id={theme}>
-      
+      <div className="container">
+
       <section className="skills section" id="skills">
         <h2 className="section__title">Skills</h2>
         <span className="section__subtitle small_margin_bottom">My technical level</span>
@@ -49,14 +50,14 @@ const Skills = ({ theme }) => {
                 tags={["JavaScript", "React", "Redux", "Dart", "CSS"]}
                 heading='Front-end'
                 icon={code_icon}
-              ></TagComponent>
+                ></TagComponent>
             </div>
             <div className="skills__content">
               <TagComponent
                 tags={["C#", "C++", "C", "Python", "Java", "Scala", "Matlab", "Assembly"]}
                 heading='Back-end'
                 icon={code_icon}
-              ></TagComponent>
+                ></TagComponent>
             </div>
             {/* <div className='tag_container' */}
       {/* data-aos="fade-up"> */}
@@ -80,7 +81,7 @@ const Skills = ({ theme }) => {
                 heading='UI/UX Skills'
                 color="#9251F7"
                 icon={ui_icon}
-              ></TagComponent>
+                ></TagComponent>
             </div>  
           <div className="skills__content_purple">
 
@@ -105,6 +106,7 @@ const Skills = ({ theme }) => {
       </section>
       
     </div>
+        </div>
   );
 };
 

@@ -1,7 +1,7 @@
 .skills2-container {
   display: grid;
   place-items: center;
-  max-width: 90%;
+  justify-content: center;
 }
 
 .skills-container {

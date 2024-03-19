@@ -1,5 +1,6 @@
 .home__container {
     row-gap: 7rem;
+    position: relative;
 
 }
 
@@ -304,11 +305,15 @@
     }
     .waves{
         display: none;
-        border-radius: 0px !important;
     }
 }
 .waves{
-    position: relative;
+    position: absolute;
+    display: block;
+    transform: rotate(180deg);
+    width: 100em !important;
+    top: 5em;
+    width: 500em !important;
 }
 
 .wave1 {

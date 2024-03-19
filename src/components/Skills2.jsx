@@ -74,7 +74,7 @@ function Skills2({ theme }) {
 
   return (
     <div id={theme}>
-      <section className="skills section" id="skills">
+      <section className="skills section container" id="skills">
         <h2 className="section__title ">Skills</h2>
         <span className="section__subtitle small_margin_bottom">My technical level</span>
   

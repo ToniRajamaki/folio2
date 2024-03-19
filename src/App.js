@@ -17,6 +17,8 @@ import './styles/load.css'
 
 export const ThemeContext = createContext(null)
 
+const BR = () => <><div className="divider"></div></>
+
 function App() {
   const [theme, setTheme] = useState('light')
   const [data, setData] = useState([])
@@ -33,12 +35,16 @@ function App() {
         <Header toggleTheme={toggleTheme} theme={theme} />
         <main className='main'>
           <Home theme={theme} />
+          <BR></BR>
           {/* <Services theme={theme} /> */}
           <About theme={theme} />
+          <BR></BR>
           <Skills2 theme={theme}/>
+          <BR></BR>
           {/* <Education></Education> */}
           {/* <Qualifications theme={theme} /> */}
           <Portfolio theme={theme} />
+          <BR></BR>
           {/* <Testimonials theme={theme} /> */}
           {/* <Contact theme={theme} /> */}
         </main>

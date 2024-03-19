@@ -23,10 +23,12 @@
 }
 
 .about__info {
-    margin-top: 8em;
-    margin-bottom: 4em;
+    margin-top: 5em;
     gap: 3rem;
     display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 12px;
 }
 
 .about__box {
