@@ -12,6 +12,8 @@ const About = ({ theme }) => {
   }, []);
   return (
     <div id={theme}>
+      <>
+      <div className="cover"></div>
       <section className="about section " id="about">
 
         <div className="about__container container grid">
@@ -20,7 +22,7 @@ const About = ({ theme }) => {
             alt="about__img"
             className="about__img"
             data-aos="zoom-in"
-          />
+            />
 
 <div>
 <h2 className="section__title about-title">About me</h2>
@@ -33,6 +35,7 @@ const About = ({ theme }) => {
 </div>
         </div>
       </section>
+            </>
     </div>
   );
 };

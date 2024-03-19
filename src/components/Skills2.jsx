@@ -74,6 +74,8 @@ function Skills2({ theme }) {
 
   return (
     <div id={theme}>
+      <>
+      <div className="cover"></div>
       <section className="skills section container" id="skills">
         <h2 className="section__title ">Skills</h2>
         <span className="section__subtitle small_margin_bottom">My technical level</span>
@@ -85,8 +87,8 @@ function Skills2({ theme }) {
             <div className="skills-container" data-aos="fade-right">
               {front.map((skill, index) => (
                 <div className="skill-tag" key={index}
-                    onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
-                    onMouseLeave={handleMouseLeave}>
+                onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                onMouseLeave={handleMouseLeave}>
                   <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
                     <img src={skill.imgPath} alt={skill.name} className="skill-image" />
                   </div>
@@ -102,8 +104,8 @@ function Skills2({ theme }) {
             <div className="skills-container" data-aos="fade-left">
               {back.map((skill, index) => (
                 <div className="skill-tag" key={index}
-                    onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
-                    onMouseLeave={handleMouseLeave}>
+                onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                onMouseLeave={handleMouseLeave}>
                   <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
                     <img src={skill.imgPath} alt={skill.name} className="skill-image" />
                   </div>
@@ -119,8 +121,8 @@ function Skills2({ theme }) {
             <div className="skills-container" data-aos="fade-right">
               {tools.map((skill, index) => (
                 <div className="skill-tag" key={index}
-                    onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
-                    onMouseLeave={handleMouseLeave}>
+                onMouseEnter={(e) => handleMouseEnter(e, skill.bgColor)}
+                onMouseLeave={handleMouseLeave}>
                   <div className="image-bg" style={{ backgroundColor: skill.bgColor }}>
                     <img src={skill.imgPath} alt={skill.name} className="skill-image" />
                   </div>
@@ -135,11 +137,11 @@ function Skills2({ theme }) {
                 heading='UI/UX Skills'
                 color="#9251F7"
                 icon={ui_icon}
-              ></TagComponent>
+                ></TagComponent>
             </div>  
         </div>
       </section>
-      <br /><br />
+                </>
     </div>
   );
   

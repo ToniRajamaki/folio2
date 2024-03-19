@@ -12,6 +12,8 @@ const Home = ({theme}) => {
   
   return (
     <div id={theme}>
+      <>
+      <div className="cover"></div>
       <section className="home section " id="home">
         <div >
           <img 
@@ -28,7 +30,7 @@ const Home = ({theme}) => {
                 src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/profile_picture.png?raw=true"
                 alt="about__img"
                 className="home__img"
-              />
+                />
             </div>
             <Data />
           </div>
@@ -38,6 +40,7 @@ const Home = ({theme}) => {
               {/* <ScrollDown /> */}
         </div>
       </section>
+                </>
     </div>
   );
 }

@@ -3,8 +3,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    z-index: 1000;
+    background-color:#fafafa !important;
+    
 }
 
 .nav {
@@ -134,7 +135,6 @@
         flex-direction: column;
     }
     .nav {
-        height: var(--header-height);
     }
 
 
