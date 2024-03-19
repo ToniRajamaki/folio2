@@ -42,17 +42,22 @@ const Header = ({ toggleTheme, theme }) => {
 
   return (
     <header className="header" id={theme}>
-      <nav className="nav container">
-        <div className={isMenuVisible ? 'nav__menu show-menu' : 'nav__menu'}>
+      <nav className="nav ">
+        <div className={isMenuVisible ? ' show-menu' : 'nav__menu'}>
+
           <ul  className="nav__list">
-            {/* Always render the first item (logo) in the top nav bar but not in the toggleable menu */}
             {!isMenuVisible && (
+              <div>
+
               <li className="nav__item">
                 <a href="#home" onClick={() => setActiveNav('#home')}>
                   <img className="nav__logo" src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/logo.png?raw=true" alt="Logo" />
                 </a>
               </li>
+              </div>
             )}
+
+            <div className='nav-ul-links'>
             {navigationLinks.map((section, index, array) =>
               !(isMenuVisible && (index === 0 || index === array.length - 0)) ? (
                 <li key={section} className="nav__item">
@@ -61,12 +66,16 @@ const Header = ({ toggleTheme, theme }) => {
                   </Link>
                 </li>
               ) : null
-            )}
+              )}
+              </div>
             {/* Conditionally render the last item (DownloadCVButton) based on `isMenuVisible` */}
             {!isMenuVisible && (
+              <div>
+
               <li className="nav__item cv-button">
                 <DownloadCVButton />
               </li>
+              </div>
             )}
           </ul>
 
