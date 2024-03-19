@@ -75,7 +75,7 @@ body {
   width: auto !important;
   /* justify-content: center; */
   height: auto!important;
-  max-height: 380px;
+  max-height: 40em;
   /* padding: 0 50px !important; */
   display: flex !important;
   justify-content: center !important;

@@ -4,6 +4,7 @@ import { Modal } from 'react-responsive-modal';
 import ModalContent from './Modal'; // Ensure this import matches the exported component name
 import "react-responsive-modal/styles.css";
 
+
 const ProjectItem = ({ item }) => {
   const [open, setOpen] = useState(false);
 
@@ -26,9 +27,17 @@ const ProjectItem = ({ item }) => {
             </div>
             <>
       {open && (
-        <Modal open={open} onClose={() => setOpen(false)} center>
-          <div>
-
+      
+      <Modal
+      open={open}
+      onClose={() => setOpen(false)}
+      center
+      classNames={{
+        overlay: 'customOverlay',
+        modal: 'customModal',
+      }}
+    >
+          
           <ModalContent 
           projectTitle={item.title}
           tags={item.tags || ["Nope"]}
@@ -38,7 +47,6 @@ const ProjectItem = ({ item }) => {
           codeURL={item.codeURL}
           demoURL={item.demoURL}
           />
-          </div>
         </Modal>
       )}
     </>
