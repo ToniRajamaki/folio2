@@ -38,7 +38,7 @@ const Header = ({ toggleTheme, theme }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navigationLinks = ['home', 'skills', 'education', 'qualification', 'portfolio', 'contact'];
+  const navigationLinks = ['home',"about", 'skills', 'portfolio', 'contact'];
 
   return (
     <header className="header" id={theme}>

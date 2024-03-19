@@ -11,7 +11,7 @@ const Portfolio = ({ theme }) => {
 
   return (
     <div id={theme}>
-      <section className="work section" id="portfolio">
+      <section className="work section container" id="portfolio">
         <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle small_margin_bottom">Most recent works</span>
 

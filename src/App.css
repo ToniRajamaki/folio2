@@ -161,7 +161,10 @@ img {
 .section__subtitle{
   text-align: center;
 }
-
+.center{
+display: flex;
+justify-content: center;
+}
   
   .container {
     width: 100%;
@@ -169,15 +172,12 @@ img {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    border: 1px solid green;
 } 
-@media (min-width: 576px) {
-    .container {
-        width: 540px;
-    }
-}
+
 @media (min-width: 768px) {
     .container {
-        width: 720px;
+        width: 100%;
     }
 }
 @media (min-width: 992px) {
