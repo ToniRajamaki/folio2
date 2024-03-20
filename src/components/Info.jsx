@@ -6,6 +6,8 @@ const Info = React.memo(() => {
     <div className="about__info center container">
 
     <div className="about__box">
+      <div className="flex">
+
              <h3 className="about__title">  
             <AnimatedNumbers
             includeComma
@@ -22,18 +24,23 @@ const Info = React.memo(() => {
               color: "var(--main)",
             }}
             animateToNumber={2}
-          />
+            />
             </h3>
-            <p className="about__subtitle">Experience</p>
+          <span className="sliding-number-postfix">+</span>
+
+            </div>
+            <p className="about__subtitle">Years of Experience</p>
           </div>
     
     
           <div className="about__box">
+            <div className="flex">
+
              <h3 className="about__title">  
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-               delay: 1,
+              delay: 1,
               duration: 0.7+ 0.2*2,
               mass: 1,
               friction: 100,
@@ -45,18 +52,23 @@ const Info = React.memo(() => {
               color: "var(--main)",
             }}
             animateToNumber={30}
-          />
+            />
             </h3>
-            <p className="about__subtitle">Projects</p>
+          <span className="sliding-number-postfix">+</span>
+
+            </div>
+            <p className="about__subtitle">Projects Completed</p>
           </div>
     
     
           <div className="about__box">
+            <div className="flex">
+              
              <h3 className="about__title">  
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-               delay: 1,
+              delay: 1,
               duration: 0.7+ 0.2*3,
               mass: 1,
               friction: 100,
@@ -68,14 +80,16 @@ const Info = React.memo(() => {
               color: "var(--main)",
             }}
             animateToNumber={2500}
-          />
+            />
             </h3>
-            <p className="about__subtitle">Commits</p>
+          <span className="sliding-number-postfix">+</span>
+            
+            </div>
+            <p className="about__subtitle">Total Commits</p>
           </div>
     
     
           <div className="about__box">
-            <div className="flex">
     
              <h3 className="about__title">  
             <AnimatedNumbers
@@ -95,8 +109,6 @@ const Info = React.memo(() => {
             animateToNumber={2018}
             />
             </h3>
-          <span className="sliding-number-postfix">+</span>
-            </div>
             <p className="about__subtitle">Coding since</p>
           </div>
     
