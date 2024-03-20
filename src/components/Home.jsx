@@ -25,7 +25,7 @@ const Home = ({theme}) => {
             {/* <Social /> */}
                {/* profile picture */}
 
-            <div className="home__img" data-aos="flip-left" data-aos-delay="1000" data-aos-duration="1000">
+            <div className="home__img" data-aos="flip-left" data-aos-delay="500" data-aos-duration="500">
               <img
                 src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/profile_picture.png?raw=true"
                 alt="about__img"
@@ -34,8 +34,12 @@ const Home = ({theme}) => {
             </div>
             <Data />
           </div>
-
+            
+          <div data-aos="fade-up"
+          data-aos-delay="1000"
+     data-aos-anchor-placement="bottom-bottom">
             <Info />
+</div>
        
               {/* <ScrollDown /> */}
         </div>

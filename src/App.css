@@ -116,6 +116,12 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .section {
   padding: 4rem 0 2rem;
      border-top: 1px solid #736cfe14;

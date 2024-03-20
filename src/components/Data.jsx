@@ -28,16 +28,16 @@ const Data = () => {
   <img data-aos="fade-right" align="center" src="https://github.com/ToniRajamaki/folio2/blob/minimal/public/assets/toni/logo-and-name.png?raw=true" width="600" height="100"/>
 
       </h1>
-      <h3 data-aos="fade-left" data-aos-delay="500" className="home_subtitle"> Software Engineer  |  UI/UX Designer</h3>
+      <h3 data-aos="fade-left" data-aos-delay="100" className="home_subtitle"> Software Engineer  |  UI/UX Designer</h3>
 
-      <p data-aos="zoom-in"  data-aos-delay="1500" data-aos-duration="1000" className="home__description">
+      <p data-aos="zoom-in"  data-aos-delay="350" data-aos-duration="500" className="home__description">
       Hi, I'm Toni Rajamäki. A passionate Front-end React Developer based in Tampere, Finland. 📍</p>
     
     <div>
-      <img data-aos="zoom-in-right"  data-aos-delay="2000"   src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
+      <img data-aos="zoom-in-right"  data-aos-delay="550" data-aos-duration="300"   src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
     </div>
 
-      <a data-aos="zoom-in"  data-aos-delay="2500" href="#portfolio" className="button button--flex SeeMyProjectsButton">
+      <a data-aos="zoom-in"  data-aos-delay="650"  data-aos-duration="300" href="#portfolio" className="button button--flex SeeMyProjectsButton">
         See my projects
         {seeMyProjectsButtonLogo}
       </a>
