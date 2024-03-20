@@ -30,12 +30,16 @@ const Data = () => {
       </h1>
       <h3 data-aos="fade-left" data-aos-delay="100" className="home_subtitle"> Software Engineer  |  UI/UX Designer</h3>
 
-      <p data-aos="zoom-in"  data-aos-delay="350" data-aos-duration="500" className="home__description">
-      Hi, I'm Toni Rajamäki. A passionate Front-end React Developer based in Tampere, Finland. 📍</p>
-    
     <div>
       <img data-aos="zoom-in-right"  data-aos-delay="550" data-aos-duration="300"   src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&duration=2250&pause=400&color=516CF7&width=435&lines=Hello+there+%F0%9F%91%8B;This+is+Toni+%3A);Nice+to+meet+you+%F0%9F%92%9C" alt="Typing SVG" />
     </div>
+            <p data-aos="zoom-in"  data-aos-delay="350" data-aos-duration="500" className="home__description">
+            With a deep passion for UI/UX design and Front-end development, I aspire to create warm and nice experiences for <span style={{ color: 'red', textDecoration: 'line-through', textDecorationThickness: '2px' }}>
+    <span style={{ color: "var(--text-color)" }}>users</span>
+</span> people.
+
+          </p>
+    
 
       <a data-aos="zoom-in"  data-aos-delay="650"  data-aos-duration="300" href="#portfolio" className="button button--flex SeeMyProjectsButton">
         See my projects

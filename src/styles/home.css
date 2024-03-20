@@ -43,7 +43,7 @@
 
 .home__social-icon {
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: white;
     padding-left: 20px;
 }
 
@@ -87,6 +87,7 @@
 }
 
 .home__img {
+    /* mix-blend-mode: multiply; */
     background-position: center;
     background-size: cover;
     order: 1;
@@ -339,3 +340,11 @@
     z-index: 1;
 }
 
+
+
+
+
+
+
+
+  

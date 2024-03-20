@@ -1,0 +1,133 @@
+
+@-webkit-keyframes pp_animate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes pp_animate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pp_animate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.pp_box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(#516df75b, #9151f741);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.pp_box::before {
+  content: '';
+  position: absolute;
+  inset: -10px 100px;
+  background: linear-gradient(#516CF7, #9251F7);
+  transition: .5s;
+  animation: pp_animate 20s linear infinite;
+}
+
+.pp_box::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+
+  inset: 0.5em;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+.pp_box .pp_content {
+  position: absolute;
+  inset: 0.8em;
+  border: 6px solid white;
+  z-index: 3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 2em;
+  flex-direction: column;
+}
+
+.pp_box .pp_content .pp_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s;
+  text-align: center;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.pp_box .pp_content .pp_h2 {
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.pp_box .pp_content .pp_h2 .pp_span {
+  text-transform: none;
+  display: block;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 5px 0;
+}
+
+.pp_a{
+
+}
+
+.pp_box .pp_content .pp_a {
+  position: relative;
+  background-color: #fff;
+  color: #9c0b34;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.pp_box .pp_content .pp_a:hover {
+  letter-spacing: 3px;
+}
+
+.pp_box:hover::before {
+  inset: -20px 0px;
+}
+
+.pp_box:hover .pp_content .pp_img {
+  opacity: 0;
+}

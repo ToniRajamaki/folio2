@@ -23,9 +23,8 @@
 
 .tag-purple{
   background-color: transparent;
-  color: #9251F7;
   border: 0.1px solid rgba(0, 0, 0, 0.3);
-  background-color: #EFF4F2;
+  background-color: #e4edeb86;;
   padding: 0.5em 1.2em;
   transition: background-color 0.3s, color 0.3s;
   display: inline-block;
@@ -62,8 +61,9 @@
   transition: background-size 2s !important;
   box-shadow: inset 0 -100px 0 0 #725AC1;
   background-size: 100% 100% !important;
-  color: white !important;
-  /* box-shadow: 0 0 8px #9251F7; Adds glow around the tag */
+  background-color: rgba(145, 81, 247, 0.15);
+
+  box-shadow: 0 0 8px #9251F7; 
   color: #FFF; /* Changes text color to white for visibility */
   transition: box-shadow 0.3s, color 0.3s;
 }
