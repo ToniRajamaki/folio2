@@ -83,7 +83,7 @@ const Home = ({ theme }) => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="800" >
+          <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="500" >
           <Info />
           </div>
         </div>
