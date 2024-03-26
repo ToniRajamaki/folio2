@@ -12,10 +12,8 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-              duration: 0.7 + 0.2*1,
-              mass: 1,
-              friction: 100,
-              tensions: 140 * (index + 1),
+              type: 'spring',
+              duration: 0.5 + 0.4,
             })}
             fontStyle={{
               fontSize: "3em",
@@ -39,10 +37,9 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-              duration: 0.7+ 0.2*2,
-              mass: 1,
-              friction: 100,
-              tensions: 100 * (index + 1),
+              type: 'spring',
+              // stiffness:200,
+              duration: 0.5 + 0.4,
             })}
             fontStyle={{
               fontSize: "3em",
@@ -66,10 +63,9 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-              duration: 0.7+ 0.2*3,
-              mass: 1,
-              friction: 100,
-              tensions: 140 * (index + 1),
+              type: 'spring',
+              // stiffness:200,
+              duration: 0.5 + 0.4,
             })}
             fontStyle={{
               fontSize: "3em",
@@ -92,10 +88,9 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma = {false}
             transitions={(index) => ({
-              duration: 0.7 + 0.2*4,
-              mass: 1,
-              friction: 100,
-              tensions: 140 * (index + 1),
+              type: 'spring',
+              // stiffness:200,
+              duration: 0.5 + 0.4,
             })}
             fontStyle={{
               fontSize: "3em",
