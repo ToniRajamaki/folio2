@@ -14,7 +14,7 @@ export const projectsData = [
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar1.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar2.png?raw=true",
   ],
-    category: ["other","featured"],
+    category: ["other"],
     video: "/assets/gym_mobile.mp4",
     description: <>
     <h2>🍲 Taste-enhancing AR/VR</h2>
@@ -44,7 +44,7 @@ export const projectsData = [
     id: 10,
     title: "Image Recognition",
     images: ["https://github.com/ToniRajamaki/folio2/blob/abf8282d6520d05917c332c64b8e702e58a94076/public/assets/projects/cifar10/cifar2.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/cifar10/cifar1.jpg?raw=true"],
-    category: ["other","featured"],
+    category: ["other"],
     video: "/assets/gym_mobile.mp4",
     description: <>
     <h2>🖼️ Cifar10 Image Recognition</h2>
@@ -145,7 +145,7 @@ export const projectsData = [
     id: 2,
     title: "Tetris++",
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/tetris.png?raw=true"],
-    category: ["other","featured"],
+    category: ["other"],
     video: "/assets/camping.mp4",
     description: <>
     <h2>🎮 C++ Tetris Rebirth via Qt Creator</h2>
