@@ -8,14 +8,17 @@
 .cover {
     background-image: url('https://github.com/ToniRajamaki/folio2/blob/minimal/public/assets/toni/dot-grid.png?raw=true');
     background-position: center; /* Centers the background image */
-    height: 100%; /* Adjust the height as needed, here it's set to full viewport height */
-    width: 100%; /* Ensure it spans the full width */
-    position: absolute;
+    height: 100vh; /* Covers the full viewport height */
+    width: 100vw; /* Covers the full viewport width */
+    position: fixed; /* Stays in place relative to the viewport */
     background-repeat: repeat;
-    opacity: 80%;
-    z-index: -1;
-    transform: rotate(180deg);
+    opacity: 0.8; /* 80% opacity */
+    z-index: -1; /* Keeps it behind other content */
+    transform: rotate(180deg); /* Rotates the background */
+    top: 0; /* Aligns the top edge with the viewport */
+    left: 0; /* Aligns the left edge with the viewport */
   }
+  
 
 .home{
     padding-bottom: 0 !important;
