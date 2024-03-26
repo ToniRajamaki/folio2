@@ -1,16 +1,25 @@
-import React from 'react'
-import '../App.css'
+import React, { useState } from 'react';
+import '../App.css';
 
 function DownloadCVButton() {
+  const [hovering, setHovering] = useState(false);
+  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e) => {
+    setCursorPos({ x: e.clientX, y: e.clientY });
+  };
+
   return (
     <div>
-      {' '}
       <a
-        download=''
-        href='https://drive.google.com/file/d/1-nigzp5dNmgTpGfhkhYs5fcPBZ4jmGAg/view?usp=sharing'
-        // href='assets/Toni_Rajamäki_CV.pdf'
-        target='__blank'
-        className='button_small button--flex CV-button'>
+        download=""
+        href="https://drive.google.com/file/d/1-nigzp5dNmgTpGfhkhYs5fcPBZ4jmGAg/view?usp=sharing"
+        target="__blank"
+        className="button_small button--flex CV-button"
+        onMouseEnter={() => setHovering(true)}
+        onMouseLeave={() => setHovering(false)}
+        onMouseMove={handleMouseMove}
+      >
         See my CV
         <svg
           className='button__icon'
@@ -33,10 +42,22 @@ function DownloadCVButton() {
             fill='var(--container-color)'></path>
         </svg>
       </a>
-
-      
+      {hovering && (
+        <img
+          src="https://d.novoresume.com/images/doc/minimalist-resume-template.png"
+          style={{
+            position: 'fixed',
+            left: cursorPos.x + 10 + 'px', // Offset the image a bit from the cursor
+            top: cursorPos.y + 10 + 'px',
+            width: '100px', // Adjust the image size as needed
+            pointerEvents: 'none', // This makes the image non-interactive
+            zIndex: 9999, // Ensure the image is above other content
+          }}
+          alt="CV preview"
+        />
+      )}
     </div>
-  )
+  );
 }
 
-export default DownloadCVButton
+export default DownloadCVButton;
