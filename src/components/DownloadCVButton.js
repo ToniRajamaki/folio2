@@ -7,7 +7,7 @@ function DownloadCVButton() {
       {' '}
       <a
         download=''
-        href='https://drive.google.com/file/d/1op8nt68TTeIuR7Pp95h2G9T04O7VMO1P/view'
+        href='https://drive.google.com/file/d/1-nigzp5dNmgTpGfhkhYs5fcPBZ4jmGAg/view?usp=sharing'
         // href='assets/Toni_Rajamäki_CV.pdf'
         target='__blank'
         className='button_small button--flex CV-button'>

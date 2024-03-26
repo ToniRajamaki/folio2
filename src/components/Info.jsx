@@ -12,7 +12,6 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-              delay: 0.8,
               duration: 0.7 + 0.2*1,
               mass: 1,
               friction: 100,
@@ -40,7 +39,6 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-              delay: 0.8,
               duration: 0.7+ 0.2*2,
               mass: 1,
               friction: 100,
@@ -68,7 +66,6 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma
             transitions={(index) => ({
-              delay: 0.8,
               duration: 0.7+ 0.2*3,
               mass: 1,
               friction: 100,
@@ -95,7 +92,6 @@ const Info = React.memo(() => {
             <AnimatedNumbers
             includeComma = {false}
             transitions={(index) => ({
-              delay: 0.8,
               duration: 0.7 + 0.2*4,
               mass: 1,
               friction: 100,
