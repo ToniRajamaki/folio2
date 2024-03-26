@@ -44,12 +44,12 @@ function DownloadCVButton() {
       </a>
       {hovering && (
         <img
-          src="https://d.novoresume.com/images/doc/minimalist-resume-template.png"
+          src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/CV-preview.png?raw=true"
           style={{
             position: 'fixed',
-            left: cursorPos.x + 10 + 'px', // Offset the image a bit from the cursor
-            top: cursorPos.y + 10 + 'px',
-            width: '100px', // Adjust the image size as needed
+            left: cursorPos.x - 155 + 'px', // Offset the image a bit from the cursor
+            top: cursorPos.y + 15 + 'px',
+            width: '150px', // Adjust the image size as needed
             pointerEvents: 'none', // This makes the image non-interactive
             zIndex: 9999, // Ensure the image is above other content
           }}
