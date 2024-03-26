@@ -8,6 +8,37 @@ const i = (
 
 export const projectsData = [
   {
+    id: 110,
+    title: "Motorcycle Renting Website",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/minimal/public/assets/projects/moto-rental/moto1.png?raw=true"
+  ],
+    category: ["other","featured"],
+    video: "/assets/gym_mobile.mp4",
+    description:<>
+    <h2>🏍 Motorcycle Renting Website - Front-End Project</h2>
+    <p>Welcome to my front-end project showcasing a fictional Motorcycle Renting website. This project was designed purely for visual demonstration and learning purposes, focusing on creating an engaging and realistic user interface without any backend functionality. It represents how a motorcycle renting website could look, emphasizing aesthetic appeal and user interaction.</p>
+    <br/>
+    <h3>🌟 Project Highlights</h3>
+    <ul>
+        <li><strong>Interactive UI Design:</strong> Features a user-friendly interface with interactive elements that mimic real-world web interactions.</li>
+        <li><strong>Diverse Motorcycle Catalog:</strong> Displays a variety of motorcycle models through high-quality images and descriptions, just for show.</li>
+    </ul>
+    <br/>
+    <h3>💻 Technologies Used</h3>
+    <ul>
+        <li><strong>HTML and CSS:</strong> The backbone of the project, used to structure and style the website.</li>
+        <li><strong>JavaScript and jQuery:</strong> Enhance interactivity, enabling simulated actions and animations that make the website feel dynamic.</li>
+        <li><strong>Bootstrap:</strong> Utilized for responsive design, ensuring the website looks great on devices of all sizes.</li>
+    </ul>
+</>
+
+,
+    tags:["React","JS","CSS"],
+    features:["Nice animations","Responsive Design","High-Quality Images"],
+    codeURL: "https://github.com/ToniRajamaki/moto-rental/tree/main",
+    demoURL: "https://tonirajamaki.github.io/moto-rental/"
+  },
+  {
     id: 11,
     title: "Taste-Enhancing AR/VR:",
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/ar/ar3.png?raw=true",

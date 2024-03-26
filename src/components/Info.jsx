@@ -102,7 +102,7 @@ const Info = React.memo(() => {
               fontWeight: "500",  
               color: "var(--main)",
             }}
-            animateToNumber={2018}
+            animateToNumber={2017}
             />
             </h3>
             <p className="about__subtitle">Coding since</p>
