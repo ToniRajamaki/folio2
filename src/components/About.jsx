@@ -3,8 +3,8 @@ import "../styles/about.css";
 import Info from "./Info";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import AboutImg from "../../assets/about.jpg"
-// import CV from '../../assets/John-Cv.pdf'
+import '@dotlottie/player-component';
+import data from "../Animation - 1712483699794.json"
 
 const About = ({ theme }) => {
   useEffect(() => {
@@ -16,13 +16,13 @@ const About = ({ theme }) => {
       <div className="cover"></div>
       <section className="about section " id="about">
 
-        <div className="about__container container grid">
-          <img
-            src="https://pwxwd8-3000.csb.app/_next/image?url=%2Fimages%2Fabout-image.png&w=640&q=75"
-            alt="about__img"
-            className="about__img"
-            data-aos="zoom-in"
-            />
+        <div className="about__container container grid" data-aos="fade-up">
+        <dotlottie-player
+          src={JSON.stringify(data)}
+          autoplay
+          loop
+          style={{ width: "450px" }}
+/>
 
 <div>
 <h2 className="section__title about-title">About me</h2>
