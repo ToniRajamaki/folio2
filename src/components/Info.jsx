@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = React.memo(() => {
   return (
-    <div className="about__info center container">
+    <div className="about__info center container ">
       <div className="about__box">
         <div className="flex">
           <h3 className="about__title" data-aos="fade-down" data-aos-delay="200" style={{

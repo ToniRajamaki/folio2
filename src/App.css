@@ -88,6 +88,10 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+.maincolor{
+  -webkit-text-stroke-color: #516CF7;
+
+}
 
 h1,
 h2,

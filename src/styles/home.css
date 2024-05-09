@@ -1,6 +1,6 @@
 .home__container {
     row-gap: 7rem;
-    position: relative;
+    min-height: 100vh;
 
 }
 
@@ -12,7 +12,7 @@
     width: 100vw; /* Covers the full viewport width */
     position: fixed; /* Stays in place relative to the viewport */
     background-repeat: repeat;
-    opacity: 0.8; /* 80% opacity */
+    opacity: 0.4; /* 80% opacity */
     z-index: -1; /* Keeps it behind other content */
     transform: rotate(180deg); /* Rotates the background */
     top: 0; /* Aligns the top edge with the viewport */
@@ -28,7 +28,7 @@
 .home__content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     gap: 1.5rem;
     padding-top: 5.5rem;

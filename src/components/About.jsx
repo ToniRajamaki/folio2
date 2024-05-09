@@ -11,7 +11,7 @@ const About = ({ theme }) => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div id={theme}>
+    <div id={theme} className="">
       <>
       <div className="cover"></div>
       <section className="about section " id="about">

@@ -27,11 +27,11 @@
     background: linear-gradient(
       111deg,
       rgba(205, 215, 250, 0.1) 0%,
-      rgba(61, 79, 240, 0.1) 100%
+      rgba(255, 255, 255, 0.26) 100%
     );
     box-shadow:
-      inset 0px 10px 5px 0px rgba(255, 255, 255, 0.15),
-      inset 0px -10px 5px 0px rgba(205, 215, 250, 0.15);
+      inset 0px 10px 5px 0px rgba(255, 255, 255, 0.2),
+      inset 0px -10px 5px 0px rgba(205, 215, 250, 0.2);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
   }
@@ -59,6 +59,7 @@
 }
 
 
+
 .nav__link {
     display: flex;
     flex-direction: column;
@@ -73,8 +74,16 @@
     list-style-type: none;
     display: flex;
     align-self: center;
+    font-size:large;
+    color: var(--title-color);
+    font-weight: var(--font-meduim);
     margin-left: 0;
 
+}
+
+.nav__item:hover {
+    font-weight: 600;
+    border-bottom: 2px solid #516CF7;
 }
 
 @media (max-width: 1000px) {

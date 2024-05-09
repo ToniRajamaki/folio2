@@ -60,19 +60,17 @@ const Home = ({ theme }) => {
   return (
     <div id={theme}>
       <div className="cover"></div>
-      <section className="home section" id="home">
+      <section className="home section " id="home">
         <div>
           <img 
-            className='waves' 
+            className='waves mt-4' 
             src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/2af8c27a3d3efaac49eb6bf4efcdad93f43e1176/waves.svg"  
-            height="150" 
-            height="120" 
             height="150" 
             alt="Waves"
           />
         </div>
-        <div className="home__container container">
-          <div className="home__content grid">
+        <div className="home__container container flex justify-content">
+          <div className="home__content grid mt-8">
             <Data />
             <div className="pp_box" data-aos="flip-left" data-aos-delay="600" data-aos-duration="700">
               <div className="pp_content">
@@ -81,12 +79,15 @@ const Home = ({ theme }) => {
                   src="https://raw.githubusercontent.com/ToniRajamaki/folio2/main/public/assets/toni/profile_picture.png" 
                   alt="Profile"
                 />
-                <h2 className="pp_h2">Interesting fact about SMILING 😁<br/><span className="pp_span">{fact}</span></h2>
+                <h2 className="pp_h2 font-bol">Interesting fact about SMILING 😁<br/><span className="pp_span">{fact}</span></h2>
                 <a className="pp_a" onClick={changeFactOnClick} href="#!">Another 😁-Fact</a>
               </div>
             </div>
+           
+          <div className="sm:hidden xl:block">
+            <Info />
           </div>
-          <Info />
+          </div>
         </div>
       </section>
     </div>

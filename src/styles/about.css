@@ -23,7 +23,7 @@
 }
 
 .about__info {
-    margin-top: 5em;
+    margin-top: 2em;
     gap: 3rem;
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +44,7 @@
     gap: 0.4em;
     width: 10em;
     text-align: center;
+    display: block;
 }
 
 .about__icon {
