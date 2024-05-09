@@ -72,7 +72,12 @@ const Home = ({ theme }) => {
         <div className="home__container container flex justify-content">
           <div className="home__content grid mt-8">
             <Data />
-            <div className="pp_box" data-aos="flip-left" data-aos-delay="600" data-aos-duration="700">
+            <img 
+                  className='pp_img p-4 sm:hidden' 
+                  src="https://raw.githubusercontent.com/ToniRajamaki/folio2/main/public/assets/toni/profile_picture.png" 
+                  alt="Profile"
+                />
+            <div className="pp_box sm:block hidden" data-aos="flip-left" data-aos-delay="600" data-aos-duration="700">
               <div className="pp_content">
                 <img 
                   className='pp_img home__img' 
@@ -80,11 +85,11 @@ const Home = ({ theme }) => {
                   alt="Profile"
                 />
                 <h2 className="pp_h2 font-bol">Interesting fact about SMILING 😁<br/><span className="pp_span">{fact}</span></h2>
-                <a className="pp_a" onClick={changeFactOnClick} href="#!">Another 😁-Fact</a>
+                <a className="pp_a mt-2" onClick={changeFactOnClick} href="#!">Another 😁-Fact</a>
               </div>
             </div>
            
-          <div className="sm:hidden xl:block">
+          <div className="hidden xl:block">
             <Info />
           </div>
           </div>
