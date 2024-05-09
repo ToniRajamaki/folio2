@@ -26,6 +26,7 @@
     margin-top: 5em;
     gap: 3rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     /* border-top: 0.2em solid #9251F7; */
     /* border-bottom: 0.2em solid #9251F7; */

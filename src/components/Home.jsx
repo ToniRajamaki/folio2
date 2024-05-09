@@ -48,6 +48,7 @@ const FACTS = [
   "Smiling fosters a positive and productive work environment."
 ];
 
+// #endregion
 const Home = ({ theme }) => {
   const [fact, setFact] = useState(FACTS[Math.floor(Math.random() * FACTS.length)]);
 
@@ -64,6 +65,8 @@ const Home = ({ theme }) => {
           <img 
             className='waves' 
             src="https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/2af8c27a3d3efaac49eb6bf4efcdad93f43e1176/waves.svg"  
+            height="150" 
+            height="120" 
             height="150" 
             alt="Waves"
           />
