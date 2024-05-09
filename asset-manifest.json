@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/folio2/static/css/main.a7edc1c6.css",
-    "main.js": "/folio2/static/js/main.40b7f28d.js",
-    "static/js/742.094f35ce.chunk.js": "/folio2/static/js/742.094f35ce.chunk.js",
-    "static/js/568.aff0f6a5.chunk.js": "/folio2/static/js/568.aff0f6a5.chunk.js",
-    "static/js/276.890f13fa.chunk.js": "/folio2/static/js/276.890f13fa.chunk.js",
-    "static/js/841.a692bdce.chunk.js": "/folio2/static/js/841.a692bdce.chunk.js",
-    "static/js/114.31265c22.chunk.js": "/folio2/static/js/114.31265c22.chunk.js",
-    "static/js/548.1c89ea7d.chunk.js": "/folio2/static/js/548.1c89ea7d.chunk.js",
-    "static/js/669.f1e2f575.chunk.js": "/folio2/static/js/669.f1e2f575.chunk.js",
-    "static/js/369.e49ff990.chunk.js": "/folio2/static/js/369.e49ff990.chunk.js",
-    "static/js/200.874c59f8.chunk.js": "/folio2/static/js/200.874c59f8.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/folio2/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/folio2/static/css/main.1f38569a.css",
+    "main.js": "/folio2/static/js/main.a0962b4c.js",
+    "static/js/742.2c5f9ebb.chunk.js": "/folio2/static/js/742.2c5f9ebb.chunk.js",
+    "static/js/568.b89b2973.chunk.js": "/folio2/static/js/568.b89b2973.chunk.js",
+    "static/js/276.01bc6f88.chunk.js": "/folio2/static/js/276.01bc6f88.chunk.js",
+    "static/js/841.b4c25a48.chunk.js": "/folio2/static/js/841.b4c25a48.chunk.js",
+    "static/js/114.7499cc74.chunk.js": "/folio2/static/js/114.7499cc74.chunk.js",
+    "static/js/548.51c54542.chunk.js": "/folio2/static/js/548.51c54542.chunk.js",
+    "static/js/669.5452b90b.chunk.js": "/folio2/static/js/669.5452b90b.chunk.js",
+    "static/js/369.67112a69.chunk.js": "/folio2/static/js/369.67112a69.chunk.js",
+    "static/js/200.e1966fdf.chunk.js": "/folio2/static/js/200.e1966fdf.chunk.js",
+    "static/js/787.7da95b79.chunk.js": "/folio2/static/js/787.7da95b79.chunk.js",
     "index.html": "/folio2/index.html",
-    "main.a7edc1c6.css.map": "/folio2/static/css/main.a7edc1c6.css.map",
-    "main.40b7f28d.js.map": "/folio2/static/js/main.40b7f28d.js.map",
-    "787.1ed0c42c.chunk.js.map": "/folio2/static/js/787.1ed0c42c.chunk.js.map"
+    "main.1f38569a.css.map": "/folio2/static/css/main.1f38569a.css.map",
+    "main.a0962b4c.js.map": "/folio2/static/js/main.a0962b4c.js.map",
+    "787.7da95b79.chunk.js.map": "/folio2/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7edc1c6.css",
-    "static/js/main.40b7f28d.js"
+    "static/css/main.1f38569a.css",
+    "static/js/main.a0962b4c.js"
   ]
 }
