@@ -4,7 +4,7 @@ import ProjectItem from './ProjectItem';
 import "../styles/work.css";
 
 const Projects = ({ theme }) => {
-  const [selectedItem, setSelectedItem] = useState({ name: "featured" });
+  const [selectedItem, setSelectedItem] = useState({ name: "all" });
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -29,7 +29,7 @@ const Projects = ({ theme }) => {
   return (
     <div id={theme}>
       {/* Filter items */}
-      <div className="work__filters">
+      {/* <div className="work__filters">
         {projectsNav.map((item, index) => (
           <span
             key={index}
@@ -41,7 +41,7 @@ const Projects = ({ theme }) => {
             {item.name}
           </span>
         ))}
-      </div>
+      </div> */}
 
 
 

@@ -30,7 +30,7 @@ const About = ({ theme }) => {
 <h2 className="section__title about-title ">About me</h2>
         {/* <span className="section__subtitle">My introduction</span> */}
           <div className="about__data">
-           <p data-aos="zoom-in"  data-aos-delay="200" data-aos-duration="300" className="home__description text-justify">
+           <p  className="home__description text-justify">
       Greetings! I'm Toni! With a solid <span className="hl">2-year</span> background in professional <span className="hl">Software Development</span> and a <span className="hl">Master's degree</span> in <span className="hl">Human Technology Interaction</span>, I'm a curious learner who values <span className="hl">self-development.</span>
       <br></br>
       <br></br>
