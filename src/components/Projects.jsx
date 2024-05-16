@@ -14,8 +14,7 @@ const Projects = ({ theme }) => {
     } else {
       const newFilteredProjects = projectsData.filter((project) => {
         return (
-          project.category.includes(selectedItem.name) ||
-          project.tags.includes(selectedItem.name)
+          project.category.includes(selectedItem.name) 
         );
       });
       setFilteredProjects(newFilteredProjects);
@@ -44,13 +43,14 @@ const Projects = ({ theme }) => {
         ))}
       </div>
 
-      <div className="work__container container grid2 ">
+
+
+      <div className="flex flex-wrap flex-row gap-6 justify-center align-center content-center">
         {filteredProjects.map((project) => (
           <ProjectItem item={project} key={project.id} />
         ))}
       </div>
     </div>
-    
   );
 };
 

@@ -1,14 +1,11 @@
 .project__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    padding: 1em;
-    background-color: #ffffff;
-    cursor: pointer;
+    width: 700px;
+    height: auto;
     transition: box-shadow 0.15s ease-in-out;
-    max-width: 28em;
+    background: white;
+    aspect-ratio: 16/9;
+  
+       
   }
   
   .customOverlay {
@@ -19,8 +16,6 @@
 }
 
   .project__card:hover {
-      box-sizing: border-box;
-      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
       
   }
  .project__tag {
@@ -37,21 +32,11 @@
 }
 
 
-.project__img {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    /* max-width: 30em; */
+
+.project__img{
+    flex-shrink: 0;
+    min-width: 350px;
 }
-  
-  /* .project__img img {
-    filter: grayscale(100%);
-    transition: filter 0.2s ease-in-out;
-  } */
-  
-  /* .project__img:hover img {
-    filter: none;
-  } */
 
 .project__button{
     display: flex !important;
@@ -114,7 +99,6 @@
 
 .work__container{
     grid-template-columns:repeat(2,max-content) ;
-    gap: 3rem;
     justify-content: center;
 }
 .container3 {
@@ -124,7 +108,6 @@
   }
 .grid2 {
     display: grid;
-    gap: 2rem;
   }
 
 
@@ -231,7 +214,6 @@
         justify-content: space-evenly;
     }
     .project__card{
-        width: 90%;
         justify-self:center;
     }
 .work__card{
@@ -249,9 +231,12 @@
     .work__container{
         grid-template-columns: max-content;
     }
-    .project__card{
-        width: 90%;
-    }
+    .project__card {
+        max-width: 100%;
+        margin: 0.5rem;
+        border: 1px solid #ccc;
+        transition: box-shadow 0.15s ease-in-out;
+      }
 }
 @media screen and (max-width: 576px) {
 .work__container{
@@ -260,7 +245,6 @@
     grid-template-columns: max-content;
 }
 .project__card{
-    width: 90%;
 }
 .project__item{
     width: 100% !important;
@@ -290,7 +274,6 @@
     grid-template-columns: max-content;
 }
 .project__card{
-    width: 300px !important;
 }
 .work__item{
     font-size: var(--slakk-font-size) ;

@@ -73,7 +73,7 @@ const Home = ({ theme }) => {
           <div className="home__content grid mt-8">
             <Data />
             <img 
-                  className='pp_img p-4 sm:hidden' 
+                  className='pp_img2 p-4 sm:hidden' 
                   src="https://raw.githubusercontent.com/ToniRajamaki/folio2/main/public/assets/toni/profile_picture.png" 
                   alt="Profile"
                 />

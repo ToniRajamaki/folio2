@@ -13,7 +13,7 @@ const Portfolio = ({ theme }) => {
     <div id={theme}>
       <>
       {/* <div className="cover"></div> */}
-      <section className="work section container" id="portfolio">
+      <section  id="portfolio">
         <h2 className="section__title">Portfolio</h2>
         <span className="section__subtitle small_margin_bottom">Most recent works</span>
 

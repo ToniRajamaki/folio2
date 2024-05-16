@@ -56,7 +56,7 @@ const ModalContent = ({
   )
 
   return (
-    <div className='modal-content'>
+    <div className='modal-content '>
           <div className='modal-header'>
             <h1 className='project-title'>{projectTitle}</h1>
             <div className='footer-tags'>
@@ -69,7 +69,7 @@ const ModalContent = ({
             <div className='buttons-container'>
             </div>
           </div>
-          <div className='modal-body'>
+          <div className='modal-body sm:m-0 max-w-500'>
             <div className='line'></div>
             {
               <div className='feature-list'>
