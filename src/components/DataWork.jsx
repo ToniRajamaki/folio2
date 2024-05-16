@@ -52,7 +52,7 @@ export const projectsData = [
   {
     id: 3,
     title: "FUZU 3D Mobile Game",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/fuzu/fuzu1.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/fuzu-thumbnail.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/fuzu/fuzu2.gif?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/fuzu/fuzu3.jpg?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/fuzu/fuzu4.jpg?raw=true",
@@ -76,7 +76,7 @@ export const projectsData = [
   {
     id: 6,
     title: "Cyberpunk: Rogue Turret",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/cyberpunk/cyber1.png?raw=true",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/cyberpunk-thumbnail.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/cyberpunk/cyber2.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/cyberpunk/cyber3.png?raw=true",
     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/cyberpunk/cyber4.png?raw=true",
