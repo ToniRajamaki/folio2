@@ -5,13 +5,24 @@ export const projectsData = [
   {
     id: 110,
     title: "Motorcycle Renting Website",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/minimal/public/assets/projects/moto-rental/moto1.png?raw=true"
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/moto-rental-thumbnail.png?raw=true"
   ],
     category: ["web","featured"],
     description:"Website for renting motorcycles. Made with React.",
     tags:["React","JS","CSS"],
     codeURL: "https://github.com/ToniRajamaki/moto-rental/tree/main",
     demoURL: "https://tonirajamaki.github.io/moto-rental/"
+  },
+  {
+    id: 1101,
+    title: "Nike Store",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/nike-shop-thumbnail.png?raw=true"
+  ],
+    category: ["web","featured"],
+    description:"Website for renting motorcycles. Made with React.",
+    tags:["React","JS","CSS"],
+    codeURL: "https://github.com/ToniRajamaki/eCommerce",
+    demoURL: "https://tonirajamaki.github.io/eCommerce/"
   },
   
   {
