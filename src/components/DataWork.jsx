@@ -25,26 +25,26 @@ export const projectsData = [
     demoURL: "https://tonirajamaki.github.io/eCommerce/"
   },
   
-  {
-    id: 13,
-    title: "Modular React Creations",
-    images: [
-      "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez1.png?raw=true",
-      "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez2.gif?raw=true",
-      "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez3.gif?raw=true",
-      "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez4.gif?raw=true",
-      "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez5.gif?raw=true",
-    ],
-    category: ["web","featured"],
-    description:"Collection of small React projects." ,
-    tags:["JavaScript","React","Redux"],
-    codeURL: "https://github.com/ToniRajamaki?tab=repositories&q=&type=&language=javascript&sort=",
-  },
+  // {
+  //   id: 13,
+  //   title: "Modular React Creations",
+  //   images: [
+  //     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez1.png?raw=true",
+  //     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez2.gif?raw=true",
+  //     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez3.gif?raw=true",
+  //     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez4.gif?raw=true",
+  //     "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/mini_projects/ez5.gif?raw=true",
+  //   ],
+  //   category: ["web","featured"],
+  //   description:"Collection of small React projects." ,
+  //   tags:["JavaScript","React","Redux"],
+  //   codeURL: "https://github.com/ToniRajamaki?tab=repositories&q=&type=&language=javascript&sort=",
+  // },
   
   {
     id: 2,
     title: "Tetris++",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/tetris.png?raw=true"],
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/tetris-thumbnail.png?raw=true"],
     category: ["other"],
     description:"Classic game of Tetris with a twist. Made with C++." ,
     codeURL: "https://github.com/ToniRajamaki/tetris-",
@@ -66,7 +66,7 @@ export const projectsData = [
   {
     id: 4,
     title: "Pirkanmaa Domination",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/pirkanmaan_valloitus.png?raw=true"],
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/pirkanmaanvalloitus-thumbnail.png?raw=true"],
     category: ["other"],
     description:"Strategy game made with C++." ,
     tags:["C++","Pair Programming","GUI"],
@@ -88,29 +88,28 @@ export const projectsData = [
     demoURL:"https://www.youtube.com/watch?v=mQf923EoPJE&ab_channel=GitGudGames"
   },
 
-  // {
-  //   id: 7,
-  //   title: "Juice Master",
-  //   images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice0.png?raw=true",
-  //   "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice1.png?raw=true",
-  //   "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice2.png?raw=true",
-  //   "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice3.png?raw=true",
-  //   "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice4.png?raw=true",
-  // ],
-  // category: ["app","featured"],
-  //   description:"asd" ,
-  //   tags:["C#","Unity","G3"],
-  //   demoURL:"https://play.google.com/store/apps/details?id=com.gitgudgames.juicemaker"
-  // },
   {
-    id: 8,
-    title: "Tampere Bus Algorithms",
-    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/bus.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/bus2.png?raw=true"],
-    category: ["other"],
-    description:"Comparison of different bus stop algorithms. Made with C++." ,
-    tags:["C++","Optimization"],
-    codeURL:"https://github.com/ToniRajamaki/TIRAGA_bus_stops"
+    id: 7,
+    title: "Juice Master",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/juicemaster-thumbnail.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice1.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice2.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice3.png?raw=true",
+    "https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/juice/juice4.png?raw=true",
+  ],
+  category: ["app","featured"],
+    description:"Mobile game made with Unity and C#." ,
+    tags:["C#","Unity","G3"],
   },
+  // {
+  //   id: 8,
+  //   title: "Tampere Bus Algorithms",
+  //   images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/bus.png?raw=true","https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/bus2.png?raw=true"],
+  //   category: ["other"],
+  //   description:"Comparison of different bus stop algorithms. Made with C++." ,
+  //   tags:["C++","Optimization"],
+  //   codeURL:"https://github.com/ToniRajamaki/TIRAGA_bus_stops"
+  // },
  
   
   {

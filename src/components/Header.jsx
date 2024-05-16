@@ -44,6 +44,9 @@ const Header = ({ toggleTheme, theme }) => {
                 <li className='nav__item '>
                     <a href="#contact" className="block py-2 px-3  rounded hover:font-extrabold md:p-0 ">Contact</a>
                 </li>
+                <li className='nav__item '>
+                    <a href="#portfolio" className="block py-2 px-3  rounded hover:font-extrabold md:p-0 ">Projects</a>
+                </li>
             </ul>
         </div>
       </div>
