@@ -19,10 +19,21 @@ export const projectsData = [
     images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/nike-shop-thumbnail.png?raw=true"
   ],
     category: ["web","featured"],
-    description:"Website for renting motorcycles. Made with React.",
+    description:"Online store for Nike products. Made with React.",
     tags:["React","JS","CSS"],
     codeURL: "https://github.com/ToniRajamaki/eCommerce",
     demoURL: "https://tonirajamaki.github.io/eCommerce/"
+  },
+  {
+    id: 1102,
+    title: "Reflect",
+    images: ["https://github.com/ToniRajamaki/folio2/blob/main/public/assets/project-thumbnails/reflect-thumbnail.png?raw=true"
+  ],
+    category: ["web","featured"],
+    description:"Company website for Reflect. Made with React.",
+    tags:["React","JS","CSS"],
+    codeURL: "https://github.com/ToniRajamaki/reflect",
+    demoURL: "https://tonirajamaki.github.io/reflect/#home"
   },
   
   // {
