@@ -1,6 +1,11 @@
-# 🌐 Interactive Personal Website
+# 🌐 Personal Website
 
 This is one of my latest works: a highly interactive personal website with a multitude of features. It’s designed to enhance the user experience with subtle animations and a simple layout, hopefully offering something interesting for every visitor. This project is continuously improved in my spare time, adding new features and refining existing ones.
+<br>
+<br>
+ <a href="https://tonirajamaki.github.io/folio2/" target="_blank" style="color: #FFD700; font-weight: bold; text-decoration: underline;">🔗 Check out my portfolio!</a>
+ <br>
+ <br>
 <img src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/projects/misc/portfolio2.png?raw=true" alt="img1">
 
 ## 🌟 Key Features
